@@ -1,0 +1,10 @@
+{
+  "ok": false,
+  "accepted": 1,
+  "safeRetry": true,
+  "requested": 3,
+  "entities": [
+    "feralzombie:drone_zombie"
+  ],
+  "response": "TD_WAIT mob_limit\n"
+}

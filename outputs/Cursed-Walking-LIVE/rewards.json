@@ -1,0 +1,1364 @@
+{
+  "gun_t1": {
+    "description": "1 random T1 gun, loaded, plus 2 matching magazines worth of ammo",
+    "variants": [
+      {
+        "tier": "T1",
+        "category": "T1 Pistols",
+        "id": "bf1:obrez",
+        "name": "Mosin-Nagant Obrez",
+        "ammo": "tacz:762x54",
+        "capacity": 4,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 2,
+        "ammoCount": 8,
+        "function": "cw_live:rewards/t1/bf1/obrez",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"bf1:obrez\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:4,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:762x54\"}",
+            "count": 8
+          }
+        ]
+      },
+      {
+        "tier": "T1",
+        "category": "T1 Pistols",
+        "id": "bf1:sw_model3",
+        "name": "No. 3 Revolver",
+        "ammo": "tacz:357mag",
+        "capacity": 6,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 2,
+        "ammoCount": 12,
+        "function": "cw_live:rewards/t1/bf1/sw_model3",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"bf1:sw_model3\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:6,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:357mag\"}",
+            "count": 12
+          }
+        ]
+      },
+      {
+        "tier": "T1",
+        "category": "T1 SMGs",
+        "id": "bf1:smg0818",
+        "name": "SMG08/18",
+        "ammo": "tacz:9mm",
+        "capacity": 60,
+        "mode": "AUTO",
+        "ammoIndexFound": true,
+        "magazines": 2,
+        "ammoCount": 120,
+        "function": "cw_live:rewards/t1/bf1/smg0818",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"bf1:smg0818\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:60,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:9mm\"}",
+            "count": 120
+          }
+        ]
+      },
+      {
+        "tier": "T1",
+        "category": "T1 Shotguns",
+        "id": "tacz:db_short",
+        "name": "DB-2 Durin",
+        "ammo": "tacz:12g",
+        "capacity": 2,
+        "mode": "BURST",
+        "ammoIndexFound": true,
+        "magazines": 2,
+        "ammoCount": 4,
+        "function": "cw_live:rewards/t1/tacz/db_short",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:db_short\",GunFireMode:\"BURST\",GunCurrentAmmoCount:2,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:12g\"}",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "tier": "T1",
+        "category": "T1 Shotguns",
+        "id": "tacz:db_long",
+        "name": "DB-4 Ursus",
+        "ammo": "tacz:12g",
+        "capacity": 2,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 2,
+        "ammoCount": 4,
+        "function": "cw_live:rewards/t1/tacz/db_long",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:db_long\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:2,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:12g\"}",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "tier": "T1",
+        "category": "T1 Shotguns",
+        "id": "bf1:model10",
+        "name": "Model 10-A",
+        "ammo": "tacz:12g",
+        "capacity": 5,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 2,
+        "ammoCount": 10,
+        "function": "cw_live:rewards/t1/bf1/model10",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"bf1:model10\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:5,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:12g\"}",
+            "count": 10
+          }
+        ]
+      },
+      {
+        "tier": "T1",
+        "category": "T1 Rifles",
+        "id": "bf1:vg15",
+        "name": "Volkssturmgewehr 1-5",
+        "ammo": "tacz:762x39",
+        "capacity": 16,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 2,
+        "ammoCount": 32,
+        "function": "cw_live:rewards/t1/bf1/vg15",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"bf1:vg15\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:16,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:762x39\"}",
+            "count": 32
+          }
+        ]
+      },
+      {
+        "tier": "T1",
+        "category": "T1 Rifles",
+        "id": "bf1:m1916",
+        "name": "Selbstlader M1916",
+        "ammo": "tacz:308",
+        "capacity": 25,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 2,
+        "ammoCount": 50,
+        "function": "cw_live:rewards/t1/bf1/m1916",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"bf1:m1916\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:25,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:308\"}",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "tier": "T1",
+        "category": "T1 Rifles",
+        "id": "bf1:rsc1917",
+        "name": "RSC 1917",
+        "ammo": "tacz:30_06",
+        "capacity": 5,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 2,
+        "ammoCount": 10,
+        "function": "cw_live:rewards/t1/bf1/rsc1917",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"bf1:rsc1917\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:5,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:30_06\"}",
+            "count": 10
+          }
+        ]
+      },
+      {
+        "tier": "T1",
+        "category": "T1 Snipers",
+        "id": "bf1:man_m95",
+        "name": "Mannlicher M1895",
+        "ammo": "tacz:30_06",
+        "capacity": 4,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 2,
+        "ammoCount": 8,
+        "function": "cw_live:rewards/t1/bf1/man_m95",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"bf1:man_m95\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:4,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:30_06\"}",
+            "count": 8
+          }
+        ]
+      },
+      {
+        "tier": "T1",
+        "category": "T1 Snipers",
+        "id": "bf1:martini",
+        "name": "Martini-Henry",
+        "ammo": "tacz:45_70",
+        "capacity": 1,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 2,
+        "ammoCount": 2,
+        "function": "cw_live:rewards/t1/bf1/martini",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"bf1:martini\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:1,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:45_70\"}",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "tier": "T1",
+        "category": "T1 Heavy Weapons",
+        "id": "bf1:mhgl",
+        "name": "Martini-Henry Grenade Launcher",
+        "ammo": "tacz:40mm",
+        "capacity": 1,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 2,
+        "ammoCount": 2,
+        "function": "cw_live:rewards/t1/bf1/mhgl",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"bf1:mhgl\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:1,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:40mm\"}",
+            "count": 2
+          }
+        ]
+      }
+    ]
+  },
+  "gun_t2": {
+    "description": "1 random T2 gun, loaded, plus 3 matching magazines worth of ammo",
+    "variants": [
+      {
+        "tier": "T2",
+        "category": "T2 Pistols",
+        "id": "tacz:cz75",
+        "name": "CZ 75",
+        "ammo": "tacz:9mm",
+        "capacity": 16,
+        "mode": "AUTO",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 48,
+        "function": "cw_live:rewards/t2/tacz/cz75",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:cz75\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:16,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:9mm\"}",
+            "count": 48
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Pistols",
+        "id": "tacz:deagle",
+        "name": "Deagle 50",
+        "ammo": "tacz:50ae",
+        "capacity": 7,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 21,
+        "function": "cw_live:rewards/t2/tacz/deagle",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:deagle\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:7,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:50ae\"}",
+            "count": 21
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Pistols",
+        "id": "tacz:deagle_golden",
+        "name": "Golden Deagle 357",
+        "ammo": "tacz:357mag",
+        "capacity": 9,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 27,
+        "function": "cw_live:rewards/t2/tacz/deagle_golden",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:deagle_golden\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:9,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:357mag\"}",
+            "count": 27
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Pistols",
+        "id": "tacz:glock_17",
+        "name": "Glock 17",
+        "ammo": "tacz:9mm",
+        "capacity": 17,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 51,
+        "function": "cw_live:rewards/t2/tacz/glock_17",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:glock_17\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:17,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:9mm\"}",
+            "count": 51
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Pistols",
+        "id": "tacz:p320",
+        "name": "P320",
+        "ammo": "tacz:45acp",
+        "capacity": 12,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 36,
+        "function": "cw_live:rewards/t2/tacz/p320",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:p320\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:12,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:45acp\"}",
+            "count": 36
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Pistols",
+        "id": "tacz:b93r",
+        "name": "B93R",
+        "ammo": "tacz:9mm",
+        "capacity": 20,
+        "mode": "BURST",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 60,
+        "function": "cw_live:rewards/t2/tacz/b93r",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:b93r\",GunFireMode:\"BURST\",GunCurrentAmmoCount:20,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:9mm\"}",
+            "count": 60
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Pistols",
+        "id": "tacz:m1911",
+        "name": "M1911",
+        "ammo": "tacz:45acp",
+        "capacity": 7,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 21,
+        "function": "cw_live:rewards/t2/tacz/m1911",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:m1911\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:7,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:45acp\"}",
+            "count": 21
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 SMGs",
+        "id": "tacz:ump45",
+        "name": "UMP45 SMG",
+        "ammo": "tacz:45acp",
+        "capacity": 25,
+        "mode": "AUTO",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 75,
+        "function": "cw_live:rewards/t2/tacz/ump45",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:ump45\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:25,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:45acp\"}",
+            "count": 75
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 SMGs",
+        "id": "tacz:uzi",
+        "name": "UZI",
+        "ammo": "tacz:9mm",
+        "capacity": 20,
+        "mode": "AUTO",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 60,
+        "function": "cw_live:rewards/t2/tacz/uzi",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:uzi\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:20,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:9mm\"}",
+            "count": 60
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 SMGs",
+        "id": "tacz:vector45",
+        "name": "Vector SMG",
+        "ammo": "tacz:45acp",
+        "capacity": 20,
+        "mode": "AUTO",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 60,
+        "function": "cw_live:rewards/t2/tacz/vector45",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:vector45\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:20,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:45acp\"}",
+            "count": 60
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 SMGs",
+        "id": "tacz:hk_mp5a5",
+        "name": "HK-MP5A5",
+        "ammo": "tacz:9mm",
+        "capacity": 30,
+        "mode": "AUTO",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 90,
+        "function": "cw_live:rewards/t2/tacz/hk_mp5a5",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:hk_mp5a5\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:30,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:9mm\"}",
+            "count": 90
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 SMGs",
+        "id": "tacz:p90",
+        "name": "P90 PDW",
+        "ammo": "tacz:57x28",
+        "capacity": 50,
+        "mode": "AUTO",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 150,
+        "function": "cw_live:rewards/t2/tacz/p90",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:p90\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:50,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:57x28\"}",
+            "count": 150
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Assault Rifles",
+        "id": "tacz:scar_h",
+        "name": "SCAR-H Battle Rifle",
+        "ammo": "tacz:308",
+        "capacity": 20,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 60,
+        "function": "cw_live:rewards/t2/tacz/scar_h",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:scar_h\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:20,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:308\"}",
+            "count": 60
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Assault Rifles",
+        "id": "tacz:scar_l",
+        "name": "SCAR-L Assault Rifle",
+        "ammo": "tacz:556x45",
+        "capacity": 30,
+        "mode": "AUTO",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 90,
+        "function": "cw_live:rewards/t2/tacz/scar_l",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:scar_l\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:30,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:556x45\"}",
+            "count": 90
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Assault Rifles",
+        "id": "tacz:spr15hb",
+        "name": "SPR-15 HB \"Sagittarius\"",
+        "ammo": "tacz:556x45",
+        "capacity": 15,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 45,
+        "function": "cw_live:rewards/t2/tacz/spr15hb",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:spr15hb\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:15,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:556x45\"}",
+            "count": 45
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Assault Rifles",
+        "id": "tacz:aug",
+        "name": "AUG",
+        "ammo": "tacz:556x45",
+        "capacity": 30,
+        "mode": "AUTO",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 90,
+        "function": "cw_live:rewards/t2/tacz/aug",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:aug\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:30,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:556x45\"}",
+            "count": 90
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Assault Rifles",
+        "id": "tacz:ak47",
+        "name": "AKM",
+        "ammo": "tacz:762x39",
+        "capacity": 30,
+        "mode": "AUTO",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 90,
+        "function": "cw_live:rewards/t2/tacz/ak47",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:ak47\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:30,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:762x39\"}",
+            "count": 90
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Assault Rifles",
+        "id": "tacz:m16a4",
+        "name": "M16A4 Service Rifle",
+        "ammo": "tacz:556x45",
+        "capacity": 30,
+        "mode": "BURST",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 90,
+        "function": "cw_live:rewards/t2/tacz/m16a4",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:m16a4\",GunFireMode:\"BURST\",GunCurrentAmmoCount:30,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:556x45\"}",
+            "count": 90
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Assault Rifles",
+        "id": "tacz:m16a1",
+        "name": "M16A1 Service Rifle",
+        "ammo": "tacz:556x45",
+        "capacity": 20,
+        "mode": "AUTO",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 60,
+        "function": "cw_live:rewards/t2/tacz/m16a1",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:m16a1\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:20,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:556x45\"}",
+            "count": 60
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Assault Rifles",
+        "id": "tacz:mk14",
+        "name": "MK14 EBR",
+        "ammo": "tacz:308",
+        "capacity": 10,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 30,
+        "function": "cw_live:rewards/t2/tacz/mk14",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:mk14\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:10,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:308\"}",
+            "count": 30
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Assault Rifles",
+        "id": "tacz:m4a1",
+        "name": "M4A1 Carbine",
+        "ammo": "tacz:556x45",
+        "capacity": 30,
+        "mode": "AUTO",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 90,
+        "function": "cw_live:rewards/t2/tacz/m4a1",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:m4a1\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:30,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:556x45\"}",
+            "count": 90
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Assault Rifles",
+        "id": "tacz:hk416d",
+        "name": "HK-416D",
+        "ammo": "tacz:556x45",
+        "capacity": 30,
+        "mode": "AUTO",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 90,
+        "function": "cw_live:rewards/t2/tacz/hk416d",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:hk416d\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:30,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:556x45\"}",
+            "count": 90
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Assault Rifles",
+        "id": "tacz:hk_g3",
+        "name": "HK G3 Battle rifle",
+        "ammo": "tacz:308",
+        "capacity": 20,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 60,
+        "function": "cw_live:rewards/t2/tacz/hk_g3",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:hk_g3\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:20,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:308\"}",
+            "count": 60
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Assault Rifles",
+        "id": "tacz:type_81",
+        "name": "Type 81-1 Service Rifle",
+        "ammo": "tacz:762x39",
+        "capacity": 30,
+        "mode": "AUTO",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 90,
+        "function": "cw_live:rewards/t2/tacz/type_81",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:type_81\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:30,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:762x39\"}",
+            "count": 90
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Assault Rifles",
+        "id": "tacz:qbz_95",
+        "name": "QBZ-95 \"Longbow\"",
+        "ammo": "tacz:58x42",
+        "capacity": 30,
+        "mode": "AUTO",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 90,
+        "function": "cw_live:rewards/t2/tacz/qbz_95",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:qbz_95\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:30,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:58x42\"}",
+            "count": 90
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Assault Rifles",
+        "id": "tacz:g36k",
+        "name": "G36K",
+        "ammo": "tacz:556x45",
+        "capacity": 30,
+        "mode": "AUTO",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 90,
+        "function": "cw_live:rewards/t2/tacz/g36k",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:g36k\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:30,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:556x45\"}",
+            "count": 90
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Assault Rifles",
+        "id": "tacz:sks_tactical",
+        "name": "Sks Tactical Rifle",
+        "ammo": "tacz:762x39",
+        "capacity": 10,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 30,
+        "function": "cw_live:rewards/t2/tacz/sks_tactical",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:sks_tactical\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:10,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:762x39\"}",
+            "count": 30
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Shotguns",
+        "id": "tacz:aa12",
+        "name": "AA12 Shotgun",
+        "ammo": "tacz:12g",
+        "capacity": 8,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 24,
+        "function": "cw_live:rewards/t2/tacz/aa12",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:aa12\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:8,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:12g\"}",
+            "count": 24
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Shotguns",
+        "id": "tacz:m870",
+        "name": "M870",
+        "ammo": "tacz:12g",
+        "capacity": 5,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 15,
+        "function": "cw_live:rewards/t2/tacz/m870",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:m870\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:5,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:12g\"}",
+            "count": 15
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Shotguns",
+        "id": "tacz:db_short",
+        "name": "DB-2 Durin",
+        "ammo": "tacz:12g",
+        "capacity": 2,
+        "mode": "BURST",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 6,
+        "function": "cw_live:rewards/t2/tacz/db_short",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:db_short\",GunFireMode:\"BURST\",GunCurrentAmmoCount:2,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:12g\"}",
+            "count": 6
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Shotguns",
+        "id": "tacz:db_long",
+        "name": "DB-4 Ursus",
+        "ammo": "tacz:12g",
+        "capacity": 2,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 6,
+        "function": "cw_live:rewards/t2/tacz/db_long",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:db_long\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:2,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:12g\"}",
+            "count": 6
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Snipers",
+        "id": "tacz:m95",
+        "name": "M95 .50 Cal Antimaterial",
+        "ammo": "tacz:50bmg",
+        "capacity": 5,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 15,
+        "function": "cw_live:rewards/t2/tacz/m95",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:m95\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:5,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:50bmg\"}",
+            "count": 15
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Snipers",
+        "id": "tacz:m107",
+        "name": "M107 Sniper Rifle",
+        "ammo": "tacz:50bmg",
+        "capacity": 10,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 30,
+        "function": "cw_live:rewards/t2/tacz/m107",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:m107\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:10,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:50bmg\"}",
+            "count": 30
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Snipers",
+        "id": "tacz:m700",
+        "name": "M700 Sniper Rifle",
+        "ammo": "tacz:30_06",
+        "capacity": 5,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 15,
+        "function": "cw_live:rewards/t2/tacz/m700",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:m700\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:5,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:30_06\"}",
+            "count": 15
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Snipers",
+        "id": "tacz:ai_awp",
+        "name": "Accuracy International AWM",
+        "ammo": "tacz:338",
+        "capacity": 5,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 15,
+        "function": "cw_live:rewards/t2/tacz/ai_awp",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:ai_awp\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:5,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:338\"}",
+            "count": 15
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Heavy Guns",
+        "id": "tacz:m320",
+        "name": "M320 Grenade Launcher",
+        "ammo": "tacz:40mm",
+        "capacity": 1,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 3,
+        "function": "cw_live:rewards/t2/tacz/m320",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:m320\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:1,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:40mm\"}",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Heavy Guns",
+        "id": "tacz:rpg7",
+        "name": "RPG-7",
+        "ammo": "tacz:rpg_rocket",
+        "capacity": 1,
+        "mode": "SEMI",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 3,
+        "function": "cw_live:rewards/t2/tacz/rpg7",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:rpg7\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:1,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:rpg_rocket\"}",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Machine Guns",
+        "id": "tacz:m249",
+        "name": "M249 Machine Gun",
+        "ammo": "tacz:556x45",
+        "capacity": 75,
+        "mode": "AUTO",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 225,
+        "function": "cw_live:rewards/t2/tacz/m249",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:m249\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:75,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:556x45\"}",
+            "count": 225
+          }
+        ]
+      },
+      {
+        "tier": "T2",
+        "category": "T2 Machine Guns",
+        "id": "tacz:rpk",
+        "name": "RPK",
+        "ammo": "tacz:762x39",
+        "capacity": 40,
+        "mode": "AUTO",
+        "ammoIndexFound": true,
+        "magazines": 3,
+        "ammoCount": 120,
+        "function": "cw_live:rewards/t2/tacz/rpk",
+        "items": [
+          {
+            "id": "tacz:modern_kinetic_gun",
+            "nbt": "{GunId:\"tacz:rpk\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:40,HasBulletInBarrel:1b}",
+            "count": 1
+          },
+          {
+            "id": "tacz:ammo",
+            "nbt": "{AmmoId:\"tacz:762x39\"}",
+            "count": 120
+          }
+        ]
+      }
+    ]
+  },
+  "iron_armor": {
+    "variants": [
+      {
+        "function": "cw_live:rewards/iron_armor",
+        "items": [
+          {
+            "id": "minecraft:iron_helmet",
+            "count": 1,
+            "nbt": ""
+          },
+          {
+            "id": "minecraft:iron_chestplate",
+            "count": 1,
+            "nbt": ""
+          },
+          {
+            "id": "minecraft:iron_leggings",
+            "count": 1,
+            "nbt": ""
+          },
+          {
+            "id": "minecraft:iron_boots",
+            "count": 1,
+            "nbt": ""
+          }
+        ]
+      }
+    ]
+  },
+  "modern_axe": {
+    "variants": [
+      {
+        "function": "cw_live:rewards/modern_axe",
+        "items": [
+          {
+            "id": "marbledsmelees:modern_axe",
+            "count": 1,
+            "nbt": ""
+          }
+        ]
+      }
+    ]
+  },
+  "sledgehammer": {
+    "variants": [
+      {
+        "function": "cw_live:rewards/sledgehammer",
+        "items": [
+          {
+            "id": "marbledsmelees:sledgehammer",
+            "count": 1,
+            "nbt": ""
+          }
+        ]
+      }
+    ]
+  },
+  "boost_t2": {
+    "description": "T2 automatic weapon rotation for 180 active seconds",
+    "variants": [
+      {
+        "kind": "boost",
+        "tier": "T2",
+        "seconds": 180
+      }
+    ]
+  },
+  "boost_t3": {
+    "description": "T3 automatic weapon rotation for 180 active seconds",
+    "variants": [
+      {
+        "kind": "boost",
+        "tier": "T3",
+        "seconds": 180
+      }
+    ]
+  }
+}

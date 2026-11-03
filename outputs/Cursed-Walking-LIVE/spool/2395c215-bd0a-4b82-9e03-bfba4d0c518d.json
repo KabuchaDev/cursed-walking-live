@@ -1,0 +1,11 @@
+{
+  "kind": "summon",
+  "entities": [
+    "zombies_plus:weak_zombie",
+    "zombies_plus:slow_zombie",
+    "minecraft:zombie",
+    "zombies_plus:slow_zombie",
+    "zombies_plus:slow_zombie"
+  ],
+  "createdAt": 1791726091656
+}

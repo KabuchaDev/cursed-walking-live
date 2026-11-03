@@ -1,0 +1,17 @@
+{
+  "ok": false,
+  "accepted": 8,
+  "safeRetry": true,
+  "requested": 10,
+  "entities": [
+    "feralzombie:warrior_zombie",
+    "zombies_plus:axe_zombie",
+    "zombies_plus:runner_zombie",
+    "zombies_plus:leaper_zombie",
+    "zombies_plus:axe_zombie",
+    "zombies_plus:weak_zombie",
+    "feralzombie:drone_zombie",
+    "zombies_plus:sword_zombie"
+  ],
+  "response": "Summoned 8/10"
+}

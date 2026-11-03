@@ -1,0 +1,226 @@
+{
+  "started": "2026-10-11T10:11:27.412Z",
+  "source": "Simulated TikFinity-format events; actual Streamer.bot and Minecraft server with Dogalive online",
+  "cases": [
+    {
+      "label": "99 likes, no spawn",
+      "pass": true,
+      "elapsedMs": 949,
+      "event": {
+        "event": "like",
+        "data": {
+          "likeCount": 99,
+          "msgId": "real-test-1791713487784-1"
+        }
+      },
+      "expected": {
+        "none": true,
+        "remainder": 99
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 12.785175844831858,
+        "y": 69,
+        "z": 6.699999988079071,
+        "inventory": [],
+        "mobs": []
+      },
+      "result": null,
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 0,
+        "rewards": 0
+      }
+    },
+    {
+      "label": "100th like, one zombie",
+      "pass": true,
+      "elapsedMs": 1474,
+      "event": {
+        "event": "like",
+        "data": {
+          "likeCount": 1,
+          "msgId": "real-test-1791713488769-2"
+        }
+      },
+      "expected": {
+        "zombies": 1,
+        "remainder": 0
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 10.398835027118176,
+        "y": 69,
+        "z": 5.493360677738156,
+        "inventory": [],
+        "mobs": [
+          {
+            "id": "minecraft:zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_42ca34e4-4447-43bb-82b9-3baf1f17c167",
+              "cw_job_42ca34e4-4447-43bb-82b9-3baf1f17c167_0",
+              "cw_probe"
+            ],
+            "x": 19.622710296383246,
+            "y": 70.02442408821369,
+            "z": 8.932404722652265
+          }
+        ]
+      },
+      "result": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": true,
+        "requested": 1,
+        "entities": [
+          "minecraft:zombie"
+        ],
+        "response": "Summoned 1/1"
+      },
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 1,
+        "rewards": 0
+      }
+    },
+    {
+      "label": "Follow, five zombies",
+      "pass": true,
+      "elapsedMs": 1473,
+      "event": {
+        "event": "follow",
+        "data": {
+          "userId": "cw-test-viewer",
+          "msgId": "real-test-1791713490262-3"
+        }
+      },
+      "expected": {
+        "zombies": 5
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 11.413079610943615,
+        "y": 69.69198573380403,
+        "z": 0.7296820447841471,
+        "inventory": [],
+        "mobs": [
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_2dfe0b70-2898-4118-8d56-9f380db6d5af",
+              "cw_job_2dfe0b70-2898-4118-8d56-9f380db6d5af_0"
+            ],
+            "x": 20.442286837100667,
+            "y": 69.91892528926755,
+            "z": 2.0314113224523793
+          },
+          {
+            "id": "feralzombie:drone_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_2dfe0b70-2898-4118-8d56-9f380db6d5af",
+              "cw_job_2dfe0b70-2898-4118-8d56-9f380db6d5af_1"
+            ],
+            "x": 4.442286837100665,
+            "y": 69.91892528926755,
+            "z": -1.9685886775476207
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_2dfe0b70-2898-4118-8d56-9f380db6d5af",
+              "cw_job_2dfe0b70-2898-4118-8d56-9f380db6d5af_2"
+            ],
+            "x": 14.442286837100665,
+            "y": 71.91892528926755,
+            "z": 8.03141132245238
+          },
+          {
+            "id": "feralzombie:drone_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_2dfe0b70-2898-4118-8d56-9f380db6d5af",
+              "cw_job_2dfe0b70-2898-4118-8d56-9f380db6d5af_3"
+            ],
+            "x": 10.554352349839192,
+            "y": 69.66740633886867,
+            "z": -8.415272146866947
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_2dfe0b70-2898-4118-8d56-9f380db6d5af_4",
+              "cw_probe",
+              "cw_job_2dfe0b70-2898-4118-8d56-9f380db6d5af"
+            ],
+            "x": 18.554352349839192,
+            "y": 67.66740633886867,
+            "z": -0.41527214686694663
+          }
+        ]
+      },
+      "result": {
+        "ok": true,
+        "accepted": 5,
+        "safeRetry": true,
+        "requested": 5,
+        "entities": [
+          "zombies_plus:slow_zombie",
+          "feralzombie:drone_zombie",
+          "zombies_plus:slow_zombie",
+          "feralzombie:drone_zombie",
+          "zombies_plus:slow_zombie"
+        ],
+        "response": "Summoned 5/5"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 6,
+        "rewards": 0
+      }
+    }
+  ],
+  "restored": true,
+  "original": {
+    "player": "Dogalive",
+    "x": 13.200144887768975,
+    "y": 70,
+    "z": 9.823992450489307,
+    "inventory": [
+      {
+        "slot": 0,
+        "id": "tacz:modern_kinetic_gun",
+        "count": 1,
+        "tag": "{GunCurrentAmmoCount:60,GunFireMode:\"AUTO\",GunId:\"bf1:smg0818\",HasBulletInBarrel:1b}"
+      },
+      {
+        "slot": 1,
+        "id": "tacz:ammo",
+        "count": 60,
+        "tag": "{AmmoId:\"tacz:9mm\"}"
+      },
+      {
+        "slot": 2,
+        "id": "tacz:ammo",
+        "count": 60,
+        "tag": "{AmmoId:\"tacz:9mm\"}"
+      }
+    ],
+    "mobs": []
+  },
+  "passed": false,
+  "error": "Error: Rose timeout: {\"zombies\":3,\"rewards\":0,\"inFlight\":false,\"lastIssue\":\"No clear spawn space nearby. Move to an open area.\"}\n    at run (file:///C:/Users/PHAT/Documents/Codex/2026-10-10/new-chat/work/test-real-pipeline.mjs:53:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async file:///C:/Users/PHAT/Documents/Codex/2026-10-10/new-chat/work/test-real-pipeline.mjs:68:3",
+  "restoreReply": "Test ended: inventory/game mode restored; test mobs removed.\n",
+  "finished": "2026-10-11T10:14:40.982Z"
+}

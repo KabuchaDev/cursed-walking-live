@@ -1,0 +1,16 @@
+{
+  "javaPath": "C:\\Users\\PHAT\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma\\windows\\java-runtime-gamma\\bin\\java.exe",
+  "nodePath": "C:\\Users\\PHAT\\Documents\\Codex\\2026-10-10\\new-chat\\outputs\\Cursed-Walking-LIVE\\runtime\\node.exe",
+  "serverDir": "C:\\Users\\PHAT\\Documents\\Codex\\2026-10-10\\new-chat\\outputs\\Cursed-Walking-LIVE\\server",
+  "clientDir": "C:\\Users\\PHAT\\AppData\\Roaming\\.minecraft\\versions\\Cursed Walking - A Modern Zombie Apocalypse Cursed Walking-v3.3 (patch)",
+  "serverPort": 25567,
+  "rconPort": 25577,
+  "rconPassword": "CHANGE_ME_RCONPASSWORD",
+  "controlPort": 21215,
+  "controlToken": "CHANGE_ME_CONTROLTOKEN",
+  "tikfinityUrl": "ws://127.0.0.1:21213/",
+  "streamerbotUrl": "ws://127.0.0.1:8080/",
+  "actionName": "Cursed Walking - Dispatch",
+  "streamerbotExe": "C:\\Users\\PHAT\\Downloads\\Streamer.bot-x64-1.0.7\\Streamer.bot.exe",
+  "tikfinityExe": "C:\\Users\\PHAT\\AppData\\Local\\Programs\\tikfinity\\TikFinity.exe"
+}

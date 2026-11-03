@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "alexsmobs:grizzly_bear",
+    "name": "Grizzly Bear",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:roadrunner",
+    "name": "Roadrunner",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:bone_serpent",
+    "name": "Bone Serpent",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:bone_serpent_part",
+    "name": "Bone Serpent Bones",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:gazelle",
+    "name": "Gazelle",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:crocodile",
+    "name": "Crocodile",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:fly",
+    "name": "Fly",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:hummingbird",
+    "name": "Hummingbird",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:orca",
+    "name": "Orca",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:sunbird",
+    "name": "Sunbird",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:gorilla",
+    "name": "Gorilla",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:crimson_mosquito",
+    "name": "Crimson Mosquito",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:mosquito_spit",
+    "name": "Mosquito Blood",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:rattlesnake",
+    "name": "Rattlesnake",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:endergrade",
+    "name": "Endergrade",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:hammerhead_shark",
+    "name": "Hammerhead Shark",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:shark_tooth_arrow",
+    "name": "Shark Tooth Arrow",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:lobster",
+    "name": "Lobster",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:komodo_dragon",
+    "name": "Komodo Dragon",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:capuchin_monkey",
+    "name": "Capuchin Monkey",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:tossed_item",
+    "name": "Tossed Item",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:centipede_head",
+    "name": "Cave Centipede",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:centipede_body",
+    "name": "Cave Centipede Body",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:centipede_tail",
+    "name": "Cave Centipede Tail",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:crocodile_egg",
+    "name": "Crocodile Egg",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:warped_toad",
+    "name": "Warped Toad",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:moose",
+    "name": "Moose",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:mimicube",
+    "name": "Mimicube",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:raccoon",
+    "name": "Raccoon",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:blobfish",
+    "name": "Blobfish",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:seal",
+    "name": "Seal",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:cockroach",
+    "name": "Cockroach",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:cockroach_egg",
+    "name": "Cockroach Ootheca",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:shoebill",
+    "name": "Shoebill",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:elephant",
+    "name": "Elephant",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:soul_vulture",
+    "name": "Soul Vulture",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:snow_leopard",
+    "name": "Snow Leopard",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:spectre",
+    "name": "Spectre",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:crow",
+    "name": "Crow",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:alligator_snapping_turtle",
+    "name": "Alligator Snapping Turtle",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:mungus",
+    "name": "Mungus",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:mantis_shrimp",
+    "name": "Mantis Shrimp",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:guster",
+    "name": "Guster",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:sand_shot",
+    "name": "Thrown Sand",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:gust",
+    "name": "Gust",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:warped_mosco",
+    "name": "Warped Mosco",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:hemolymph",
+    "name": "Hemolymph",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:straddler",
+    "name": "Straddler",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:stradpole",
+    "name": "Stradpole",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:straddleboard",
+    "name": "Straddleboard",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:emu",
+    "name": "Emu",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:platypus",
+    "name": "Platypus",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:dropbear",
+    "name": "Dropbear",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:tasmanian_devil",
+    "name": "Tasmanian Devil",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:kangaroo",
+    "name": "Kangaroo",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:cachalot_whale",
+    "name": "Cachalot Whale",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:cachalot_part",
+    "name": "Cachalot Whale",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:cachalot_echo",
+    "name": "Whale Echo",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:leafcutter_ant",
+    "name": "Leafcutter Ant",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:enderiophage",
+    "name": "Enderiophage",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:enderiophage_rocket",
+    "name": "Enderiophage Rocket",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:bald_eagle",
+    "name": "Bald Eagle",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:tiger",
+    "name": "Tiger",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:tarantula_hawk",
+    "name": "Tarantula Hawk",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:void_worm",
+    "name": "Void Worm",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:void_worm_part",
+    "name": "Void Worm",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:void_worm_shot",
+    "name": "Void Crystal",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:void_portal",
+    "name": "Void Portal",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:frilled_shark",
+    "name": "Frilled Shark",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:mimic_octopus",
+    "name": "Mimic Octopus",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:seagull",
+    "name": "Seagull",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:froststalker",
+    "name": "Froststalker",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:tusklin",
+    "name": "Tusklin",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:laviathan",
+    "name": "Laviathan",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:cosmaw",
+    "name": "Cosmaw",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:toucan",
+    "name": "Toucan",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:maned_wolf",
+    "name": "Maned Wolf",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:anaconda",
+    "name": "Anaconda",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:anaconda_part",
+    "name": "Anaconda",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:vine_lasso",
+    "name": "Vine Lasso",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:anteater",
+    "name": "Anteater",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:rocky_roller",
+    "name": "Rocky Roller",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:flutter",
+    "name": "Flutter",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:pollen_ball",
+    "name": "Pollen Ball",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:gelada_monkey",
+    "name": "Gelada Monkey",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:jerboa",
+    "name": "Jerboa",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:terrapin",
+    "name": "Terrapin",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:comb_jelly",
+    "name": "Comb Jelly",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:cosmic_cod",
+    "name": "Cosmic Cod",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:bunfungus",
+    "name": "Bunfungus",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:bison",
+    "name": "Bison",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:giant_squid",
+    "name": "Giant Squid",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:giant_squid_part",
+    "name": "Giant Squid",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:squid_grapple",
+    "name": "Tentacle",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:sea_bear",
+    "name": "Sea Bear",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:devils_hole_pupfish",
+    "name": "Devil's Hole Pupfish",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:catfish",
+    "name": "Catfish",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:flying_fish",
+    "name": "Flying Fish",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:skelewag",
+    "name": "Skelewag",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:rain_frog",
+    "name": "Rain Frog",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:potoo",
+    "name": "Potoo",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:mudskipper",
+    "name": "Mudskipper",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:mud_ball",
+    "name": "Mud Ball",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:rhinoceros",
+    "name": "Rhinoceros",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:sugar_glider",
+    "name": "Sugar Glider",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:farseer",
+    "name": "Farseer",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:skreecher",
+    "name": "Skreecher",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:underminer",
+    "name": "Underminer",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:murmur",
+    "name": "Murmur",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:murmur_head",
+    "name": "Murmur",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:tendon_segment",
+    "name": "Tendon",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:skunk",
+    "name": "Skunk",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:fart",
+    "name": "Fart Cloud",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:banana_slug",
+    "name": "Banana Slug",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:blue_jay",
+    "name": "Blue Jay",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:caiman",
+    "name": "Caiman",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "alexsmobs:triops",
+    "name": "Triops",
+    "jar": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "id": "corpse:corpse",
+    "name": "Corpse",
+    "jar": "corpse-forge-1.20.1-1.0.23.jar"
+  },
+  {
+    "id": "corpse:corpse_of",
+    "name": "Corpse of %s",
+    "jar": "corpse-forge-1.20.1-1.0.23.jar"
+  },
+  {
+    "id": "create:carriage_contraption",
+    "name": "Carriage Contraption",
+    "jar": "create-1.20.1-6.0.8.jar"
+  },
+  {
+    "id": "create:contraption",
+    "name": "Contraption",
+    "jar": "create-1.20.1-6.0.8.jar"
+  },
+  {
+    "id": "create:crafting_blueprint",
+    "name": "Crafting Blueprint",
+    "jar": "create-1.20.1-6.0.8.jar"
+  },
+  {
+    "id": "create:gantry_contraption",
+    "name": "Gantry Contraption",
+    "jar": "create-1.20.1-6.0.8.jar"
+  },
+  {
+    "id": "create:package",
+    "name": "Package",
+    "jar": "create-1.20.1-6.0.8.jar"
+  },
+  {
+    "id": "create:potato_projectile",
+    "name": "Potato Projectile",
+    "jar": "create-1.20.1-6.0.8.jar"
+  },
+  {
+    "id": "create:seat",
+    "name": "Seat",
+    "jar": "create-1.20.1-6.0.8.jar"
+  },
+  {
+    "id": "create:stationary_contraption",
+    "name": "Stationary Contraption",
+    "jar": "create-1.20.1-6.0.8.jar"
+  },
+  {
+    "id": "create:super_glue",
+    "name": "Super Glue",
+    "jar": "create-1.20.1-6.0.8.jar"
+  },
+  {
+    "id": "dummmmmmy:target_dummy",
+    "name": "Target Dummy",
+    "jar": "dummmmmmy-1.20-2.0.9.jar"
+  },
+  {
+    "id": "ecologics:coconut_crab",
+    "name": "Coconut Crab",
+    "jar": "ecologics-forge-1.20.1-2.2.2.jar"
+  },
+  {
+    "id": "ecologics:camel",
+    "name": "Camel",
+    "jar": "ecologics-forge-1.20.1-2.2.2.jar"
+  },
+  {
+    "id": "ecologics:penguin",
+    "name": "Penguin",
+    "jar": "ecologics-forge-1.20.1-2.2.2.jar"
+  },
+  {
+    "id": "ecologics:squirrel",
+    "name": "Squirrel",
+    "jar": "ecologics-forge-1.20.1-2.2.2.jar"
+  },
+  {
+    "id": "ecologics:boat",
+    "name": "Boat",
+    "jar": "ecologics-forge-1.20.1-2.2.2.jar"
+  },
+  {
+    "id": "ecologics:chest_boat",
+    "name": "Boat with Chest",
+    "jar": "ecologics-forge-1.20.1-2.2.2.jar"
+  },
+  {
+    "id": "enhancedcelestials:meteor",
+    "name": "Meteor",
+    "jar": "Enhanced-Celestials-forge-1.20.1-5.0.3.2.jar"
+  },
+  {
+    "id": "enhancedcelestials:space_moss_bug",
+    "name": "Space Moss Bug",
+    "jar": "Enhanced-Celestials-forge-1.20.1-5.0.3.2.jar"
+  },
+  {
+    "id": "farmersdelight:rotten_tomato",
+    "name": "Rotten Tomato",
+    "jar": "FarmersDelight-1.20.1-1.2.10.jar"
+  },
+  {
+    "id": "feralzombie:feral_zombie",
+    "name": "Feral Zombie",
+    "jar": "feralzombie-0.5-BETA.jar"
+  },
+  {
+    "id": "feralzombie:drone_zombie",
+    "name": "Drone Zombie",
+    "jar": "feralzombie-0.5-BETA.jar"
+  },
+  {
+    "id": "feralzombie:carrier_zombie",
+    "name": "Carrier Zombie",
+    "jar": "feralzombie-0.5-BETA.jar"
+  },
+  {
+    "id": "feralzombie:spitter_zombie",
+    "name": "Spitter Zombie",
+    "jar": "feralzombie-0.5-BETA.jar"
+  },
+  {
+    "id": "feralzombie:zombie_dog",
+    "name": "Zombie Dog",
+    "jar": "feralzombie-0.5-BETA.jar"
+  },
+  {
+    "id": "feralzombie:warrior_zombie",
+    "name": "Warrior Zombie",
+    "jar": "feralzombie-0.5-BETA.jar"
+  },
+  {
+    "id": "feralzombie:predator",
+    "name": "Predator",
+    "jar": "feralzombie-0.5-BETA.jar"
+  },
+  {
+    "id": "geckolib:bat",
+    "name": "Bat",
+    "jar": "geckolib-forge-1.20.1-4.8.3.jar"
+  },
+  {
+    "id": "geckolib:bike",
+    "name": "Bike",
+    "jar": "geckolib-forge-1.20.1-4.8.3.jar"
+  },
+  {
+    "id": "geckolib:cool_kid",
+    "name": "Cool Kid",
+    "jar": "geckolib-forge-1.20.1-4.8.3.jar"
+  },
+  {
+    "id": "geckolib:parasite",
+    "name": "Parasite",
+    "jar": "geckolib-forge-1.20.1-4.8.3.jar"
+  },
+  {
+    "id": "geckolib:race_car",
+    "name": "Race Car",
+    "jar": "geckolib-forge-1.20.1-4.8.3.jar"
+  },
+  {
+    "id": "geckolib:fake_glass",
+    "name": "Fake Glass",
+    "jar": "geckolib-forge-1.20.1-4.8.3.jar"
+  },
+  {
+    "id": "geckolib:mutant_zombie",
+    "name": "Mutant Zombie",
+    "jar": "geckolib-forge-1.20.1-4.8.3.jar"
+  },
+  {
+    "id": "geckolib:gremlin",
+    "name": "Gremlin",
+    "jar": "geckolib-forge-1.20.1-4.8.3.jar"
+  },
+  {
+    "id": "handcrafted:fancy_painting",
+    "name": "Fancy Painting",
+    "jar": "handcrafted-forge-1.20.1-3.0.6.jar"
+  },
+  {
+    "id": "handcrafted:seat",
+    "name": "Seat",
+    "jar": "handcrafted-forge-1.20.1-3.0.6.jar"
+  },
+  {
+    "id": "immersive_aircraft:airship",
+    "name": "Airship",
+    "jar": "immersive_aircraft-1.4.0+1.20.1-forge.jar"
+  },
+  {
+    "id": "immersive_aircraft:cargo_airship",
+    "name": "Cargo Airship",
+    "jar": "immersive_aircraft-1.4.0+1.20.1-forge.jar"
+  },
+  {
+    "id": "immersive_aircraft:warship",
+    "name": "Warship",
+    "jar": "immersive_aircraft-1.4.0+1.20.1-forge.jar"
+  },
+  {
+    "id": "immersive_aircraft:biplane",
+    "name": "Biplane",
+    "jar": "immersive_aircraft-1.4.0+1.20.1-forge.jar"
+  },
+  {
+    "id": "immersive_aircraft:gyrodyne",
+    "name": "Gyrodyne",
+    "jar": "immersive_aircraft-1.4.0+1.20.1-forge.jar"
+  },
+  {
+    "id": "immersive_aircraft:quadrocopter",
+    "name": "Quadrocopter",
+    "jar": "immersive_aircraft-1.4.0+1.20.1-forge.jar"
+  },
+  {
+    "id": "immersive_aircraft:bamboo_hopper",
+    "name": "Bamboo Hopper",
+    "jar": "immersive_aircraft-1.4.0+1.20.1-forge.jar"
+  },
+  {
+    "id": "jeffs_cursed_walking_structures:hazmat_spawner_placer",
+    "name": "Bunker Spawner Placer",
+    "jar": "jeffs_cursed_walking_structures-3.3.0-forge-1.20.1.jar"
+  },
+  {
+    "id": "jeffs_cursed_walking_structures:warehouse_spawner_placer",
+    "name": "Mutated Spawner Placer",
+    "jar": "jeffs_cursed_walking_structures-3.3.0-forge-1.20.1.jar"
+  },
+  {
+    "id": "jeffs_cursed_walking_structures:nomorewaterlogging",
+    "name": "Boss Spawner",
+    "jar": "jeffs_cursed_walking_structures-3.3.0-forge-1.20.1.jar"
+  },
+  {
+    "id": "jeffs_cursed_walking_structures:spawnpoint_entity",
+    "name": "Spawnpoint Entity",
+    "jar": "jeffs_cursed_walking_structures-3.3.0-forge-1.20.1.jar"
+  },
+  {
+    "id": "jeffs_cursed_walking_structures:bunker_spawner_placer",
+    "name": "Bunker Spawner Placer",
+    "jar": "jeffs_cursed_walking_structures-3.3.0-forge-1.20.1.jar"
+  },
+  {
+    "id": "jeffs_cursed_walking_structures:soldier_spawner_placer",
+    "name": "Soldier Spawner Placer",
+    "jar": "jeffs_cursed_walking_structures-3.3.0-forge-1.20.1.jar"
+  },
+  {
+    "id": "jeffs_cursed_walking_structures:driller",
+    "name": "Driller",
+    "jar": "jeffs_cursed_walking_structures-3.3.0-forge-1.20.1.jar"
+  },
+  {
+    "id": "jeffs_cursed_walking_structures:mutated_spawner_placer",
+    "name": "Mutated Spawner Placer",
+    "jar": "jeffs_cursed_walking_structures-3.3.0-forge-1.20.1.jar"
+  },
+  {
+    "id": "bloomingnature:termite",
+    "name": "Termite",
+    "jar": "letsdo-bloomingnature-forge-1.0.12.jar"
+  },
+  {
+    "id": "bloomingnature:wandering_gardener",
+    "name": "Wandering Gardener",
+    "jar": "letsdo-bloomingnature-forge-1.0.12.jar"
+  },
+  {
+    "id": "lootr:lootr_minecart",
+    "name": "Minecart with Chest",
+    "jar": "lootr-forge-1.20-0.7.35.94.jar"
+  },
+  {
+    "id": "mutantmonsters:body_part",
+    "name": "Body Part",
+    "jar": "MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+  },
+  {
+    "id": "mutantmonsters:chemical_x",
+    "name": "Chemical X",
+    "jar": "MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+  },
+  {
+    "id": "mutantmonsters:creeper_minion",
+    "name": "Creeper Minion",
+    "jar": "MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+  },
+  {
+    "id": "mutantmonsters:creeper_minion_egg",
+    "name": "Creeper Minion Egg",
+    "jar": "MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+  },
+  {
+    "id": "mutantmonsters:endersoul_clone",
+    "name": "Endersoul Clone",
+    "jar": "MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+  },
+  {
+    "id": "mutantmonsters:endersoul_fragment",
+    "name": "Endersoul Fragment",
+    "jar": "MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+  },
+  {
+    "id": "mutantmonsters:mutant_arrow",
+    "name": "Mutant Arrow",
+    "jar": "MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+  },
+  {
+    "id": "mutantmonsters:mutant_creeper",
+    "name": "Mutant Creeper",
+    "jar": "MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+  },
+  {
+    "id": "mutantmonsters:mutant_enderman",
+    "name": "Mutant Enderman",
+    "jar": "MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+  },
+  {
+    "id": "mutantmonsters:mutant_skeleton",
+    "name": "Mutant Skeleton",
+    "jar": "MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+  },
+  {
+    "id": "mutantmonsters:mutant_snow_golem",
+    "name": "Mutant Snow Golem",
+    "jar": "MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+  },
+  {
+    "id": "mutantmonsters:mutant_zombie",
+    "name": "Mutant Zombie",
+    "jar": "MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+  },
+  {
+    "id": "mutantmonsters:mutant_zombie_villager",
+    "name": "Mutant Zombie Villager",
+    "jar": "MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+  },
+  {
+    "id": "mutantmonsters:skull_spirit",
+    "name": "Skull Spirit",
+    "jar": "MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+  },
+  {
+    "id": "mutantmonsters:spider_pig",
+    "name": "Spider-Pig",
+    "jar": "MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+  },
+  {
+    "id": "mutantmonsters:throwable_block",
+    "name": "Throwable Block",
+    "jar": "MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+  },
+  {
+    "id": "powderedup:sticky_charge",
+    "name": "Nitro Cell",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "powderedup:shaped_charge",
+    "name": "Shaped Charge",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "powderedup:laser_mine",
+    "name": "Trip Mine",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "powderedup:hidden_mine",
+    "name": "Landmine",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "powderedup:bouncing_betty",
+    "name": "Bouncing Betty",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "powderedup:claymore",
+    "name": "Claymore",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "powderedup:laser_claymore",
+    "name": "Laser Claymore",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "powderedup:smoke_grenade",
+    "name": "Smoke Grenade",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "powderedup:gas_grenade",
+    "name": "Gas Grenade",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "powderedup:flashbang",
+    "name": "Flashbang",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "powderedup:mimic_charge",
+    "name": "Mimic Bomb",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "powderedup:noisemaker",
+    "name": "Noise Maker",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "powderedup:noise_bait",
+    "name": "Noise Bait",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "powderedup:falling_guano",
+    "name": "Falling Guano",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "powderedup:pipe_bomb",
+    "name": "Pipe Bomb",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "powderedup:nail_bomb",
+    "name": "Nail Bomb",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "powderedup:frag",
+    "name": "Frag Grenade",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "powderedup:impact",
+    "name": "Impact Grenade",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "powderedup:incendiary",
+    "name": "Thermite Grenade",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "powderedup:molotov",
+    "name": "Molotov Cocktail",
+    "jar": "powderedup-0.7.1.jar"
+  },
+  {
+    "id": "railways:benchcart",
+    "name": "Minecart with Workbench",
+    "jar": "Steam_Rails-1.7.2+forge-mc1.20.1.jar"
+  },
+  {
+    "id": "railways:conductor",
+    "name": "Conductor",
+    "jar": "Steam_Rails-1.7.2+forge-mc1.20.1.jar"
+  },
+  {
+    "id": "railways:jukeboxcart",
+    "name": "Minecart with Jukebox",
+    "jar": "Steam_Rails-1.7.2+forge-mc1.20.1.jar"
+  },
+  {
+    "id": "tacz:target_minecart",
+    "name": "Minecart with Target",
+    "jar": "tacz-1.20.1-1.1.6-hotfix.jar"
+  },
+  {
+    "id": "the_deeper_void:chain_living_entity",
+    "name": "Chain Living Entity",
+    "jar": "the_deeper_void-2.0.5-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deeper_void:smoker_living_entity",
+    "name": "Smoker Living Entity",
+    "jar": "the_deeper_void-2.0.5-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deeper_void:smoker",
+    "name": "Smoker",
+    "jar": "the_deeper_void-2.0.5-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:light",
+    "name": "Light",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:cross_eyes",
+    "name": "Damned",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:devourer",
+    "name": "Devourer",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:fool_eater",
+    "name": "Fool Eater",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:flesh_cube",
+    "name": "Flesh Cube",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:stalker",
+    "name": "Stalker",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:small_flesh_cube",
+    "name": "Small Flesh Cube",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:spore_spewer",
+    "name": "Spore Spewer",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:amalgam",
+    "name": "Amalgam",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:roamer",
+    "name": "Roamer",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:tiny_light",
+    "name": "Light",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:big_eye",
+    "name": "Damned",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:damned",
+    "name": "Damned",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:gravekeeper",
+    "name": "Gravekeeper",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:falling_corpse",
+    "name": "Falling Corpse",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:mourner",
+    "name": "Mourner",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:sulfur_tnt_entity",
+    "name": "Sulfur TNT",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:four_eyes",
+    "name": "Damned",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:abductor",
+    "name": "Abductor",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:stalker_stalking",
+    "name": "Stalking Stalker",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:hallucination",
+    "name": "Hallucination",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:void_dweller",
+    "name": "Void Watcher",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:big_light",
+    "name": "Light",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:licker",
+    "name": "Licker",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:bone_crawler",
+    "name": "Bone Crawler",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:ghostly_nightmare",
+    "name": "Ghostly Nightmare",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:rotten_corpse",
+    "name": "Rotten Corpse",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:nightmare",
+    "name": "Nightmare",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:lurker",
+    "name": "Lurker",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:wanderer",
+    "name": "Wanderer",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "the_deep_void:multiple_eyes",
+    "name": "Damned",
+    "jar": "the_deep_void-1.28-forge-1.20.1.jar"
+  },
+  {
+    "id": "zombies_plus:axe_zombie",
+    "name": "Axe Zombie",
+    "jar": "zombies_plus-2.1.2-1.20-.4(excl.3)-[forge-fabric].jar"
+  },
+  {
+    "id": "zombies_plus:bow_zombie",
+    "name": "Bow Zombie",
+    "jar": "zombies_plus-2.1.2-1.20-.4(excl.3)-[forge-fabric].jar"
+  },
+  {
+    "id": "zombies_plus:brute_zombie",
+    "name": "Brute Zombie",
+    "jar": "zombies_plus-2.1.2-1.20-.4(excl.3)-[forge-fabric].jar"
+  },
+  {
+    "id": "zombies_plus:cave_zombie",
+    "name": "Cave Zombie",
+    "jar": "zombies_plus-2.1.2-1.20-.4(excl.3)-[forge-fabric].jar"
+  },
+  {
+    "id": "zombies_plus:crawler_zombie",
+    "name": "Crawler Zombie",
+    "jar": "zombies_plus-2.1.2-1.20-.4(excl.3)-[forge-fabric].jar"
+  },
+  {
+    "id": "zombies_plus:crossbow_zombie",
+    "name": "Crossbow Zombie",
+    "jar": "zombies_plus-2.1.2-1.20-.4(excl.3)-[forge-fabric].jar"
+  },
+  {
+    "id": "zombies_plus:leaper_zombie",
+    "name": "Leaper Zombie",
+    "jar": "zombies_plus-2.1.2-1.20-.4(excl.3)-[forge-fabric].jar"
+  },
+  {
+    "id": "zombies_plus:runner_zombie",
+    "name": "Runner Zombie",
+    "jar": "zombies_plus-2.1.2-1.20-.4(excl.3)-[forge-fabric].jar"
+  },
+  {
+    "id": "zombies_plus:shrieker_zombie",
+    "name": "Shrieker Zombie",
+    "jar": "zombies_plus-2.1.2-1.20-.4(excl.3)-[forge-fabric].jar"
+  },
+  {
+    "id": "zombies_plus:slow_zombie",
+    "name": "Slow Zombie",
+    "jar": "zombies_plus-2.1.2-1.20-.4(excl.3)-[forge-fabric].jar"
+  },
+  {
+    "id": "zombies_plus:sword_zombie",
+    "name": "Sword Zombie",
+    "jar": "zombies_plus-2.1.2-1.20-.4(excl.3)-[forge-fabric].jar"
+  },
+  {
+    "id": "zombies_plus:vile_zombie",
+    "name": "Vile Zombie",
+    "jar": "zombies_plus-2.1.2-1.20-.4(excl.3)-[forge-fabric].jar"
+  },
+  {
+    "id": "zombies_plus:weak_zombie",
+    "name": "Weak Zombie",
+    "jar": "zombies_plus-2.1.2-1.20-.4(excl.3)-[forge-fabric].jar"
+  },
+  {
+    "id": "securitycraft:bullet",
+    "name": "Sentry Bullet",
+    "jar": "[1.20.1] SecurityCraft v1.10.0.1.jar"
+  },
+  {
+    "id": "securitycraft:imsbomb",
+    "name": "I.M.S. Bomb",
+    "jar": "[1.20.1] SecurityCraft v1.10.0.1.jar"
+  },
+  {
+    "id": "securitycraft:security_sea_boat",
+    "name": "Security Sea Boat",
+    "jar": "[1.20.1] SecurityCraft v1.10.0.1.jar"
+  },
+  {
+    "id": "securitycraft:sentry",
+    "name": "Sentry",
+    "jar": "[1.20.1] SecurityCraft v1.10.0.1.jar"
+  }
+]

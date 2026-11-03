@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-11",
+  "realPlayer": "Dogalive",
+  "simulatedSourceRealStreamerbotAndMinecraft": {
+    "passed": true,
+    "rewardBundles": 54,
+    "cases": 70,
+    "zombieTypes": 18,
+    "inventoryAndModeRestored": true,
+    "gunVariants": 51,
+    "realZombies": 216
+  },
+  "fixes": [
+    "large zombie RCON command size and trailing whitespace",
+    "TaCZ ammo give count above 100",
+    "preserve random zombie draw on retry",
+    "serialize RCON requests across processes"
+  ],
+  "concurrentRconRequests": 20,
+  "realTikTokLive": {
+    "connected": true,
+    "receivedLikes": 245,
+    "likesSpawned": 2,
+    "likesRemainder": 45,
+    "follows": 1,
+    "followSpawned": 5,
+    "liveEntitiesConfirmed": 7,
+    "gifts": "Not tested with real gifts; user chose to stop without spending coins"
+  },
+  "activeCombatLoadAndClientGunFiring": "Not verified",
+  "finalCounters": {
+    "receivedLikes": 651,
+    "remainder": 51,
+    "likesZombiesSpawned": 2,
+    "likesZombiesQueued": 4,
+    "follows": 1,
+    "allZombiesSpawned": 7
+  }
+}

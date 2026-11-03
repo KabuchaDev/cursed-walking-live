@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "accepted": 1,
+  "safeRetry": false,
+  "reward": "modern_axe",
+  "variant": 0,
+  "response": "Executed 1 command(s) from function 'cw_live:rewards/modern_axe'\n"
+}

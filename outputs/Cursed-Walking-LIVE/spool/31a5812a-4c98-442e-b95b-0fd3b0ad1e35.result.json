@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "accepted": 10,
+  "safeRetry": true,
+  "requested": 10,
+  "entities": [
+    "feralzombie:feral_zombie",
+    "feralzombie:drone_zombie",
+    "feralzombie:zombie_dog",
+    "minecraft:zombie",
+    "zombies_plus:brute_zombie",
+    "zombies_plus:brute_zombie",
+    "zombies_plus:bow_zombie",
+    "feralzombie:warrior_zombie",
+    "zombies_plus:vile_zombie",
+    "zombies_plus:vile_zombie"
+  ],
+  "response": "Summoned 10/10"
+}

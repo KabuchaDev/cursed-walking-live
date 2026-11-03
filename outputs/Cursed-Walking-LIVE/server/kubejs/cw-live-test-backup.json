@@ -1,0 +1,8 @@
+{
+	"active": false,
+	"name": "Dogalive",
+	"uuid": "1f167f15-4f73-34d0-b03a-2652bd08000a",
+	"mode": "survival",
+	"selected": 4,
+	"inventory": "[{Count:1b,Slot:0b,id:\"marbledsmelees:fire_axe\",tag:{Damage:50}},{Count:8b,Slot:1b,id:\"minecraft:bread\"},{Count:1b,Slot:2b,id:\"ftbquests:book\"},{Count:6b,Slot:3b,id:\"cure:vaccine\",tag:{Damage:0}},{Count:1b,Slot:4b,id:\"binocularsmod:binoculars\",tag:{Damage:0}},{Count:1b,Slot:5b,id:\"minecraft:light_gray_bed\"},{Count:14b,Slot:6b,id:\"create:cardboard_block\"},{Count:7b,Slot:7b,id:\"minecraft:string\"},{Count:11b,Slot:8b,id:\"minecraft:wheat_seeds\"},{Count:1b,Slot:100b,id:\"minecraft:iron_boots\",tag:{Damage:3}},{Count:1b,Slot:103b,id:\"marbledsarsenal:cm6m_gas_mask\",tag:{Damage:3}}]"
+}

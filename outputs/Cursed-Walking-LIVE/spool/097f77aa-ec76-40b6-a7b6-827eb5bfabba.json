@@ -1,0 +1,9 @@
+{
+  "kind": "summon",
+  "entities": [
+    "zombies_plus:weak_zombie",
+    "zombies_plus:weak_zombie",
+    "zombies_plus:weak_zombie"
+  ],
+  "createdAt": 1791891803077
+}

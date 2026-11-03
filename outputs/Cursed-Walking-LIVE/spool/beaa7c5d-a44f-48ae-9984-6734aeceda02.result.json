@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "accepted": 1,
+  "safeRetry": true,
+  "requested": 1,
+  "entities": [
+    "zombies_plus:weak_zombie"
+  ],
+  "response": "Summoned 1/1"
+}

@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "accepted": 8,
+  "safeRetry": true,
+  "requested": 8,
+  "entities": [
+    "zombies_plus:leaper_zombie",
+    "feralzombie:spitter_zombie",
+    "zombies_plus:slow_zombie",
+    "feralzombie:zombie_dog",
+    "zombies_plus:slow_zombie",
+    "zombies_plus:slow_zombie",
+    "zombies_plus:weak_zombie",
+    "feralzombie:drone_zombie"
+  ],
+  "response": "Summoned 8/8"
+}

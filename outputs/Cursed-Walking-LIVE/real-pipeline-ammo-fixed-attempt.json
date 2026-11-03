@@ -1,0 +1,794 @@
+{
+  "started": "2026-10-11T10:14:49.468Z",
+  "source": "Simulated TikFinity-format events; actual Streamer.bot and Minecraft server with Dogalive online",
+  "cases": [
+    {
+      "label": "Catalogue gun_t1/0",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:4,GunFireMode:\"SEMI\",GunId:\"bf1:obrez\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 8,
+          "tag": "{AmmoId:\"tacz:762x54\"}"
+        }
+      ],
+      "result": {
+        "id": "d4430815-448c-4dbd-8462-9b85d7788864",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t1",
+        "variant": 0,
+        "gun": "bf1:obrez",
+        "ammo": "tacz:762x54",
+        "ammoCount": 8,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t1/bf1/obrez'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t1/1",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:6,GunFireMode:\"SEMI\",GunId:\"bf1:sw_model3\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 12,
+          "tag": "{AmmoId:\"tacz:357mag\"}"
+        }
+      ],
+      "result": {
+        "id": "a10b93d2-1953-4b52-b464-8625762e49e6",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t1",
+        "variant": 1,
+        "gun": "bf1:sw_model3",
+        "ammo": "tacz:357mag",
+        "ammoCount": 12,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t1/bf1/sw_model3'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t1/2",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:60,GunFireMode:\"AUTO\",GunId:\"bf1:smg0818\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 60,
+          "tag": "{AmmoId:\"tacz:9mm\"}"
+        },
+        {
+          "slot": 2,
+          "id": "tacz:ammo",
+          "count": 60,
+          "tag": "{AmmoId:\"tacz:9mm\"}"
+        }
+      ],
+      "result": {
+        "id": "b68704f7-87e8-4076-a63a-5e901eeb7726",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t1",
+        "variant": 2,
+        "gun": "bf1:smg0818",
+        "ammo": "tacz:9mm",
+        "ammoCount": 120,
+        "response": "Executed 3 command(s) from function 'cw_live:rewards/t1/bf1/smg0818'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t1/3",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:2,GunFireMode:\"BURST\",GunId:\"tacz:db_short\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 4,
+          "tag": "{AmmoId:\"tacz:12g\"}"
+        }
+      ],
+      "result": {
+        "id": "8cc66f6e-8ca3-4576-b312-b830378f74df",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t1",
+        "variant": 3,
+        "gun": "tacz:db_short",
+        "ammo": "tacz:12g",
+        "ammoCount": 4,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t1/tacz/db_short'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t1/4",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:2,GunFireMode:\"SEMI\",GunId:\"tacz:db_long\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 4,
+          "tag": "{AmmoId:\"tacz:12g\"}"
+        }
+      ],
+      "result": {
+        "id": "d75ffd5d-f194-4d3c-8f72-1ea2ebd4bab6",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t1",
+        "variant": 4,
+        "gun": "tacz:db_long",
+        "ammo": "tacz:12g",
+        "ammoCount": 4,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t1/tacz/db_long'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t1/5",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:5,GunFireMode:\"SEMI\",GunId:\"bf1:model10\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 10,
+          "tag": "{AmmoId:\"tacz:12g\"}"
+        }
+      ],
+      "result": {
+        "id": "2863cab9-a2f1-45db-bfca-32375ba22035",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t1",
+        "variant": 5,
+        "gun": "bf1:model10",
+        "ammo": "tacz:12g",
+        "ammoCount": 10,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t1/bf1/model10'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t1/6",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:16,GunFireMode:\"SEMI\",GunId:\"bf1:vg15\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 32,
+          "tag": "{AmmoId:\"tacz:762x39\"}"
+        }
+      ],
+      "result": {
+        "id": "503e8214-b663-4d82-aa94-a571f58dd621",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t1",
+        "variant": 6,
+        "gun": "bf1:vg15",
+        "ammo": "tacz:762x39",
+        "ammoCount": 32,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t1/bf1/vg15'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t1/7",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:25,GunFireMode:\"SEMI\",GunId:\"bf1:m1916\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 48,
+          "tag": "{AmmoId:\"tacz:308\"}"
+        },
+        {
+          "slot": 2,
+          "id": "tacz:ammo",
+          "count": 2,
+          "tag": "{AmmoId:\"tacz:308\"}"
+        }
+      ],
+      "result": {
+        "id": "b2de3255-f8df-4828-bcff-aa2fd3cc1c65",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t1",
+        "variant": 7,
+        "gun": "bf1:m1916",
+        "ammo": "tacz:308",
+        "ammoCount": 50,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t1/bf1/m1916'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t1/8",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:5,GunFireMode:\"SEMI\",GunId:\"bf1:rsc1917\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 10,
+          "tag": "{AmmoId:\"tacz:30_06\"}"
+        }
+      ],
+      "result": {
+        "id": "07c20949-c3c5-486a-ade0-ea21c2a37971",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t1",
+        "variant": 8,
+        "gun": "bf1:rsc1917",
+        "ammo": "tacz:30_06",
+        "ammoCount": 10,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t1/bf1/rsc1917'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t1/9",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:4,GunFireMode:\"SEMI\",GunId:\"bf1:man_m95\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 8,
+          "tag": "{AmmoId:\"tacz:30_06\"}"
+        }
+      ],
+      "result": {
+        "id": "7059f2fb-beac-4659-9df4-b58897bbd784",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t1",
+        "variant": 9,
+        "gun": "bf1:man_m95",
+        "ammo": "tacz:30_06",
+        "ammoCount": 8,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t1/bf1/man_m95'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t1/10",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:1,GunFireMode:\"SEMI\",GunId:\"bf1:martini\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 2,
+          "tag": "{AmmoId:\"tacz:45_70\"}"
+        }
+      ],
+      "result": {
+        "id": "42a1df75-dfc2-4a87-8317-ec388e72c045",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t1",
+        "variant": 10,
+        "gun": "bf1:martini",
+        "ammo": "tacz:45_70",
+        "ammoCount": 2,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t1/bf1/martini'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t1/11",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:1,GunFireMode:\"SEMI\",GunId:\"bf1:mhgl\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 2,
+          "tag": "{AmmoId:\"tacz:40mm\"}"
+        }
+      ],
+      "result": {
+        "id": "45333df3-333a-41ef-8e2c-53a6b798cec4",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t1",
+        "variant": 11,
+        "gun": "bf1:mhgl",
+        "ammo": "tacz:40mm",
+        "ammoCount": 2,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t1/bf1/mhgl'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t2/0",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:16,GunFireMode:\"AUTO\",GunId:\"tacz:cz75\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 48,
+          "tag": "{AmmoId:\"tacz:9mm\"}"
+        }
+      ],
+      "result": {
+        "id": "77b79374-1ca2-4c5e-b2dd-866d25c7d577",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t2",
+        "variant": 0,
+        "gun": "tacz:cz75",
+        "ammo": "tacz:9mm",
+        "ammoCount": 48,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t2/tacz/cz75'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t2/1",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:7,GunFireMode:\"SEMI\",GunId:\"tacz:deagle\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 21,
+          "tag": "{AmmoId:\"tacz:50ae\"}"
+        }
+      ],
+      "result": {
+        "id": "3550a2ff-f6fc-40d0-a94a-a96cb888a15d",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t2",
+        "variant": 1,
+        "gun": "tacz:deagle",
+        "ammo": "tacz:50ae",
+        "ammoCount": 21,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t2/tacz/deagle'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t2/2",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:9,GunFireMode:\"SEMI\",GunId:\"tacz:deagle_golden\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 27,
+          "tag": "{AmmoId:\"tacz:357mag\"}"
+        }
+      ],
+      "result": {
+        "id": "f9c4179e-3073-4b81-aa60-886c8739c1d1",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t2",
+        "variant": 2,
+        "gun": "tacz:deagle_golden",
+        "ammo": "tacz:357mag",
+        "ammoCount": 27,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t2/tacz/deagle_golden'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t2/3",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:17,GunFireMode:\"SEMI\",GunId:\"tacz:glock_17\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 51,
+          "tag": "{AmmoId:\"tacz:9mm\"}"
+        }
+      ],
+      "result": {
+        "id": "64a23f13-7b1a-45b4-a2cf-f59983d89bc9",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t2",
+        "variant": 3,
+        "gun": "tacz:glock_17",
+        "ammo": "tacz:9mm",
+        "ammoCount": 51,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t2/tacz/glock_17'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t2/4",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:12,GunFireMode:\"SEMI\",GunId:\"tacz:p320\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 36,
+          "tag": "{AmmoId:\"tacz:45acp\"}"
+        }
+      ],
+      "result": {
+        "id": "8939dc57-f479-4bfd-bc18-037037c2948e",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t2",
+        "variant": 4,
+        "gun": "tacz:p320",
+        "ammo": "tacz:45acp",
+        "ammoCount": 36,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t2/tacz/p320'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t2/5",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:20,GunFireMode:\"BURST\",GunId:\"tacz:b93r\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 60,
+          "tag": "{AmmoId:\"tacz:9mm\"}"
+        }
+      ],
+      "result": {
+        "id": "2b1d5cb7-f46c-401b-b309-799165093b4a",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t2",
+        "variant": 5,
+        "gun": "tacz:b93r",
+        "ammo": "tacz:9mm",
+        "ammoCount": 60,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t2/tacz/b93r'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t2/6",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:7,GunFireMode:\"SEMI\",GunId:\"tacz:m1911\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 21,
+          "tag": "{AmmoId:\"tacz:45acp\"}"
+        }
+      ],
+      "result": {
+        "id": "fdd405dd-3562-4b19-bf2a-8a51230e57e9",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t2",
+        "variant": 6,
+        "gun": "tacz:m1911",
+        "ammo": "tacz:45acp",
+        "ammoCount": 21,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t2/tacz/m1911'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t2/7",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:25,GunFireMode:\"AUTO\",GunId:\"tacz:ump45\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 60,
+          "tag": "{AmmoId:\"tacz:45acp\"}"
+        },
+        {
+          "slot": 2,
+          "id": "tacz:ammo",
+          "count": 15,
+          "tag": "{AmmoId:\"tacz:45acp\"}"
+        }
+      ],
+      "result": {
+        "id": "a2a1cf57-7c38-4775-b55a-67ba766deb3f",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t2",
+        "variant": 7,
+        "gun": "tacz:ump45",
+        "ammo": "tacz:45acp",
+        "ammoCount": 75,
+        "response": "Executed 3 command(s) from function 'cw_live:rewards/t2/tacz/ump45'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t2/8",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:20,GunFireMode:\"AUTO\",GunId:\"tacz:uzi\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 60,
+          "tag": "{AmmoId:\"tacz:9mm\"}"
+        }
+      ],
+      "result": {
+        "id": "6ae78839-7bc7-4613-b57f-ddce77bd3eb2",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t2",
+        "variant": 8,
+        "gun": "tacz:uzi",
+        "ammo": "tacz:9mm",
+        "ammoCount": 60,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t2/tacz/uzi'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t2/9",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:20,GunFireMode:\"AUTO\",GunId:\"tacz:vector45\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 60,
+          "tag": "{AmmoId:\"tacz:45acp\"}"
+        }
+      ],
+      "result": {
+        "id": "f8a0599e-703d-4239-8028-d7ffeb172cb8",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t2",
+        "variant": 9,
+        "gun": "tacz:vector45",
+        "ammo": "tacz:45acp",
+        "ammoCount": 60,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t2/tacz/vector45'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t2/10",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:30,GunFireMode:\"AUTO\",GunId:\"tacz:hk_mp5a5\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 60,
+          "tag": "{AmmoId:\"tacz:9mm\"}"
+        },
+        {
+          "slot": 2,
+          "id": "tacz:ammo",
+          "count": 30,
+          "tag": "{AmmoId:\"tacz:9mm\"}"
+        }
+      ],
+      "result": {
+        "id": "a4bf7a05-8b8e-4d65-8386-b766b7a16d08",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t2",
+        "variant": 10,
+        "gun": "tacz:hk_mp5a5",
+        "ammo": "tacz:9mm",
+        "ammoCount": 90,
+        "response": "Executed 3 command(s) from function 'cw_live:rewards/t2/tacz/hk_mp5a5'\n"
+      }
+    }
+  ],
+  "restored": true,
+  "original": {
+    "player": "Dogalive",
+    "x": 0.33786151339711784,
+    "y": 99,
+    "z": 23.127740821254413,
+    "inventory": [
+      {
+        "slot": 0,
+        "id": "marbledsmelees:fire_axe",
+        "count": 1,
+        "tag": "{Damage:50}"
+      },
+      {
+        "slot": 1,
+        "id": "minecraft:bread",
+        "count": 9,
+        "tag": ""
+      },
+      {
+        "slot": 2,
+        "id": "ftbquests:book",
+        "count": 1,
+        "tag": ""
+      },
+      {
+        "slot": 3,
+        "id": "cure:vaccine",
+        "count": 6,
+        "tag": "{Damage:0}"
+      },
+      {
+        "slot": 4,
+        "id": "binocularsmod:binoculars",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "slot": 5,
+        "id": "minecraft:light_gray_bed",
+        "count": 1,
+        "tag": ""
+      },
+      {
+        "slot": 6,
+        "id": "create:cardboard_block",
+        "count": 14,
+        "tag": ""
+      },
+      {
+        "slot": 7,
+        "id": "minecraft:string",
+        "count": 7,
+        "tag": ""
+      },
+      {
+        "slot": 36,
+        "id": "minecraft:iron_boots",
+        "count": 1,
+        "tag": "{Damage:3}"
+      },
+      {
+        "slot": 39,
+        "id": "marbledsarsenal:cm6m_gas_mask",
+        "count": 1,
+        "tag": "{Damage:3}"
+      }
+    ],
+    "mobs": []
+  },
+  "passed": false,
+  "error": "Error: cw_test_snapshot: Unknown or incomplete command, see below for error\n<--[HERE]\nTest snapshot: 4 item stacks, 0 mobs.\n\n    at mc (file:///C:/Users/PHAT/Documents/Codex/2026-10-10/new-chat/work/test-real-pipeline.mjs:16:131)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async snapshot (file:///C:/Users/PHAT/Documents/Codex/2026-10-10/new-chat/work/test-real-pipeline.mjs:17:27)\n    at async file:///C:/Users/PHAT/Documents/Codex/2026-10-10/new-chat/work/test-real-pipeline.mjs:79:16",
+  "restoreReply": "Test ended: inventory/game mode restored; test mobs removed.\n",
+  "finished": "2026-10-11T10:15:00.828Z"
+}

@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "likes": {
+    "version": 1,
+    "totalLikes": 100,
+    "remainder": 0,
+    "pending": 0,
+    "spawned": 1,
+    "recentIds": [
+      "real-test-1791713848685-1",
+      "real-test-1791713849670-2"
+    ],
+    "flight": null,
+    "lastIssue": null
+  },
+  "queue": [],
+  "seen": [
+    "follow:real-test-1791713850640-3",
+    "gift:real-test-1791713852133-4",
+    "gift:real-test-1791713853642-5",
+    "gift:real-test-1791713855135-6",
+    "gift:real-test-1791713977478-7",
+    "gift:real-test-1791713978448-8",
+    "gift:real-test-1791713979433-9",
+    "gift:real-test-1791713986239-10",
+    "gift:real-test-1791713987733-11",
+    "gift:real-test-1791714001265-12",
+    "giftgroup:cw-test-viewer:5655:cw-test-combo",
+    "gift:real-test-1791714007239-15"
+  ],
+  "flight": null,
+  "lastIssue": null,
+  "stats": {
+    "follows": 1,
+    "gifts": 12,
+    "zombies": 216,
+    "rewards": 6
+  },
+  "lastLikeAt": "2026-10-11T10:17:29.670Z"
+}

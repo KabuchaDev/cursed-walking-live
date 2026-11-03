@@ -1,0 +1,3451 @@
+{
+  "started": "2026-10-11T10:19:49.191Z",
+  "source": "Actual local TikFinity WebSocket 127.0.0.1:21213; no synthetic events injected",
+  "events": [
+    {
+      "at": "2026-10-11T10:22:03.685Z",
+      "event": "liveStatusChange",
+      "keys": [
+        "isLive",
+        "topGifterRank",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "isLive": true
+    },
+    {
+      "at": "2026-10-11T10:22:20.891Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 15,
+      "messageHash": "9fe1eb85e3ae"
+    },
+    {
+      "at": "2026-10-11T10:22:21.74Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 4,
+      "totalLikeCount": 19,
+      "messageHash": "77b9ba2a07aa"
+    },
+    {
+      "at": "2026-10-11T10:22:23.34Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 1,
+      "totalLikeCount": 20,
+      "messageHash": "2737326899c8"
+    },
+    {
+      "at": "2026-10-11T10:22:40.014Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 50,
+      "messageHash": "66d039824896"
+    },
+    {
+      "at": "2026-10-11T10:22:41.701Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 65,
+      "messageHash": "90ef50390b16"
+    },
+    {
+      "at": "2026-10-11T10:22:43.351Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 7,
+      "totalLikeCount": 87,
+      "messageHash": "05a62412a2d6"
+    },
+    {
+      "at": "2026-10-11T10:22:44.954Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 117,
+      "messageHash": "7968ce424ad8"
+    },
+    {
+      "at": "2026-10-11T10:22:45.842Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 132,
+      "messageHash": "0ebef551b03d"
+    },
+    {
+      "at": "2026-10-11T10:22:46.602Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 132,
+      "messageHash": "ede197ffc2a0"
+    },
+    {
+      "at": "2026-10-11T10:22:47.456Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 8,
+      "totalLikeCount": 140,
+      "messageHash": "d2daa524ed09"
+    },
+    {
+      "at": "2026-10-11T10:22:49.105Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 155,
+      "messageHash": "8f91280df391"
+    },
+    {
+      "at": "2026-10-11T10:22:51.609Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 170,
+      "messageHash": "25f989b6e164"
+    },
+    {
+      "at": "2026-10-11T10:22:54.972Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 185,
+      "messageHash": "6c161c0ad4f7"
+    },
+    {
+      "at": "2026-10-11T10:22:57.529Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 200,
+      "messageHash": "0b35fc92cfff"
+    },
+    {
+      "at": "2026-10-11T10:23:00.867Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 215,
+      "messageHash": "042790cbce98"
+    },
+    {
+      "at": "2026-10-11T10:23:03.371Z",
+      "event": "follow",
+      "keys": [
+        "followerCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "profile",
+        "name",
+        "username",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "messageHash": "82dde65a5254"
+    },
+    {
+      "at": "2026-10-11T10:23:04.235Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 230,
+      "messageHash": "45e44f2f9243"
+    },
+    {
+      "at": "2026-10-11T10:23:07.526Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 245,
+      "messageHash": "e922ac8c1d05"
+    },
+    {
+      "at": "2026-10-11T10:23:10.794Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 260,
+      "messageHash": "5971bb2db073"
+    },
+    {
+      "at": "2026-10-11T10:23:14.139Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 275,
+      "messageHash": "e23ea82f8b98"
+    },
+    {
+      "at": "2026-10-11T10:23:16.692Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 290,
+      "messageHash": "dcaaece807fa"
+    },
+    {
+      "at": "2026-10-11T10:23:20.044Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 305,
+      "messageHash": "cc1ed41c1a6f"
+    },
+    {
+      "at": "2026-10-11T10:23:23.298Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 320,
+      "messageHash": "db849aad6f05"
+    },
+    {
+      "at": "2026-10-11T10:23:26.651Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 335,
+      "messageHash": "49658a4df59d"
+    },
+    {
+      "at": "2026-10-11T10:23:29.11Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 350,
+      "messageHash": "cf9081b6f1e6"
+    },
+    {
+      "at": "2026-10-11T10:23:32.427Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 365,
+      "messageHash": "0dd5ab35c008"
+    },
+    {
+      "at": "2026-10-11T10:23:35.667Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 380,
+      "messageHash": "2a352a013ef1"
+    },
+    {
+      "at": "2026-10-11T10:23:38.975Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 395,
+      "messageHash": "ce27e6d70ad3"
+    },
+    {
+      "at": "2026-10-11T10:23:42.336Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 410,
+      "messageHash": "22a35567b66c"
+    },
+    {
+      "at": "2026-10-11T10:23:45.584Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 425,
+      "messageHash": "86afbb5a748f"
+    },
+    {
+      "at": "2026-10-11T10:23:48.833Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 440,
+      "messageHash": "b0c01f14a243"
+    },
+    {
+      "at": "2026-10-11T10:23:51.332Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 455,
+      "messageHash": "e68bf4075d42"
+    },
+    {
+      "at": "2026-10-11T10:23:54.688Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 470,
+      "messageHash": "492548d0e9c7"
+    },
+    {
+      "at": "2026-10-11T10:23:57.951Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 485,
+      "messageHash": "a9b41b63de78"
+    },
+    {
+      "at": "2026-10-11T10:24:01.291Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 500,
+      "messageHash": "26097cbf12d7"
+    },
+    {
+      "at": "2026-10-11T10:24:04.455Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 515,
+      "messageHash": "c46ebb87b822"
+    },
+    {
+      "at": "2026-10-11T10:24:06.961Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 530,
+      "messageHash": "5b42f2ce5a60"
+    },
+    {
+      "at": "2026-10-11T10:24:10.357Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 545,
+      "messageHash": "1603cb6bacec"
+    },
+    {
+      "at": "2026-10-11T10:24:12.816Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 560,
+      "messageHash": "50d659719c09"
+    },
+    {
+      "at": "2026-10-11T10:24:16.066Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 575,
+      "messageHash": "10494958ccf6"
+    },
+    {
+      "at": "2026-10-11T10:24:18.572Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 590,
+      "messageHash": "0c61d0b17e90"
+    },
+    {
+      "at": "2026-10-11T10:24:20.218Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 4,
+      "totalLikeCount": 594,
+      "messageHash": "1fbe82982191"
+    },
+    {
+      "at": "2026-10-11T10:24:26.127Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 609,
+      "messageHash": "d1595fd92220"
+    },
+    {
+      "at": "2026-10-11T10:24:29.478Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 624,
+      "messageHash": "c9c83b1c3d48"
+    },
+    {
+      "at": "2026-10-11T10:24:32.028Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 639,
+      "messageHash": "365e167fb964"
+    },
+    {
+      "at": "2026-10-11T10:24:35.377Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 654,
+      "messageHash": "b070e697cb5e"
+    },
+    {
+      "at": "2026-10-11T10:24:38.584Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 15,
+      "totalLikeCount": 669,
+      "messageHash": "abca5948d27b"
+    },
+    {
+      "at": "2026-10-11T10:24:41.089Z",
+      "event": "like",
+      "keys": [
+        "likeCount",
+        "totalLikeCount",
+        "userId",
+        "secUid",
+        "uniqueId",
+        "nickname",
+        "profilePictureUrl",
+        "followRole",
+        "userBadges",
+        "userSceneTypes",
+        "userDetails",
+        "followInfo",
+        "isModerator",
+        "isNewGifter",
+        "isSubscriber",
+        "topGifterRank",
+        "gifterLevel",
+        "teamMemberLevel",
+        "msgId",
+        "createTime",
+        "displayType",
+        "label",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "likeCount": 12,
+      "totalLikeCount": 681,
+      "messageHash": "e0d0051168ef"
+    },
+    {
+      "at": "2026-10-11T10:24:43.788Z",
+      "event": "liveStatusChange",
+      "keys": [
+        "isLive",
+        "topGifterRank",
+        "tikfinityUserId",
+        "tikfinityUsername"
+      ],
+      "isLive": false
+    }
+  ],
+  "status": [
+    {
+      "at": "2026-10-11T10:19:50.746Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 0,
+        "remainder": 0,
+        "toNext": 100,
+        "pending": 0,
+        "spawned": 0,
+        "zombieTypes": 18,
+        "lastLikeAt": null
+      },
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 0,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": null
+    },
+    {
+      "at": "2026-10-11T10:22:21.638Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 15,
+        "remainder": 15,
+        "toNext": 85,
+        "pending": 0,
+        "spawned": 0,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:22:20.891Z"
+      },
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 0,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": null
+    },
+    {
+      "at": "2026-10-11T10:22:23.147Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 19,
+        "remainder": 19,
+        "toNext": 81,
+        "pending": 0,
+        "spawned": 0,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:22:21.74Z"
+      },
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 0,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": null
+    },
+    {
+      "at": "2026-10-11T10:22:24.656Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 20,
+        "remainder": 20,
+        "toNext": 80,
+        "pending": 0,
+        "spawned": 0,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:22:23.34Z"
+      },
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 0,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": null
+    },
+    {
+      "at": "2026-10-11T10:22:41.268Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 35,
+        "remainder": 35,
+        "toNext": 65,
+        "pending": 0,
+        "spawned": 0,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:22:40.014Z"
+      },
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 0,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": null
+    },
+    {
+      "at": "2026-10-11T10:22:42.777Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 50,
+        "remainder": 50,
+        "toNext": 50,
+        "pending": 0,
+        "spawned": 0,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:22:41.701Z"
+      },
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 0,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": null
+    },
+    {
+      "at": "2026-10-11T10:22:44.286Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 57,
+        "remainder": 57,
+        "toNext": 43,
+        "pending": 0,
+        "spawned": 0,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:22:43.352Z"
+      },
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 0,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": null
+    },
+    {
+      "at": "2026-10-11T10:22:45.796Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 72,
+        "remainder": 72,
+        "toNext": 28,
+        "pending": 0,
+        "spawned": 0,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:22:44.954Z"
+      },
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 0,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": null
+    },
+    {
+      "at": "2026-10-11T10:22:47.305Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 102,
+        "remainder": 2,
+        "toNext": 98,
+        "pending": 1,
+        "spawned": 0,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:22:46.602Z"
+      },
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 0,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 1,
+        "rewards": 0,
+        "inFlight": true,
+        "lastIssue": null
+      },
+      "lastResult": null
+    },
+    {
+      "at": "2026-10-11T10:22:48.813Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 110,
+        "remainder": 10,
+        "toNext": 90,
+        "pending": 0,
+        "spawned": 1,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:22:47.456Z"
+      },
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 1,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": true,
+        "requested": 1,
+        "entities": [
+          "zombies_plus:slow_zombie"
+        ],
+        "response": "Summoned 1/1"
+      }
+    },
+    {
+      "at": "2026-10-11T10:22:50.321Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 125,
+        "remainder": 25,
+        "toNext": 75,
+        "pending": 0,
+        "spawned": 1,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:22:49.105Z"
+      },
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 1,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": true,
+        "requested": 1,
+        "entities": [
+          "zombies_plus:slow_zombie"
+        ],
+        "response": "Summoned 1/1"
+      }
+    },
+    {
+      "at": "2026-10-11T10:22:51.83Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 140,
+        "remainder": 40,
+        "toNext": 60,
+        "pending": 0,
+        "spawned": 1,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:22:51.609Z"
+      },
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 1,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": true,
+        "requested": 1,
+        "entities": [
+          "zombies_plus:slow_zombie"
+        ],
+        "response": "Summoned 1/1"
+      }
+    },
+    {
+      "at": "2026-10-11T10:22:56.357Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 155,
+        "remainder": 55,
+        "toNext": 45,
+        "pending": 0,
+        "spawned": 1,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:22:54.972Z"
+      },
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 1,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": true,
+        "requested": 1,
+        "entities": [
+          "zombies_plus:slow_zombie"
+        ],
+        "response": "Summoned 1/1"
+      }
+    },
+    {
+      "at": "2026-10-11T10:22:57.866Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 170,
+        "remainder": 70,
+        "toNext": 30,
+        "pending": 0,
+        "spawned": 1,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:22:57.529Z"
+      },
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 1,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": true,
+        "requested": 1,
+        "entities": [
+          "zombies_plus:slow_zombie"
+        ],
+        "response": "Summoned 1/1"
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:00.899Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 185,
+        "remainder": 85,
+        "toNext": 15,
+        "pending": 0,
+        "spawned": 1,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:00.867Z"
+      },
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 1,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": true,
+        "requested": 1,
+        "entities": [
+          "zombies_plus:slow_zombie"
+        ],
+        "response": "Summoned 1/1"
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:03.917Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 185,
+        "remainder": 85,
+        "toNext": 15,
+        "pending": 0,
+        "spawned": 1,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:00.867Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 1,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 5,
+        "rewards": 0,
+        "inFlight": true,
+        "lastIssue": null
+      },
+      "lastResult": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": true,
+        "requested": 1,
+        "entities": [
+          "zombies_plus:slow_zombie"
+        ],
+        "response": "Summoned 1/1"
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:05.426Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 200,
+        "remainder": 0,
+        "toNext": 100,
+        "pending": 0,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:04.235Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": true,
+        "requested": 1,
+        "entities": [
+          "zombies_plus:weak_zombie"
+        ],
+        "response": "Summoned 1/1"
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:08.444Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 215,
+        "remainder": 15,
+        "toNext": 85,
+        "pending": 0,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:07.525Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": true,
+        "requested": 1,
+        "entities": [
+          "zombies_plus:weak_zombie"
+        ],
+        "response": "Summoned 1/1"
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:11.461Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 230,
+        "remainder": 30,
+        "toNext": 70,
+        "pending": 0,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:10.794Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": true,
+        "requested": 1,
+        "entities": [
+          "zombies_plus:weak_zombie"
+        ],
+        "response": "Summoned 1/1"
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:14.479Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 245,
+        "remainder": 45,
+        "toNext": 55,
+        "pending": 0,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:14.139Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": true,
+        "requested": 1,
+        "entities": [
+          "zombies_plus:weak_zombie"
+        ],
+        "response": "Summoned 1/1"
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:17.497Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 260,
+        "remainder": 60,
+        "toNext": 40,
+        "pending": 0,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:16.692Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": true,
+        "requested": 1,
+        "entities": [
+          "zombies_plus:weak_zombie"
+        ],
+        "response": "Summoned 1/1"
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:20.515Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 275,
+        "remainder": 75,
+        "toNext": 25,
+        "pending": 0,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:20.044Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": true,
+        "requested": 1,
+        "entities": [
+          "zombies_plus:weak_zombie"
+        ],
+        "response": "Summoned 1/1"
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:23.532Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 290,
+        "remainder": 90,
+        "toNext": 10,
+        "pending": 0,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:23.298Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "lastResult": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": true,
+        "requested": 1,
+        "entities": [
+          "zombies_plus:weak_zombie"
+        ],
+        "response": "Summoned 1/1"
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:28.059Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive\n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 305,
+        "remainder": 5,
+        "toNext": 95,
+        "pending": 1,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:26.651Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 1,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:29.568Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 320,
+        "remainder": 20,
+        "toNext": 80,
+        "pending": 1,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:29.11Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 1,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:32.585Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 335,
+        "remainder": 35,
+        "toNext": 65,
+        "pending": 1,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:32.426Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 1,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:37.143Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 350,
+        "remainder": 50,
+        "toNext": 50,
+        "pending": 1,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:35.666Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 1,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:40.181Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 365,
+        "remainder": 65,
+        "toNext": 35,
+        "pending": 1,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:38.974Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 1,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:43.252Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 380,
+        "remainder": 80,
+        "toNext": 20,
+        "pending": 1,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:42.335Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 1,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:46.243Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 395,
+        "remainder": 95,
+        "toNext": 5,
+        "pending": 1,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:45.584Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 1,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:49.26Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 410,
+        "remainder": 10,
+        "toNext": 90,
+        "pending": 2,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:48.834Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 2,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:52.278Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 425,
+        "remainder": 25,
+        "toNext": 75,
+        "pending": 2,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:51.331Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 2,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:55.296Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 440,
+        "remainder": 40,
+        "toNext": 60,
+        "pending": 2,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:54.688Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 2,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:23:58.313Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 455,
+        "remainder": 55,
+        "toNext": 45,
+        "pending": 2,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:23:57.951Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 2,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:24:01.332Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 470,
+        "remainder": 70,
+        "toNext": 30,
+        "pending": 2,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:24:01.291Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 2,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:24:05.859Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 485,
+        "remainder": 85,
+        "toNext": 15,
+        "pending": 2,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:24:04.454Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 2,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:24:07.368Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 500,
+        "remainder": 0,
+        "toNext": 100,
+        "pending": 3,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:24:06.961Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 3,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:24:10.387Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 515,
+        "remainder": 15,
+        "toNext": 85,
+        "pending": 3,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:24:10.357Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 3,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:24:13.405Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 530,
+        "remainder": 30,
+        "toNext": 70,
+        "pending": 3,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:24:12.816Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 3,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:24:16.423Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 545,
+        "remainder": 45,
+        "toNext": 55,
+        "pending": 3,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:24:16.066Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 3,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:24:19.441Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 560,
+        "remainder": 60,
+        "toNext": 40,
+        "pending": 3,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:24:18.572Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 3,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:24:20.95Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 564,
+        "remainder": 64,
+        "toNext": 36,
+        "pending": 3,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:24:20.217Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 3,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:24:26.985Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 579,
+        "remainder": 79,
+        "toNext": 21,
+        "pending": 3,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:24:26.126Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 3,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:24:30.003Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 594,
+        "remainder": 94,
+        "toNext": 6,
+        "pending": 3,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:24:29.478Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 3,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:24:33.02Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 609,
+        "remainder": 9,
+        "toNext": 91,
+        "pending": 4,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:24:32.028Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 4,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:24:36.039Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 624,
+        "remainder": 24,
+        "toNext": 76,
+        "pending": 4,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:24:35.377Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 4,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:24:39.057Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 639,
+        "remainder": 39,
+        "toNext": 61,
+        "pending": 4,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:24:38.584Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 4,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    },
+    {
+      "at": "2026-10-11T10:24:42.074Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "streamerbot": true,
+      "tikfinity": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 100,
+        "totalReceived": 651,
+        "remainder": 51,
+        "toNext": 49,
+        "pending": 4,
+        "spawned": 2,
+        "zombieTypes": 18,
+        "lastLikeAt": "2026-10-11T10:24:41.089Z"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 7,
+        "rewards": 0
+      },
+      "queue": {
+        "zombies": 4,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": "Join the server first. Choose targetPlayer if multiple players are online."
+      },
+      "lastResult": {
+        "ok": false,
+        "accepted": 0,
+        "safeRetry": true,
+        "error": "Join the server first. Choose targetPlayer if multiple players are online."
+      }
+    }
+  ],
+  "finished": "2026-10-11T17:26:44.4943946+07:00",
+  "stopReason": "User ended testing; no coins available for real gift test"
+}

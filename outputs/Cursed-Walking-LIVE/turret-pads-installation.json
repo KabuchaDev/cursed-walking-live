@@ -1,0 +1,149 @@
+{
+  "at": "2026-10-12T10:18:22.827Z",
+  "evidence": [
+    {
+      "command": "fill -68 63 -60 -65 63 -50 minecraft:smooth_stone",
+      "result": "Successfully filled 32 block(s)\n"
+    },
+    {
+      "command": "fill -67 63 -59 -66 63 -51 minecraft:orange_concrete",
+      "result": "Successfully filled 18 block(s)\n"
+    },
+    {
+      "command": "setblock -67 63 -59 minecraft:sea_lantern",
+      "result": "Changed the block at -67, 63, -59\n"
+    },
+    {
+      "command": "setblock -67 64 -59 minecraft:polished_deepslate_wall",
+      "result": "Changed the block at -67, 64, -59\n"
+    },
+    {
+      "command": "kill @e[tag=cw_mount_label_1]",
+      "result": "No entity was found\n"
+    },
+    {
+      "command": "summon minecraft:text_display -66.5 67 -58.5 {Tags:[\"cw_mount_label_1\"],text:\"{\\\"text\\\":\\\"TRỤ 1\\\\nCầm súng • Bấm E\\\\n10 block | 5 phút\\\",\\\"color\\\":\\\"gold\\\"}\",billboard:\"center\",background:1073741824,transformation:{scale:[0.5f,0.5f,0.5f]},view_range:0.6f}",
+      "result": "Summoned new Text Display\n"
+    },
+    {
+      "command": "fill -33 63 10 -31 63 18 minecraft:smooth_stone",
+      "result": "Successfully filled 19 block(s)\n"
+    },
+    {
+      "command": "fill -32 63 11 -32 63 17 minecraft:orange_concrete",
+      "result": "Successfully filled 7 block(s)\n"
+    },
+    {
+      "command": "setblock -32 63 11 minecraft:sea_lantern",
+      "result": "Changed the block at -32, 63, 11\n"
+    },
+    {
+      "command": "setblock -32 64 11 minecraft:polished_deepslate_wall",
+      "result": "Changed the block at -32, 64, 11\n"
+    },
+    {
+      "command": "kill @e[tag=cw_mount_label_2]",
+      "result": "No entity was found\n"
+    },
+    {
+      "command": "summon minecraft:text_display -31.5 67 11.5 {Tags:[\"cw_mount_label_2\"],text:\"{\\\"text\\\":\\\"TRỤ 2\\\\nCầm súng • Bấm E\\\\n10 block | 5 phút\\\",\\\"color\\\":\\\"gold\\\"}\",billboard:\"center\",background:1073741824,transformation:{scale:[0.5f,0.5f,0.5f]},view_range:0.6f}",
+      "result": "Summoned new Text Display\n"
+    },
+    {
+      "command": "fill 0 63 -52 9 63 -50 minecraft:smooth_stone",
+      "result": "Successfully filled 22 block(s)\n"
+    },
+    {
+      "command": "fill 1 63 -51 8 63 -51 minecraft:orange_concrete",
+      "result": "Successfully filled 8 block(s)\n"
+    },
+    {
+      "command": "setblock 8 63 -51 minecraft:sea_lantern",
+      "result": "Changed the block at 8, 63, -51\n"
+    },
+    {
+      "command": "setblock 8 64 -51 minecraft:polished_deepslate_wall",
+      "result": "Changed the block at 8, 64, -51\n"
+    },
+    {
+      "command": "kill @e[tag=cw_mount_label_3]",
+      "result": "No entity was found\n"
+    },
+    {
+      "command": "summon minecraft:text_display 8.5 67 -50.5 {Tags:[\"cw_mount_label_3\"],text:\"{\\\"text\\\":\\\"TRỤ 3\\\\nCầm súng • Bấm E\\\\n10 block | 5 phút\\\",\\\"color\\\":\\\"gold\\\"}\",billboard:\"center\",background:1073741824,transformation:{scale:[0.5f,0.5f,0.5f]},view_range:0.6f}",
+      "result": "Summoned new Text Display\n"
+    },
+    {
+      "command": "fill 73 63 -48 85 63 -46 minecraft:smooth_stone",
+      "result": "Successfully filled 31 block(s)\n"
+    },
+    {
+      "command": "fill 74 63 -47 84 63 -47 minecraft:orange_concrete",
+      "result": "Successfully filled 11 block(s)\n"
+    },
+    {
+      "command": "setblock 74 63 -47 minecraft:sea_lantern",
+      "result": "Changed the block at 74, 63, -47\n"
+    },
+    {
+      "command": "setblock 74 64 -47 minecraft:polished_deepslate_wall",
+      "result": "Changed the block at 74, 64, -47\n"
+    },
+    {
+      "command": "kill @e[tag=cw_mount_label_4]",
+      "result": "No entity was found\n"
+    },
+    {
+      "command": "summon minecraft:text_display 74.5 67 -46.5 {Tags:[\"cw_mount_label_4\"],text:\"{\\\"text\\\":\\\"TRỤ 4\\\\nCầm súng • Bấm E\\\\n10 block | 5 phút\\\",\\\"color\\\":\\\"gold\\\"}\",billboard:\"center\",background:1073741824,transformation:{scale:[0.5f,0.5f,0.5f]},view_range:0.6f}",
+      "result": "Summoned new Text Display\n"
+    },
+    {
+      "command": "fill 48 63 45 50 63 54 minecraft:smooth_stone",
+      "result": "Successfully filled 22 block(s)\n"
+    },
+    {
+      "command": "fill 49 63 46 49 63 53 minecraft:orange_concrete",
+      "result": "Successfully filled 8 block(s)\n"
+    },
+    {
+      "command": "setblock 49 63 46 minecraft:sea_lantern",
+      "result": "Changed the block at 49, 63, 46\n"
+    },
+    {
+      "command": "setblock 49 64 46 minecraft:polished_deepslate_wall",
+      "result": "Changed the block at 49, 64, 46\n"
+    },
+    {
+      "command": "kill @e[tag=cw_mount_label_5]",
+      "result": "No entity was found\n"
+    },
+    {
+      "command": "summon minecraft:text_display 49.5 67 46.5 {Tags:[\"cw_mount_label_5\"],text:\"{\\\"text\\\":\\\"TRỤ 5\\\\nCầm súng • Bấm E\\\\n10 block | 5 phút\\\",\\\"color\\\":\\\"gold\\\"}\",billboard:\"center\",background:1073741824,transformation:{scale:[0.5f,0.5f,0.5f]},view_range:0.6f}",
+      "result": "Summoned new Text Display\n"
+    },
+    {
+      "command": "fill -11 63 71 0 63 73 minecraft:smooth_stone",
+      "result": "Successfully filled 27 block(s)\n"
+    },
+    {
+      "command": "fill -10 63 72 -1 63 72 minecraft:orange_concrete",
+      "result": "Successfully filled 10 block(s)\n"
+    },
+    {
+      "command": "setblock -1 63 72 minecraft:sea_lantern",
+      "result": "Changed the block at -1, 63, 72\n"
+    },
+    {
+      "command": "setblock -1 64 72 minecraft:polished_deepslate_wall",
+      "result": "Changed the block at -1, 64, 72\n"
+    },
+    {
+      "command": "kill @e[tag=cw_mount_label_6]",
+      "result": "No entity was found\n"
+    },
+    {
+      "command": "summon minecraft:text_display -0.5 67 72.5 {Tags:[\"cw_mount_label_6\"],text:\"{\\\"text\\\":\\\"TRỤ 6\\\\nCầm súng • Bấm E\\\\n10 block | 5 phút\\\",\\\"color\\\":\\\"gold\\\"}\",billboard:\"center\",background:1073741824,transformation:{scale:[0.5f,0.5f,0.5f]},view_range:0.6f}",
+      "result": "Summoned new Text Display\n"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+import fs from 'node:fs';
+const ws=new WebSocket('ws://127.0.0.1:21213/');const rows=[];
+ws.addEventListener('message',e=>{try{const x=JSON.parse(e.data);const row={event:x.event,keys:Object.keys(x.data??{}),data:['gift','like','follow'].includes(x.event)?{giftId:x.data?.giftId,giftName:x.data?.giftName,diamondCount:x.data?.diamondCount,giftType:x.data?.giftType,repeatEnd:x.data?.repeatEnd,repeatCount:x.data?.repeatCount,likeCount:x.data?.likeCount,hasMsgId:!!x.data?.msgId,hasGroupId:!!x.data?.groupId}:['liveStatusChange','state_update'].includes(x.event)?Object.fromEntries(Object.entries(x.data??{}).filter(([k,v])=>/^(isLive|connected|isConnected|status|state|roomId)$/.test(k)&&typeof v!=='object')):undefined};rows.push(row);console.log(JSON.stringify(row));}catch{}});
+setTimeout(()=>{fs.writeFileSync('work/tikfinity-event-shapes.json',JSON.stringify(rows,null,2));ws.close();process.exit(0)},45000);

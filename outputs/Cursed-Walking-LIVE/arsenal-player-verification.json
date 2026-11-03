@@ -1,0 +1,120 @@
+{
+  "at": "2026-10-12T15:00:23.151Z",
+  "arsenal": {
+    "players": {
+      "f7736530-fdff-3890-86f8-933a4ffb5847": {
+        "t2": 0,
+        "t3": 0,
+        "indices": {
+          "T1": 0,
+          "T2": 1,
+          "T3": 2
+        },
+        "token": "c7276980-147d-4518-a68b-48b6b76a701b",
+        "tier": "T1",
+        "version": 2,
+        "gun": "bf1:smg0818",
+        "emptyTicks": 0,
+        "lastMount": 1791802512849
+      }
+    },
+    "turrets": {
+      "1": {
+        "owner": "f7736530-fdff-3890-86f8-933a4ffb5847",
+        "gun": "bf1:smg0818",
+        "gunNbt": "{DummyAmmo:180,GunCurrentAmmoCount:8,GunFireMode:\"AUTO\",GunId:\"bf1:smg0818\",HasBulletInBarrel:1b,HeatAmount:0.0f,MaxDummyAmmo:240,OverHeated:0b,cwTDManaged:1b,cwTDTier:\"T1\",cwTDToken:\"16e04e29-1bdb-4782-86dd-220fc7dcfd0c\"}",
+        "ticks": 3317,
+        "credit": 0,
+        "shots": 481
+      }
+    },
+    "poolSizes": {
+      "T1": 2,
+      "T2": 18,
+      "T3": 9
+    }
+  },
+  "arena": {
+    "version": 1,
+    "ready": true,
+    "dimension": "cw_live:defense",
+    "phase": "running",
+    "hp": 1000,
+    "maxHp": 1000,
+    "round": 1,
+    "players": 0,
+    "active": 0,
+    "spawned": 11,
+    "killed": 10,
+    "leaked": 0,
+    "damage": 0,
+    "routeLength": 588,
+    "testMode": false,
+    "mobs": []
+  },
+  "worlds": [
+    {
+      "dimension": "minecraft:overworld",
+      "chunks": 0,
+      "entities": 0,
+      "vanillaForced": 0
+    },
+    {
+      "dimension": "the_deep_void:deep_void",
+      "chunks": 0,
+      "entities": 0,
+      "vanillaForced": 0
+    },
+    {
+      "dimension": "lostcities:lostcity",
+      "chunks": 0,
+      "entities": 0,
+      "vanillaForced": 0
+    },
+    {
+      "dimension": "the_deeper_void:void_dimension",
+      "chunks": 0,
+      "entities": 0,
+      "vanillaForced": 0
+    },
+    {
+      "dimension": "minecraft:the_nether",
+      "chunks": 0,
+      "entities": 0,
+      "vanillaForced": 0
+    },
+    {
+      "dimension": "cw_live:defense",
+      "chunks": 1850,
+      "entities": 62,
+      "vanillaForced": 0
+    },
+    {
+      "dimension": "minecraft:the_end",
+      "chunks": 0,
+      "entities": 0,
+      "vanillaForced": 0
+    }
+  ],
+  "playerConfirmedMount": true,
+  "boostJobs": [
+    {
+      "ok": true,
+      "accepted": 1,
+      "safeRetry": false,
+      "reward": "boost_t3",
+      "tier": "T3",
+      "seconds": 180,
+      "response": "TD_BOOSTED\n"
+    },
+    {
+      "ok": true,
+      "accepted": 1,
+      "safeRetry": false,
+      "reward": "boost_t2",
+      "tier": "T2",
+      "seconds": 180,
+      "response": "TD_BOOSTED\n"
+    }
+  ]
+}

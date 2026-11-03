@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "accepted": 10,
+  "safeRetry": true,
+  "requested": 10,
+  "entities": [
+    "mutantmonsters:mutant_zombie",
+    "zombies_plus:crossbow_zombie",
+    "zombies_plus:runner_zombie",
+    "mutantmonsters:mutant_zombie",
+    "minecraft:zombie",
+    "zombies_plus:brute_zombie",
+    "zombies_plus:crawler_zombie",
+    "zombies_plus:slow_zombie",
+    "zombies_plus:axe_zombie",
+    "feralzombie:feral_zombie"
+  ],
+  "response": "Summoned 10/10"
+}

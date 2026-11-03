@@ -1,0 +1,8 @@
+{
+  "ok": false,
+  "accepted": 0,
+  "safeRetry": true,
+  "requested": 10,
+  "entities": [],
+  "response": "No clear spawn space nearby. Move to an open area."
+}

@@ -1,0 +1,16 @@
+{
+  "bytes": 1909536821,
+  "sha256": "847816e8e2d1617bcdf974db4dc6f110e1c0dcbe50eeb818a4c335ac6a18f5a0",
+  "parts": [
+    {
+      "file": "cursed-walking-live-ready-data.zip.part001",
+      "bytes": 1073741824,
+      "sha256": "059426fc4fff1f246e564a6c260b26c8f956e915ffeb8a53c18a6233b00ff9a0"
+    },
+    {
+      "file": "cursed-walking-live-ready-data.zip.part002",
+      "bytes": 835794997,
+      "sha256": "4ca7801c2cf99c6fdd02ae8c7cfd37cc59712b8fa5bdae7b6374cdbd3e164a5c"
+    }
+  ]
+}

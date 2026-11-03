@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "accepted": 2,
+  "safeRetry": true,
+  "requested": 2,
+  "entities": [
+    "minecraft:zombie",
+    "feralzombie:drone_zombie"
+  ],
+  "response": "TD_SPAWNED cw_job_c1c301aa-84c1-4daf-af46-b7bfcbf3c3b8_1\n"
+}

@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "accepted": 3,
+  "safeRetry": true,
+  "requested": 3,
+  "entities": [
+    "feralzombie:drone_zombie",
+    "zombies_plus:slow_zombie",
+    "feralzombie:drone_zombie"
+  ],
+  "response": "Summoned 3/3"
+}

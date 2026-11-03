@@ -1,0 +1,26 @@
+{
+	"version": 2,
+	"players": {
+		"f7736530-fdff-3890-86f8-933a4ffb5847": {
+			"t2": 0,
+			"t3": 0,
+			"indices": {
+				"T1": 0,
+				"T2": 3,
+				"T3": 2
+			},
+			"token": "dd0c2a61-f0a2-411c-ad82-5a0e14f5ada2",
+			"tier": "T1",
+			"version": 2,
+			"gun": "bf1:smg0818",
+			"emptyTicks": 0,
+			"lastMount": 1791900649687
+		}
+	},
+	"turrets": {},
+	"receipts": [
+		"32acf8e1-6c1a-4a2e-a015-5a871fb2cf43",
+		"12a30d0e-7867-43c6-8669-4ead866cc89a",
+		"6a91dad8-c230-44e9-8159-0c956c900cd1"
+	]
+}

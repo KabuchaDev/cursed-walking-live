@@ -1,0 +1,1188 @@
+{
+  "version": 2,
+  "pools": {
+    "T1": [
+      "bf1:vg15",
+      "bf1:smg0818"
+    ],
+    "T2": [
+      "tacz:ump45",
+      "tacz:hk416d",
+      "tacz:hk_mp5a5",
+      "tacz:aug",
+      "tacz:m4a1",
+      "tacz:ak47",
+      "tacz:m16a1",
+      "tacz:g36k",
+      "tacz:m249",
+      "tacz:type_81",
+      "tacz:cz75",
+      "tacz:uzi",
+      "tacz:vector45",
+      "tacz:rpk",
+      "tacz:scar_l",
+      "tacz:scar_h",
+      "tacz:qbz_95",
+      "tacz:p90"
+    ],
+    "T3": [
+      "sfms:g18",
+      "sfms:ats15",
+      "sfms:lvsa_hs",
+      "sfms:lvsa_c_erode",
+      "sfms:af_46",
+      "sfms:sbr15",
+      "sfms:lvsa_c_erode_lmg",
+      "sfms:af_57",
+      "sfms:tech635"
+    ]
+  },
+  "guns": {
+    "tacz:ump45": {
+      "id": "tacz:ump45",
+      "ammo": "tacz:45acp",
+      "capacity": 25,
+      "rpm": 660,
+      "modes": [
+        "AUTO",
+        "BURST"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 9.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "UMP45 SMG"
+    },
+    "tacz:m700": {
+      "id": "tacz:m700",
+      "ammo": "tacz:30_06",
+      "capacity": 5,
+      "rpm": 180,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "MANUAL_ACTION",
+      "damage": 24.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "M700 Sniper Rifle"
+    },
+    "tacz:m107": {
+      "id": "tacz:m107",
+      "ammo": "tacz:50bmg",
+      "capacity": 10,
+      "rpm": 400,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "MANUAL_ACTION",
+      "damage": 50.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "M107 Sniper Rifle"
+    },
+    "tacz:m16a4": {
+      "id": "tacz:m16a4",
+      "ammo": "tacz:556x45",
+      "capacity": 30,
+      "rpm": 400,
+      "modes": [
+        "BURST",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 8.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "M16A4 Service Rifle"
+    },
+    "tacz:deagle": {
+      "id": "tacz:deagle",
+      "ammo": "tacz:50ae",
+      "capacity": 7,
+      "rpm": 300,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 16.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "Deagle 50"
+    },
+    "tacz:hk416d": {
+      "id": "tacz:hk416d",
+      "ammo": "tacz:556x45",
+      "capacity": 30,
+      "rpm": 850,
+      "modes": [
+        "AUTO",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 7.5,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "HK-416D"
+    },
+    "tacz:rpg7": {
+      "id": "tacz:rpg7",
+      "ammo": "tacz:rpg_rocket",
+      "capacity": 1,
+      "rpm": 150,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "OPEN_BOLT",
+      "damage": 20.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "RPG-7"
+    },
+    "bf1:mhgl": {
+      "id": "bf1:mhgl",
+      "ammo": "tacz:40mm",
+      "capacity": 1,
+      "rpm": 350,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "OPEN_BOLT",
+      "damage": 9.0,
+      "projectiles": 1,
+      "tier": "T1",
+      "name": "Martini-Henry Grenade Launcher"
+    },
+    "tacz:hk_mp5a5": {
+      "id": "tacz:hk_mp5a5",
+      "ammo": "tacz:9mm",
+      "capacity": 30,
+      "rpm": 820,
+      "modes": [
+        "AUTO",
+        "BURST",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 6.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "HK-MP5A5"
+    },
+    "tacz:glock_17": {
+      "id": "tacz:glock_17",
+      "ammo": "tacz:9mm",
+      "capacity": 17,
+      "rpm": 400,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 7.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "Glock 17"
+    },
+    "sfms:inf_xj": {
+      "id": "sfms:inf_xj",
+      "ammo": "tacz:45acp",
+      "capacity": 24,
+      "rpm": 900,
+      "modes": [
+        "SEMI",
+        "BURST"
+      ],
+      "bolt": "OPEN_BOLT",
+      "damage": 13.0,
+      "projectiles": 1,
+      "tier": "OTHER",
+      "name": "sfms:inf_xj"
+    },
+    "tacz:db_short": {
+      "id": "tacz:db_short",
+      "ammo": "tacz:12g",
+      "capacity": 2,
+      "rpm": 150,
+      "modes": [
+        "BURST",
+        "SEMI"
+      ],
+      "bolt": "OPEN_BOLT",
+      "damage": 40.0,
+      "projectiles": 16,
+      "tier": "T1",
+      "name": "DB-2 Durin"
+    },
+    "sfms:lvsa_cs": {
+      "id": "sfms:lvsa_cs",
+      "ammo": "tacz:556x45",
+      "capacity": 20,
+      "rpm": 740,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 11.8,
+      "projectiles": 1,
+      "tier": "T3",
+      "name": "sfms:lvsa_cs"
+    },
+    "tacz:aug": {
+      "id": "tacz:aug",
+      "ammo": "tacz:556x45",
+      "capacity": 30,
+      "rpm": 710,
+      "modes": [
+        "AUTO",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 7.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "AUG"
+    },
+    "tacz:aa12": {
+      "id": "tacz:aa12",
+      "ammo": "tacz:12g",
+      "capacity": 8,
+      "rpm": 350,
+      "modes": [
+        "SEMI",
+        "AUTO"
+      ],
+      "bolt": "OPEN_BOLT",
+      "damage": 30.0,
+      "projectiles": 10,
+      "tier": "T2",
+      "name": "AA12 Shotgun"
+    },
+    "tacz:m870": {
+      "id": "tacz:m870",
+      "ammo": "tacz:12g",
+      "capacity": 5,
+      "rpm": 180,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "MANUAL_ACTION",
+      "damage": 36.0,
+      "projectiles": 9,
+      "tier": "T2",
+      "name": "M870"
+    },
+    "tacz:deagle_golden": {
+      "id": "tacz:deagle_golden",
+      "ammo": "tacz:357mag",
+      "capacity": 9,
+      "rpm": 350,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 12.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "Golden Deagle 357"
+    },
+    "sfms:mgl320": {
+      "id": "sfms:mgl320",
+      "ammo": "tacz:40mm",
+      "capacity": 1,
+      "rpm": 200,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "OPEN_BOLT",
+      "damage": 20.0,
+      "projectiles": 1,
+      "tier": "OTHER",
+      "name": "sfms:mgl320"
+    },
+    "tacz:springfield1873": {
+      "id": "tacz:springfield1873",
+      "ammo": "hamster:medium_ammo",
+      "capacity": 1,
+      "rpm": 90,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "OPEN_BOLT",
+      "damage": 35.0,
+      "projectiles": 1,
+      "tier": "OTHER",
+      "name": "Springfield 1873 Trapdoor Rifle"
+    },
+    "sfms:lvsa_c": {
+      "id": "sfms:lvsa_c",
+      "ammo": "tacz:556x45",
+      "capacity": 25,
+      "rpm": 900,
+      "modes": [
+        "AUTO",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 10.6,
+      "projectiles": 1,
+      "tier": "OTHER",
+      "name": "sfms:lvsa_c"
+    },
+    "bf1:m1916": {
+      "id": "bf1:m1916",
+      "ammo": "tacz:308",
+      "capacity": 25,
+      "rpm": 224,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 12.0,
+      "projectiles": 1,
+      "tier": "T1",
+      "name": "Selbstlader M1916"
+    },
+    "bf1:vg15": {
+      "id": "bf1:vg15",
+      "ammo": "tacz:762x39",
+      "capacity": 16,
+      "rpm": 670,
+      "modes": [
+        "SEMI",
+        "AUTO"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 7.0,
+      "projectiles": 1,
+      "tier": "T1",
+      "name": "Volkssturmgewehr 1-5"
+    },
+    "sfms:har50": {
+      "id": "sfms:har50",
+      "ammo": "sfms:50arms",
+      "capacity": 60,
+      "rpm": 420,
+      "modes": [
+        "AUTO",
+        "SEMI"
+      ],
+      "bolt": "OPEN_BOLT",
+      "damage": 18.0,
+      "projectiles": 1,
+      "tier": "OTHER",
+      "name": "sfms:har50"
+    },
+    "tacz:m4a1": {
+      "id": "tacz:m4a1",
+      "ammo": "tacz:556x45",
+      "capacity": 30,
+      "rpm": 810,
+      "modes": [
+        "AUTO",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 6.5,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "M4A1 Carbine"
+    },
+    "sfms:g18": {
+      "id": "sfms:g18",
+      "ammo": "tacz:9mm",
+      "capacity": 18,
+      "rpm": 900,
+      "modes": [
+        "AUTO",
+        "BURST",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 8.5,
+      "projectiles": 1,
+      "tier": "T3",
+      "name": "sfms:g18"
+    },
+    "tacz:ak47": {
+      "id": "tacz:ak47",
+      "ammo": "tacz:762x39",
+      "capacity": 30,
+      "rpm": 600,
+      "modes": [
+        "AUTO",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 9.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "tacz:ak47"
+    },
+    "sfms:m4a5": {
+      "id": "sfms:m4a5",
+      "ammo": "tacz:556x45",
+      "capacity": 30,
+      "rpm": 900,
+      "modes": [
+        "BURST",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 10.7,
+      "projectiles": 1,
+      "tier": "T3",
+      "name": "sfms:m4a5"
+    },
+    "tacz:m95": {
+      "id": "tacz:m95",
+      "ammo": "tacz:50bmg",
+      "capacity": 5,
+      "rpm": 151,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "MANUAL_ACTION",
+      "damage": 75.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "M95 .50 Cal Antimaterial"
+    },
+    "tacz:ai_awp": {
+      "id": "tacz:ai_awp",
+      "ammo": "tacz:338",
+      "capacity": 5,
+      "rpm": 171,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "MANUAL_ACTION",
+      "damage": 42.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "Accuracy International AWM"
+    },
+    "tacz:m1911": {
+      "id": "tacz:m1911",
+      "ammo": "tacz:45acp",
+      "capacity": 7,
+      "rpm": 350,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 11.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "M1911"
+    },
+    "bf1:rsc1917": {
+      "id": "bf1:rsc1917",
+      "ammo": "tacz:30_06",
+      "capacity": 5,
+      "rpm": 179,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 16.0,
+      "projectiles": 1,
+      "tier": "T1",
+      "name": "RSC 1917"
+    },
+    "tacz:m16a1": {
+      "id": "tacz:m16a1",
+      "ammo": "tacz:556x45",
+      "capacity": 20,
+      "rpm": 750,
+      "modes": [
+        "AUTO",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 7.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "M16A1 Service Rifle"
+    },
+    "bf1:martini": {
+      "id": "bf1:martini",
+      "ammo": "tacz:45_70",
+      "capacity": 1,
+      "rpm": 350,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "OPEN_BOLT",
+      "damage": 30.0,
+      "projectiles": 1,
+      "tier": "T1",
+      "name": "Martini-Henry"
+    },
+    "sfms:ats15": {
+      "id": "sfms:ats15",
+      "ammo": "sfms:300ms",
+      "capacity": 30,
+      "rpm": 720,
+      "modes": [
+        "AUTO",
+        "BURST",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 17.5,
+      "projectiles": 1,
+      "tier": "T3",
+      "name": "sfms:ats15"
+    },
+    "sfms:lvsa_hs": {
+      "id": "sfms:lvsa_hs",
+      "ammo": "tacz:308",
+      "capacity": 10,
+      "rpm": 740,
+      "modes": [
+        "SEMI",
+        "AUTO"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 19.8,
+      "projectiles": 1,
+      "tier": "T3",
+      "name": "sfms:lvsa_hs"
+    },
+    "tacz:hk_g3": {
+      "id": "tacz:hk_g3",
+      "ammo": "tacz:308",
+      "capacity": 20,
+      "rpm": 350,
+      "modes": [
+        "SEMI",
+        "AUTO"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 12.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "HK G3 Battle rifle"
+    },
+    "sfms:mgl40": {
+      "id": "sfms:mgl40",
+      "ammo": "tacz:40mm",
+      "capacity": 5,
+      "rpm": 150,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 20.0,
+      "projectiles": 1,
+      "tier": "T3",
+      "name": "sfms:mgl40"
+    },
+    "sfms:ar50": {
+      "id": "sfms:ar50",
+      "ammo": "sfms:50arms",
+      "capacity": 7,
+      "rpm": 550,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 36.0,
+      "projectiles": 1,
+      "tier": "T3",
+      "name": "sfms:ar50"
+    },
+    "sfms:lvsa_c_erode": {
+      "id": "sfms:lvsa_c_erode",
+      "ammo": "tacz:556x45",
+      "capacity": 25,
+      "rpm": 900,
+      "modes": [
+        "AUTO",
+        "BURST",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 10.6,
+      "projectiles": 1,
+      "tier": "T3",
+      "name": "sfms:lvsa_c_erode"
+    },
+    "tacz:g36k": {
+      "id": "tacz:g36k",
+      "ammo": "tacz:556x45",
+      "capacity": 30,
+      "rpm": 780,
+      "modes": [
+        "AUTO",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 7.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "G36K"
+    },
+    "tacz:m320": {
+      "id": "tacz:m320",
+      "ammo": "tacz:40mm",
+      "capacity": 1,
+      "rpm": 150,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "OPEN_BOLT",
+      "damage": 10.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "M320 Grenade Launcher"
+    },
+    "tacz:m249": {
+      "id": "tacz:m249",
+      "ammo": "tacz:556x45",
+      "capacity": 75,
+      "rpm": 750,
+      "modes": [
+        "AUTO"
+      ],
+      "bolt": "OPEN_BOLT",
+      "damage": 7.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "M249 Machine Gun"
+    },
+    "sfms:af_46": {
+      "id": "sfms:af_46",
+      "ammo": "tacz:46x30",
+      "capacity": 22,
+      "rpm": 850,
+      "modes": [
+        "AUTO",
+        "SEMI"
+      ],
+      "bolt": "OPEN_BOLT",
+      "damage": 9.7,
+      "projectiles": 1,
+      "tier": "T3",
+      "name": "sfms:af_46"
+    },
+    "sfms:sbr15": {
+      "id": "sfms:sbr15",
+      "ammo": "sfms:300ms",
+      "capacity": 30,
+      "rpm": 800,
+      "modes": [
+        "AUTO",
+        "BURST",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 16.7,
+      "projectiles": 1,
+      "tier": "T3",
+      "name": "sfms:sbr15"
+    },
+    "bf1:sw_model3": {
+      "id": "bf1:sw_model3",
+      "ammo": "tacz:357mag",
+      "capacity": 6,
+      "rpm": 163,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "OPEN_BOLT",
+      "damage": 10.0,
+      "projectiles": 1,
+      "tier": "T1",
+      "name": "No. 3 Revolver"
+    },
+    "tacz:type_81": {
+      "id": "tacz:type_81",
+      "ammo": "tacz:762x39",
+      "capacity": 30,
+      "rpm": 630,
+      "modes": [
+        "AUTO",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 9.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "tacz:type_81"
+    },
+    "tacz:cz75": {
+      "id": "tacz:cz75",
+      "ammo": "tacz:9mm",
+      "capacity": 16,
+      "rpm": 900,
+      "modes": [
+        "AUTO"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 5.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "CZ 75"
+    },
+    "sfms:inf": {
+      "id": "sfms:inf",
+      "ammo": "tacz:45acp",
+      "capacity": 12,
+      "rpm": 250,
+      "modes": [
+        "SEMI",
+        "AUTO"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 11.0,
+      "projectiles": 1,
+      "tier": "T3",
+      "name": "sfms:inf"
+    },
+    "tacz:uzi": {
+      "id": "tacz:uzi",
+      "ammo": "tacz:9mm",
+      "capacity": 20,
+      "rpm": 600,
+      "modes": [
+        "AUTO"
+      ],
+      "bolt": "OPEN_BOLT",
+      "damage": 6.5,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "UZI"
+    },
+    "tacz:spr15hb": {
+      "id": "tacz:spr15hb",
+      "ammo": "tacz:556x45",
+      "capacity": 15,
+      "rpm": 700,
+      "modes": [
+        "SEMI",
+        "BURST"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 10.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "SPR-15 HB \"Sagittarius\""
+    },
+    "tacz:vector45": {
+      "id": "tacz:vector45",
+      "ammo": "tacz:45acp",
+      "capacity": 20,
+      "rpm": 1200,
+      "modes": [
+        "AUTO",
+        "BURST",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 7.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "Vector SMG"
+    },
+    "tacz:rpk": {
+      "id": "tacz:rpk",
+      "ammo": "tacz:762x39",
+      "capacity": 40,
+      "rpm": 630,
+      "modes": [
+        "AUTO",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 10.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "RPK"
+    },
+    "tacz:db_long": {
+      "id": "tacz:db_long",
+      "ammo": "tacz:12g",
+      "capacity": 2,
+      "rpm": 100,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "OPEN_BOLT",
+      "damage": 40.0,
+      "projectiles": 10,
+      "tier": "T1",
+      "name": "DB-4 Ursus"
+    },
+    "sfms:lvsa_c_erode_lmg": {
+      "id": "sfms:lvsa_c_erode_lmg",
+      "ammo": "tacz:556x45",
+      "capacity": 75,
+      "rpm": 750,
+      "modes": [
+        "AUTO",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 11.6,
+      "projectiles": 1,
+      "tier": "T3",
+      "name": "sfms:lvsa_c_erode_lmg"
+    },
+    "tacz:mk14": {
+      "id": "tacz:mk14",
+      "ammo": "tacz:308",
+      "capacity": 10,
+      "rpm": 300,
+      "modes": [
+        "SEMI",
+        "AUTO"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 16.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "MK14 EBR"
+    },
+    "tacz:p320": {
+      "id": "tacz:p320",
+      "ammo": "tacz:45acp",
+      "capacity": 12,
+      "rpm": 450,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 10.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "P320"
+    },
+    "bf1:obrez": {
+      "id": "bf1:obrez",
+      "ammo": "tacz:762x54",
+      "capacity": 4,
+      "rpm": 275,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "MANUAL_ACTION",
+      "damage": 15.0,
+      "projectiles": 1,
+      "tier": "T1",
+      "name": "Mosin-Nagant Obrez"
+    },
+    "bf1:man_m95": {
+      "id": "bf1:man_m95",
+      "ammo": "tacz:30_06",
+      "capacity": 4,
+      "rpm": 328,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "MANUAL_ACTION",
+      "damage": 15.0,
+      "projectiles": 1,
+      "tier": "T1",
+      "name": "Mannlicher M1895"
+    },
+    "sfms:m109": {
+      "id": "sfms:m109",
+      "ammo": "sfms:25gl",
+      "capacity": 5,
+      "rpm": 390,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "MANUAL_ACTION",
+      "damage": 27.7,
+      "projectiles": 1,
+      "tier": "T3",
+      "name": "sfms:m109"
+    },
+    "tacz:scar_l": {
+      "id": "tacz:scar_l",
+      "ammo": "tacz:556x45",
+      "capacity": 30,
+      "rpm": 650,
+      "modes": [
+        "AUTO",
+        "BURST",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 7.5,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "SCAR-L Assault Rifle"
+    },
+    "sfms:felix_12dg": {
+      "id": "sfms:felix_12dg",
+      "ammo": "tacz:12g",
+      "capacity": 5,
+      "rpm": 340,
+      "modes": [
+        "SEMI",
+        "AUTO"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 46.7,
+      "projectiles": 8,
+      "tier": "T3",
+      "name": "sfms:felix_12dg"
+    },
+    "tacz:minigun": {
+      "id": "tacz:minigun",
+      "ammo": "tacz:308",
+      "capacity": 30,
+      "rpm": 1200,
+      "modes": [
+        "AUTO",
+        "BURST"
+      ],
+      "bolt": "OPEN_BOLT",
+      "damage": 8.0,
+      "projectiles": 1,
+      "tier": "OTHER",
+      "name": "tacz:minigun"
+    },
+    "sfms:af_57": {
+      "id": "sfms:af_57",
+      "ammo": "tacz:57x28",
+      "capacity": 20,
+      "rpm": 760,
+      "modes": [
+        "AUTO",
+        "SEMI"
+      ],
+      "bolt": "OPEN_BOLT",
+      "damage": 8.2,
+      "projectiles": 1,
+      "tier": "T3",
+      "name": "sfms:af_57"
+    },
+    "tacz:scar_h": {
+      "id": "tacz:scar_h",
+      "ammo": "tacz:308",
+      "capacity": 20,
+      "rpm": 570,
+      "modes": [
+        "SEMI",
+        "AUTO"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 14.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "SCAR-H Battle Rifle"
+    },
+    "tacz:b93r": {
+      "id": "tacz:b93r",
+      "ammo": "tacz:9mm",
+      "capacity": 20,
+      "rpm": 900,
+      "modes": [
+        "BURST",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 7.5,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "B93R"
+    },
+    "tacz:qbz_95": {
+      "id": "tacz:qbz_95",
+      "ammo": "tacz:58x42",
+      "capacity": 30,
+      "rpm": 660,
+      "modes": [
+        "AUTO",
+        "SEMI",
+        "BURST"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 7.5,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "tacz:qbz_95"
+    },
+    "tacz:p90": {
+      "id": "tacz:p90",
+      "ammo": "tacz:57x28",
+      "capacity": 50,
+      "rpm": 810,
+      "modes": [
+        "AUTO",
+        "BURST"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 5.5,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "P90 PDW"
+    },
+    "bf1:smg0818": {
+      "id": "bf1:smg0818",
+      "ammo": "tacz:9mm",
+      "capacity": 60,
+      "rpm": 770,
+      "modes": [
+        "AUTO",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 5.0,
+      "projectiles": 1,
+      "tier": "T1",
+      "name": "SMG08/18"
+    },
+    "tacz:timeless50": {
+      "id": "tacz:timeless50",
+      "ammo": "tacz:50ae",
+      "capacity": 8,
+      "rpm": 300,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 16.0,
+      "projectiles": 1,
+      "tier": "OTHER",
+      "name": "Â§6Timeless .50 Z-Type"
+    },
+    "bf1:model10": {
+      "id": "bf1:model10",
+      "ammo": "tacz:12g",
+      "capacity": 5,
+      "rpm": 310,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "MANUAL_ACTION",
+      "damage": 42.0,
+      "projectiles": 12,
+      "tier": "T1",
+      "name": "Model 10-A"
+    },
+    "sfms:felix_12": {
+      "id": "sfms:felix_12",
+      "ammo": "tacz:12g",
+      "capacity": 5,
+      "rpm": 600,
+      "modes": [
+        "SEMI",
+        "AUTO"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 36.5,
+      "projectiles": 7,
+      "tier": "T3",
+      "name": "sfms:felix_12"
+    },
+    "tacz:sks_tactical": {
+      "id": "tacz:sks_tactical",
+      "ammo": "tacz:762x39",
+      "capacity": 10,
+      "rpm": 510,
+      "modes": [
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 11.0,
+      "projectiles": 1,
+      "tier": "T2",
+      "name": "Sks Tactical Rifle"
+    },
+    "sfms:tech635": {
+      "id": "sfms:tech635",
+      "ammo": "tacz:9mm",
+      "capacity": 32,
+      "rpm": 1000,
+      "modes": [
+        "AUTO",
+        "SEMI"
+      ],
+      "bolt": "CLOSED_BOLT",
+      "damage": 10.6,
+      "projectiles": 1,
+      "tier": "T3",
+      "name": "sfms:tech635"
+    },
+    "sfms:inf_x": {
+      "id": "sfms:inf_x",
+      "ammo": "tacz:45acp",
+      "capacity": 24,
+      "rpm": 900,
+      "modes": [
+        "SEMI",
+        "BURST"
+      ],
+      "bolt": "OPEN_BOLT",
+      "damage": 13.0,
+      "projectiles": 1,
+      "tier": "T3",
+      "name": "sfms:inf_x"
+    }
+  },
+  "magazines": {
+    "T1": 5,
+    "T2": 10,
+    "T3": 10
+  },
+  "boostSeconds": 180,
+  "turretSeconds": 300,
+  "turretRange": 10,
+  "mountRange": 3.5,
+  "runSpeedMultiplier": 0.6,
+  "pads": [
+    {
+      "id": 1,
+      "x": -66.5,
+      "y": 64,
+      "z": -58.5,
+      "padX": -66,
+      "padZ": -51
+    },
+    {
+      "id": 2,
+      "x": -31.5,
+      "y": 64,
+      "z": 11.5,
+      "padX": -32,
+      "padZ": 17
+    },
+    {
+      "id": 3,
+      "x": 8.5,
+      "y": 64,
+      "z": -50.5,
+      "padX": 1,
+      "padZ": -51
+    },
+    {
+      "id": 4,
+      "x": 74.5,
+      "y": 64,
+      "z": -46.5,
+      "padX": 84,
+      "padZ": -47
+    },
+    {
+      "id": 5,
+      "x": 49.5,
+      "y": 64,
+      "z": 46.5,
+      "padX": 49,
+      "padZ": 53
+    },
+    {
+      "id": 6,
+      "x": -0.5,
+      "y": 64,
+      "z": 72.5,
+      "padX": -10,
+      "padZ": 72
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {initialState,receiveLikes,settle} from '../outputs/Cursed-Walking-LIVE/likes.mjs';
+const event=(count,id,extra={})=>({event:'like',data:{likeCount:count,msgId:id,...extra}});
+let s=initialState();
+assert.equal(receiveLikes(s,event(99,'a',{userId:'viewer1'})).earned,0);
+assert.equal(receiveLikes(s,event(1,'b',{userId:'viewer2'})).earned,1);
+assert.equal(s.pending,1);assert.equal(s.remainder,0);
+receiveLikes(s,event(250,'c'));assert.equal(s.pending,3);assert.equal(s.remainder,50);
+receiveLikes(s,event(250,'c'));assert.equal(s.totalLikes,350);
+receiveLikes(s,{event:'gift',data:{likeCount:1000,msgId:'gift'}});assert.equal(s.totalLikes,350);
+receiveLikes(s,event(1,'d',{totalLikeCount:900000}));assert.equal(s.totalLikes,351);
+for(const invalid of [-1,0,NaN,Infinity,1.5,{},true,'oops'])receiveLikes(s,event(invalid,'bad'));
+assert.equal(s.totalLikes,351);
+s=JSON.parse(JSON.stringify(s));receiveLikes(s,event('49','e'));assert.equal(s.pending,4);assert.equal(s.remainder,0);
+receiveLikes(s,event(250,'c'));assert.equal(s.totalLikes,400);
+// Missing msgId does not cause legitimate identical like batches to be discarded.
+receiveLikes(s,event(5));receiveLikes(s,event(5));assert.equal(s.remainder,10);
+s.flight={id:'one'};assert.equal(settle(s,{accepted:0,safeRetry:true,error:'offline'}),'retry');assert.equal(s.pending,4);
+s.flight={id:'two'};assert.equal(settle(s,{accepted:0,safeRetry:false}),'uncertain');assert.equal(s.pending,4);assert.equal(s.flight.id,'two');
+assert.equal(settle(s,{accepted:1}),'spawned');assert.equal(s.pending,3);assert.equal(s.spawned,1);assert.equal(s.flight,null);
+const rules=JSON.parse(fs.readFileSync(new URL('../outputs/Cursed-Walking-LIVE/mappings.json',import.meta.url),'utf8').replace(/^\uFEFF/,''));
+const smoke=JSON.parse(fs.readFileSync(new URL('../outputs/Cursed-Walking-LIVE/mob-smoke-results.json',import.meta.url),'utf8'));
+assert.equal(rules.likes.entities.length,18);assert.equal(new Set(rules.likes.entities).size,18);
+for(const id of rules.likes.entities)assert.ok(smoke.results.find(r=>r.entity===id&&r.passed),id);
+assert.equal(rules.gifts.length,9);
+console.log('PASS: 100 threshold, combined viewers, 250 burst, carry-over, duplicate, gifts ignored, delta-only, invalid counts, restart, safe retry, uncertain hold, verified 18-type pool.');

@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "accepted": 4,
+  "safeRetry": true,
+  "requested": 4,
+  "entities": [
+    "feralzombie:spitter_zombie",
+    "minecraft:zombie",
+    "zombies_plus:bow_zombie",
+    "zombies_plus:vile_zombie"
+  ],
+  "response": "TD_SPAWNED cw_job_1a6a44a8-fe97-4031-bc44-8744a07b5b16_3\n"
+}

@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "accepted": 1,
+  "safeRetry": false,
+  "reward": "gun_t1",
+  "variant": 11,
+  "gun": "bf1:mhgl",
+  "ammo": "tacz:40mm",
+  "ammoCount": 2,
+  "response": "Executed 2 command(s) from function 'cw_live:rewards/t1/bf1/mhgl'\n"
+}

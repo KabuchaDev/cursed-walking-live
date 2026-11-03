@@ -1,0 +1,95 @@
+{
+  "checks": [
+    {
+      "name": "T1 starts with five magazines"
+    },
+    {
+      "name": "T1 automatic rotation"
+    },
+    {
+      "name": "Rosa preserves T3 and queues full three minutes T2"
+    },
+    {
+      "name": "T3 expiry activates queued T2, ten magazines",
+      "data": {
+        "t2": 3591,
+        "t3": 0,
+        "indices": {
+          "T1": 0,
+          "T2": 1,
+          "T3": 2
+        },
+        "token": "f3530ad9-535f-4456-a080-1ed609fda969",
+        "tier": "T2",
+        "version": 2,
+        "gun": "tacz:ump45",
+        "emptyTicks": 0,
+        "lastMount": 1791800140179
+      }
+    },
+    {
+      "name": "T2 rotates automatically when total ammo is exhausted",
+      "data": "tacz:hk416d"
+    },
+    {
+      "name": "Repeated gift receipt cannot extend boost twice"
+    },
+    {
+      "name": "Mounted gun fires on nearby giant zombie",
+      "data": {
+        "turret": {
+          "owner": "41c82c87-7afb-4024-ba57-13d2c99cae77",
+          "gun": "sfms:g18",
+          "gunNbt": "{DummyAmmo:162,GunCurrentAmmoCount:17,GunFireMode:\"AUTO\",GunId:\"sfms:g18\",HasBulletInBarrel:1b,MaxDummyAmmo:162,cwTDManaged:1b,cwTDTier:\"T3\",cwTDToken:\"111bf43a-3c2f-4796-882c-d1b29afe6f96\"}",
+          "ticks": 5966,
+          "credit": 0.5,
+          "shots": 16
+        },
+        "mobs": [
+          {
+            "type": "mutantmonsters:mutant_zombie",
+            "progress": 33.69999999999993,
+            "lane": 0,
+            "x": -65.80000000000007,
+            "y": 64,
+            "z": -64.5,
+            "yaw": -90,
+            "headYaw": -90,
+            "bodyYaw": -90,
+            "expectedYaw": -90,
+            "health": 872.5,
+            "noAI": true,
+            "target": null,
+            "tags": "[cw_live, cw_td, arsenal_target]"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mounted gun faces its target with finite rotation",
+      "data": "Item Display has the following entity data: [-171.70285f, 0.0f]\n"
+    },
+    {
+      "name": "Pause freezes turret time and shots"
+    },
+    {
+      "name": "Turret does not shoot zombies outside ten blocks"
+    },
+    {
+      "name": "Expired turret removes gun display and stops firing"
+    },
+    {
+      "name": "Expired T2 returns to T1"
+    },
+    {
+      "name": "Player speed increases sixty percent and restores outside arena"
+    }
+  ],
+  "at": "2026-10-12T10:15:40.056Z",
+  "speed": {
+    "before": 0.10000000149011612,
+    "during": 0.1600000023841858,
+    "after": 0.10000000149011612
+  },
+  "passed": true
+}

@@ -1,0 +1,18 @@
+{
+	"version": 1,
+	"ready": true,
+	"dimension": "cw_live:defense",
+	"phase": "running",
+	"hp": 890,
+	"maxHp": 1000,
+	"round": 1,
+	"players": 0,
+	"active": 120,
+	"spawned": 11037,
+	"killed": 10905,
+	"leaked": 11,
+	"damage": 110,
+	"routeLength": 588,
+	"testMode": false,
+	"mobs": []
+}

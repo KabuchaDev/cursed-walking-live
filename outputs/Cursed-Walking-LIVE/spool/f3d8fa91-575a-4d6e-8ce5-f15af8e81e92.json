@@ -1,0 +1,10 @@
+{
+  "kind": "summon",
+  "entities": [
+    "zombies_plus:sword_zombie",
+    "zombies_plus:axe_zombie",
+    "feralzombie:warrior_zombie",
+    "zombies_plus:crossbow_zombie"
+  ],
+  "createdAt": 1791713402025
+}

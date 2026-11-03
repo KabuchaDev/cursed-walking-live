@@ -1,0 +1,24 @@
+{
+  "status": "installed and visually verified by player; real TikTok chat awaits LIVE",
+  "added": [
+    "tysc-2.1.1+1.20.1.jar",
+    "Connector-1.0.0-beta.49+1.20.1.jar"
+  ],
+  "client": "C:\\Users\\PHAT\\AppData\\Roaming\\.minecraft\\versions\\Cursed Walking - A Modern Zombie Apocalypse Cursed Walking-v3.3 (patch)",
+  "backup": "C:\\Users\\PHAT\\Documents\\Codex\\2026-10-10\\new-chat\\outputs\\Cursed-Walking-LIVE\\backups\\before-stream-chat-20261012-221348",
+  "fabricApi": "existing embedded 0.92.2+1.11.12",
+  "tiktokUsername": "mizukiichan69",
+  "modInitialized": true,
+  "source": "https://modrinth.com/mod/take-your-stream-chat/version/eNmr4HA0",
+  "sha512": "9DBC82C13BF63FBD4ABADC44EB5C0B6F428A27A113CB593D29C37F5617518F95CC1C7687E7238FE4C30CCB581304C10FEFC3D7EDA702C2F19AC8C6A39579464A",
+  "playerJoined": "Dogalive67",
+  "keys": {
+    "toggle": "F9",
+    "verified": true,
+    "settings": "F8"
+  },
+  "tiktokConnection": "Correct account recognized; TikTok returned not live (status 4)",
+  "realChatVerified": false,
+  "visualTestConfirmed": true,
+  "settingsScreenConfirmed": true
+}

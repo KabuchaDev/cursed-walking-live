@@ -1,0 +1,284 @@
+{
+  "started": "2026-10-13T11:31:14.122Z",
+  "studioVersion": "1.37.4",
+  "checks": {
+    "eventRules": true,
+    "dispatchIsolation": true,
+    "bridgeIsolation": true,
+    "streamerbotRconProbe": true
+  },
+  "events": [
+    {
+      "at": "2026-10-13T11:37:56.458Z",
+      "event": "liveStatusChange",
+      "isLive": true
+    },
+    {
+      "at": "2026-10-13T11:38:26.568Z",
+      "event": "like",
+      "likeCount": 15,
+      "totalLikeCount": 15,
+      "messageHash": "8e166435bb45"
+    },
+    {
+      "at": "2026-10-13T11:38:27.429Z",
+      "event": "like",
+      "likeCount": 6,
+      "totalLikeCount": 21,
+      "messageHash": "a52d45a0b305"
+    },
+    {
+      "at": "2026-10-13T11:39:23.548Z",
+      "event": "chat",
+      "messageHash": "8e6f6196314e",
+      "commentLength": 5
+    }
+  ],
+  "snapshots": [
+    {
+      "at": "2026-10-13T11:31:14.198Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 0 of a max of 4 players online: \n"
+      },
+      "tikfinity": true,
+      "streamerbot": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 1,
+        "totalReceived": 10390,
+        "remainder": 0,
+        "toNext": 1,
+        "pending": 0,
+        "spawned": 103,
+        "zombieTypes": 1,
+        "lastLikeAt": "2026-10-11T14:09:25.181Z"
+      },
+      "stats": {
+        "follows": 6,
+        "gifts": 39,
+        "zombies": 293,
+        "rewards": 34
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "towerDefense": {
+        "version": 1,
+        "ready": true,
+        "dimension": "cw_live:defense",
+        "phase": "running",
+        "hp": 1000,
+        "maxHp": 1000,
+        "round": 1,
+        "players": 0,
+        "active": 0,
+        "spawned": 11,
+        "killed": 10,
+        "leaked": 0,
+        "damage": 0,
+        "routeLength": 588,
+        "testMode": false,
+        "mobs": [],
+        "fresh": true
+      },
+      "lastResult": {
+        "ok": true,
+        "kind": "probe",
+        "response": "The time is 18386\n"
+      }
+    },
+    {
+      "at": "2026-10-13T11:32:39.486Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive67\n"
+      },
+      "tikfinity": true,
+      "streamerbot": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 1,
+        "totalReceived": 10390,
+        "remainder": 0,
+        "toNext": 1,
+        "pending": 0,
+        "spawned": 103,
+        "zombieTypes": 1,
+        "lastLikeAt": "2026-10-11T14:09:25.181Z"
+      },
+      "stats": {
+        "follows": 6,
+        "gifts": 39,
+        "zombies": 293,
+        "rewards": 34
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "towerDefense": {
+        "version": 1,
+        "ready": true,
+        "dimension": "cw_live:defense",
+        "phase": "running",
+        "hp": 1000,
+        "maxHp": 1000,
+        "round": 1,
+        "players": 1,
+        "active": 0,
+        "spawned": 11,
+        "killed": 10,
+        "leaked": 0,
+        "damage": 0,
+        "routeLength": 588,
+        "testMode": false,
+        "mobs": [],
+        "fresh": true
+      },
+      "lastResult": {
+        "ok": true,
+        "kind": "probe",
+        "response": "The time is 18386\n"
+      }
+    },
+    {
+      "at": "2026-10-13T11:38:28.444Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive67\n"
+      },
+      "tikfinity": true,
+      "streamerbot": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 1,
+        "totalReceived": 10411,
+        "remainder": 0,
+        "toNext": 1,
+        "pending": 1,
+        "spawned": 123,
+        "zombieTypes": 1,
+        "lastLikeAt": "2026-10-13T11:38:27.429Z"
+      },
+      "stats": {
+        "follows": 6,
+        "gifts": 39,
+        "zombies": 313,
+        "rewards": 34
+      },
+      "queue": {
+        "zombies": 1,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "towerDefense": {
+        "version": 1,
+        "ready": true,
+        "dimension": "cw_live:defense",
+        "phase": "running",
+        "hp": 1000,
+        "maxHp": 1000,
+        "round": 1,
+        "players": 1,
+        "active": 20,
+        "spawned": 32,
+        "killed": 11,
+        "leaked": 0,
+        "damage": 0,
+        "routeLength": 588,
+        "testMode": false,
+        "mobs": [],
+        "fresh": true
+      },
+      "lastResult": {
+        "ok": true,
+        "accepted": 10,
+        "safeRetry": true,
+        "requested": 10,
+        "entities": [
+          "zombies_plus:weak_zombie",
+          "zombies_plus:weak_zombie",
+          "zombies_plus:weak_zombie",
+          "zombies_plus:weak_zombie",
+          "zombies_plus:weak_zombie",
+          "zombies_plus:weak_zombie",
+          "zombies_plus:weak_zombie",
+          "zombies_plus:weak_zombie",
+          "zombies_plus:weak_zombie",
+          "zombies_plus:weak_zombie"
+        ],
+        "response": "TD_SPAWNED cw_job_cc2d9658-96b9-40cd-83fd-5314adef3f2a_9\n"
+      }
+    },
+    {
+      "at": "2026-10-13T11:38:31.449Z",
+      "minecraft": {
+        "connected": true,
+        "message": "There are 1 of a max of 4 players online: Dogalive67\n"
+      },
+      "tikfinity": true,
+      "streamerbot": true,
+      "likes": {
+        "enabled": true,
+        "threshold": 1,
+        "totalReceived": 10411,
+        "remainder": 0,
+        "toNext": 1,
+        "pending": 0,
+        "spawned": 124,
+        "zombieTypes": 1,
+        "lastLikeAt": "2026-10-13T11:38:27.429Z"
+      },
+      "stats": {
+        "follows": 6,
+        "gifts": 39,
+        "zombies": 314,
+        "rewards": 34
+      },
+      "queue": {
+        "zombies": 0,
+        "rewards": 0,
+        "inFlight": false,
+        "lastIssue": null
+      },
+      "towerDefense": {
+        "version": 1,
+        "ready": true,
+        "dimension": "cw_live:defense",
+        "phase": "running",
+        "hp": 1000,
+        "maxHp": 1000,
+        "round": 1,
+        "players": 1,
+        "active": 21,
+        "spawned": 33,
+        "killed": 11,
+        "leaked": 0,
+        "damage": 0,
+        "routeLength": 588,
+        "testMode": false,
+        "mobs": [],
+        "fresh": true
+      },
+      "lastResult": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": true,
+        "requested": 1,
+        "entities": [
+          "zombies_plus:weak_zombie"
+        ],
+        "response": "TD_SPAWNED cw_job_83024be9-73f0-4322-ac1b-cdba0092e1bd_0\n"
+      }
+    }
+  ],
+  "socketConnected": true,
+  "finished": "2026-10-13T11:41:14.219Z"
+}

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "totalLikes": 0,
+  "remainder": 0,
+  "pending": 0,
+  "spawned": 0,
+  "recentIds": [],
+  "flight": null,
+  "lastIssue": null
+}

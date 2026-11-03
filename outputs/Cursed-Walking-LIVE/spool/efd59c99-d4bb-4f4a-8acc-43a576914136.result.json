@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "accepted": 2,
+  "safeRetry": true,
+  "requested": 2,
+  "entities": [
+    "zombies_plus:weak_zombie",
+    "zombies_plus:weak_zombie"
+  ],
+  "response": "TD_SPAWNED cw_job_efd59c99-d4bb-4f4a-8acc-43a576914136_1\n"
+}

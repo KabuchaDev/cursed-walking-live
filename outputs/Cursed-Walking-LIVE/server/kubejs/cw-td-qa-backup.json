@@ -1,0 +1,11 @@
+{
+	"version": 1,
+	"phase": "paused",
+	"hp": 1000,
+	"round": 1,
+	"spawned": 4,
+	"killed": 3,
+	"leaked": 0,
+	"damage": 0,
+	"serial": 4
+}

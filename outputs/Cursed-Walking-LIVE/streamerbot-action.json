@@ -1,0 +1,29 @@
+{
+  "id": "30092b6c-45e9-4737-a12b-bd7d8e9e6223",
+  "queue": "00000000-0000-0000-0000-000000000000",
+  "enabled": true,
+  "excludeFromHistory": false,
+  "excludeFromPending": false,
+  "name": "Cursed Walking - Dispatch",
+  "group": "Cursed Walking LIVE",
+  "alwaysRun": false,
+  "randomAction": false,
+  "concurrent": false,
+  "triggers": [],
+  "subActions": [
+    {
+      "command": "C:\\Users\\PHAT\\Documents\\Codex\\2026-10-10\\new-chat\\outputs\\Cursed-Walking-LIVE\\runtime\\node.exe",
+      "arguments": "\"C:\\Users\\PHAT\\Documents\\Codex\\2026-10-10\\new-chat\\outputs\\Cursed-Walking-LIVE\\dispatch.mjs\" %cwJobId%",
+      "workingDir": "C:\\Users\\PHAT\\Documents\\Codex\\2026-10-10\\new-chat\\outputs\\Cursed-Walking-LIVE",
+      "envVars": {},
+      "waitForExit": 70,
+      "id": "e0e79f27-e663-4cbc-80c7-d0f3defe472c",
+      "weight": 0.0,
+      "type": 6,
+      "parentId": null,
+      "enabled": true,
+      "index": 0
+    }
+  ],
+  "collapsedGroups": []
+}

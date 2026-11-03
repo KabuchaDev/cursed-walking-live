@@ -1,0 +1,15 @@
+{
+	"player": "Dogalive",
+	"x": 15.528546051540868,
+	"y": 71,
+	"z": 30.614554694187312,
+	"inventory": [
+		{
+			"slot": 0,
+			"id": "marbledsmelees:sledgehammer",
+			"count": 1,
+			"tag": "{Damage:0}"
+		}
+	],
+	"mobs": []
+}

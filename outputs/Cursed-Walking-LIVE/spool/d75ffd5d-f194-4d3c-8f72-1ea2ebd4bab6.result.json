@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "accepted": 1,
+  "safeRetry": false,
+  "reward": "gun_t1",
+  "variant": 4,
+  "gun": "tacz:db_long",
+  "ammo": "tacz:12g",
+  "ammoCount": 4,
+  "response": "Executed 2 command(s) from function 'cw_live:rewards/t1/tacz/db_long'\n"
+}

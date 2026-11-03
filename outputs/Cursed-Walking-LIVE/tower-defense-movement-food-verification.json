@@ -1,0 +1,174 @@
+{
+  "startedAt": "2026-10-12T05:26:40.394Z",
+  "corners": [
+    {
+      "corner": 1,
+      "distance": 50,
+      "expectedYaw": 0,
+      "typesChecked": 18
+    },
+    {
+      "corner": 2,
+      "distance": 120,
+      "expectedYaw": -90,
+      "typesChecked": 18
+    },
+    {
+      "corner": 3,
+      "distance": 184,
+      "expectedYaw": 180,
+      "typesChecked": 18
+    },
+    {
+      "corner": 4,
+      "distance": 254,
+      "expectedYaw": -90,
+      "typesChecked": 18
+    },
+    {
+      "corner": 5,
+      "distance": 308,
+      "expectedYaw": 0,
+      "typesChecked": 18
+    },
+    {
+      "corner": 6,
+      "distance": 413,
+      "expectedYaw": 90,
+      "typesChecked": 18
+    },
+    {
+      "corner": 7,
+      "distance": 476,
+      "expectedYaw": 0,
+      "typesChecked": 18
+    },
+    {
+      "corner": 8,
+      "distance": 511,
+      "expectedYaw": -90,
+      "typesChecked": 18
+    }
+  ],
+  "passed": true,
+  "before": {
+    "version": 1,
+    "ready": true,
+    "dimension": "cw_live:defense",
+    "phase": "paused",
+    "hp": 1000,
+    "maxHp": 1000,
+    "round": 1,
+    "players": 0,
+    "active": 0,
+    "spawned": 4,
+    "killed": 3,
+    "leaked": 0,
+    "damage": 0,
+    "routeLength": 588,
+    "testMode": false,
+    "mobs": []
+  },
+  "speed": {
+    "ticks": 40,
+    "rows": [
+      {
+        "type": "minecraft:zombie",
+        "distance": 2.925000000000111
+      },
+      {
+        "type": "feralzombie:drone_zombie",
+        "distance": 2.925000000000111
+      },
+      {
+        "type": "feralzombie:feral_zombie",
+        "distance": 3.510000000000133
+      },
+      {
+        "type": "feralzombie:warrior_zombie",
+        "distance": 2.3400000000000887
+      },
+      {
+        "type": "feralzombie:spitter_zombie",
+        "distance": 3.510000000000133
+      },
+      {
+        "type": "feralzombie:zombie_dog",
+        "distance": 4.875
+      },
+      {
+        "type": "mutantmonsters:mutant_zombie",
+        "distance": 2.3400000000000887
+      },
+      {
+        "type": "zombies_plus:runner_zombie",
+        "distance": 4.875
+      },
+      {
+        "type": "zombies_plus:brute_zombie",
+        "distance": 2.3400000000000887
+      },
+      {
+        "type": "zombies_plus:crawler_zombie",
+        "distance": 2.5349999999999113
+      },
+      {
+        "type": "zombies_plus:crossbow_zombie",
+        "distance": 3.510000000000133
+      },
+      {
+        "type": "zombies_plus:bow_zombie",
+        "distance": 3.510000000000133
+      },
+      {
+        "type": "zombies_plus:axe_zombie",
+        "distance": 3.510000000000133
+      },
+      {
+        "type": "zombies_plus:sword_zombie",
+        "distance": 3.510000000000133
+      },
+      {
+        "type": "zombies_plus:weak_zombie",
+        "distance": 2.925000000000111
+      },
+      {
+        "type": "zombies_plus:slow_zombie",
+        "distance": 2.925000000000111
+      },
+      {
+        "type": "zombies_plus:vile_zombie",
+        "distance": 3.510000000000133
+      },
+      {
+        "type": "zombies_plus:leaper_zombie",
+        "distance": 4.875
+      }
+    ]
+  },
+  "food": {
+    "food": 20,
+    "saturation": 20,
+    "exhaustion": 0,
+    "syntheticPlayer": true
+  },
+  "after": {
+    "version": 1,
+    "ready": true,
+    "dimension": "cw_live:defense",
+    "phase": "paused",
+    "hp": 1000,
+    "maxHp": 1000,
+    "round": 1,
+    "players": 0,
+    "active": 0,
+    "spawned": 4,
+    "killed": 3,
+    "leaked": 0,
+    "damage": 0,
+    "routeLength": 588,
+    "testMode": false,
+    "mobs": []
+  },
+  "finishedAt": "2026-10-12T05:26:51.080Z"
+}

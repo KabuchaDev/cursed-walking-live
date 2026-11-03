@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "accepted": 1,
+  "safeRetry": false,
+  "reward": "sledgehammer",
+  "variant": 0,
+  "response": "Executed 1 command(s) from function 'cw_live:rewards/sledgehammer'\n"
+}

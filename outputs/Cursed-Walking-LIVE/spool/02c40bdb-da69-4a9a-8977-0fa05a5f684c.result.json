@@ -1,0 +1,6 @@
+{
+  "ok": false,
+  "accepted": 0,
+  "safeRetry": true,
+  "error": "EPERM: operation not permitted, open 'C:\\Users\\PHAT\\Documents\\Codex\\2026-10-10\\new-chat\\outputs\\Cursed-Walking-LIVE\\rcon-command.lock'"
+}

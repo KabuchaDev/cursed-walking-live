@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "accepted": 1,
+  "safeRetry": false,
+  "reward": "boost_t2",
+  "tier": "T2",
+  "seconds": 180,
+  "response": "TD_BOOSTED\n"
+}

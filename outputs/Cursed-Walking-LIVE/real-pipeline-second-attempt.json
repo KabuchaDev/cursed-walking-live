@@ -1,0 +1,3542 @@
+{
+  "started": "2026-10-11T10:08:20.646Z",
+  "source": "Simulated TikFinity-format events; actual Streamer.bot and Minecraft server with Dogalive online",
+  "cases": [
+    {
+      "label": "99 likes, no spawn",
+      "pass": true,
+      "elapsedMs": 946,
+      "event": {
+        "event": "like",
+        "data": {
+          "likeCount": 99,
+          "msgId": "real-test-1791713301036-1"
+        }
+      },
+      "expected": {
+        "none": true,
+        "remainder": 99
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 8.741318176423155,
+        "y": 70.00133597911214,
+        "z": 7.114425220704804,
+        "inventory": [],
+        "mobs": []
+      },
+      "result": null,
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 0,
+        "rewards": 0
+      }
+    },
+    {
+      "label": "100th like, one zombie",
+      "pass": true,
+      "elapsedMs": 1460,
+      "event": {
+        "event": "like",
+        "data": {
+          "likeCount": 1,
+          "msgId": "real-test-1791713302020-2"
+        }
+      },
+      "expected": {
+        "zombies": 1,
+        "remainder": 0
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 8.14743199877048,
+        "y": 73.20000004768372,
+        "z": 9.079972150514925,
+        "inventory": [],
+        "mobs": [
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_6af5ba71-bc47-46af-b095-5141e9f56f8a",
+              "cw_probe",
+              "cw_job_6af5ba71-bc47-46af-b095-5141e9f56f8a_0"
+            ],
+            "x": 3.1474319987704806,
+            "y": 71.41999998688698,
+            "z": 14.054856748670112
+          }
+        ]
+      },
+      "result": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": true,
+        "requested": 1,
+        "entities": [
+          "zombies_plus:slow_zombie"
+        ],
+        "response": "Summoned 1/1"
+      },
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 1,
+        "rewards": 0
+      }
+    },
+    {
+      "label": "Follow, five zombies",
+      "pass": true,
+      "elapsedMs": 8266,
+      "event": {
+        "event": "follow",
+        "data": {
+          "userId": "cw-test-viewer",
+          "msgId": "real-test-1791713303499-3"
+        }
+      },
+      "expected": {
+        "zombies": 5
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 5.662169275789097,
+        "y": 82.88533252912076,
+        "z": 3.6005380147779853,
+        "inventory": [],
+        "mobs": [
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_fbd9bbc1-7502-42f8-bd65-700709339a8e",
+              "cw_job_fbd9bbc1-7502-42f8-bd65-700709339a8e_0"
+            ],
+            "x": 4.123333814891845,
+            "y": 71.20000004768372,
+            "z": 13.719346966326693
+          },
+          {
+            "id": "feralzombie:drone_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_fbd9bbc1-7502-42f8-bd65-700709339a8e",
+              "cw_job_fbd9bbc1-7502-42f8-bd65-700709339a8e_1"
+            ],
+            "x": 17.675715082219376,
+            "y": 71.20000004768372,
+            "z": 10.090115750348636
+          },
+          {
+            "id": "zombies_plus:weak_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_fbd9bbc1-7502-42f8-bd65-700709339a8e",
+              "cw_job_fbd9bbc1-7502-42f8-bd65-700709339a8e_2"
+            ],
+            "x": 2.0899468833963333,
+            "y": 75.20000004768372,
+            "z": 5.20746877195468
+          },
+          {
+            "id": "feralzombie:drone_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_e06ee974-5d9a-461b-93a3-e1c5f53f7474",
+              "cw_job_e06ee974-5d9a-461b-93a3-e1c5f53f7474_0"
+            ],
+            "x": 5.560786909753153,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "feralzombie:drone_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_e06ee974-5d9a-461b-93a3-e1c5f53f7474",
+              "cw_job_e06ee974-5d9a-461b-93a3-e1c5f53f7474_1"
+            ],
+            "x": 5.583809121800273,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          }
+        ]
+      },
+      "result": {
+        "ok": true,
+        "accepted": 2,
+        "safeRetry": true,
+        "requested": 2,
+        "entities": [
+          "feralzombie:drone_zombie",
+          "feralzombie:drone_zombie"
+        ],
+        "response": "Summoned 2/2"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 6,
+        "rewards": 0
+      }
+    },
+    {
+      "label": "Rose",
+      "pass": true,
+      "elapsedMs": 1484,
+      "event": {
+        "event": "gift",
+        "data": {
+          "giftName": "Rose",
+          "giftId": 5655,
+          "giftType": 1,
+          "repeatEnd": true,
+          "repeatCount": 1,
+          "diamondCount": 1,
+          "userId": "cw-test-viewer",
+          "msgId": "real-test-1791713311782-4"
+        }
+      },
+      "expected": {
+        "zombies": 10
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 5.662169275789097,
+        "y": 82.88533252912076,
+        "z": 3.6005380147779853,
+        "inventory": [],
+        "mobs": [
+          {
+            "id": "feralzombie:drone_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1_0",
+              "cw_probe",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:brute_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1_1",
+              "cw_probe",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:weak_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1_2",
+              "cw_probe",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "feralzombie:feral_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1_3",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:sword_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1_4",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:runner_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1_5",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:crossbow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1_6",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "feralzombie:drone_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1_7",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:vile_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1_8",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1_9",
+              "cw_job_b0a90899-fca4-4b70-990c-7e467ee8c4b1"
+            ],
+            "x": 10.662169275789097,
+            "y": 82.88533252912076,
+            "z": 8.600538014777985
+          }
+        ]
+      },
+      "result": {
+        "ok": true,
+        "accepted": 10,
+        "safeRetry": true,
+        "requested": 10,
+        "entities": [
+          "feralzombie:drone_zombie",
+          "zombies_plus:brute_zombie",
+          "zombies_plus:weak_zombie",
+          "feralzombie:feral_zombie",
+          "zombies_plus:sword_zombie",
+          "zombies_plus:runner_zombie",
+          "zombies_plus:crossbow_zombie",
+          "feralzombie:drone_zombie",
+          "zombies_plus:vile_zombie",
+          "zombies_plus:slow_zombie"
+        ],
+        "response": "Summoned 10/10"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 1,
+        "zombies": 16,
+        "rewards": 0
+      }
+    },
+    {
+      "label": "You're awesome",
+      "pass": true,
+      "elapsedMs": 949,
+      "event": {
+        "event": "gift",
+        "data": {
+          "giftName": "You're awesome",
+          "giftType": 1,
+          "repeatEnd": true,
+          "repeatCount": 1,
+          "diamondCount": 1,
+          "userId": "cw-test-viewer",
+          "msgId": "real-test-1791713313275-5"
+        }
+      },
+      "expected": {
+        "reward": "gun_t1"
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 5.662169275789097,
+        "y": 82.88533252912076,
+        "z": 3.6005380147779853,
+        "inventory": [
+          {
+            "slot": 0,
+            "id": "tacz:modern_kinetic_gun",
+            "count": 1,
+            "tag": "{GunCurrentAmmoCount:2,GunFireMode:\"SEMI\",GunId:\"tacz:db_long\",HasBulletInBarrel:1b}"
+          },
+          {
+            "slot": 1,
+            "id": "tacz:ammo",
+            "count": 4,
+            "tag": "{AmmoId:\"tacz:12g\"}"
+          }
+        ],
+        "mobs": []
+      },
+      "result": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t1",
+        "variant": 4,
+        "gun": "tacz:db_long",
+        "ammo": "tacz:12g",
+        "ammoCount": 4,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t1/tacz/db_long'\n"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 2,
+        "zombies": 16,
+        "rewards": 1
+      }
+    },
+    {
+      "label": "Finger Heart",
+      "pass": true,
+      "elapsedMs": 14575,
+      "event": {
+        "event": "gift",
+        "data": {
+          "giftName": "Finger Heart",
+          "giftId": 5487,
+          "giftType": 1,
+          "repeatEnd": true,
+          "repeatCount": 1,
+          "diamondCount": 5,
+          "userId": "cw-test-viewer",
+          "msgId": "real-test-1791713314245-6"
+        }
+      },
+      "expected": {
+        "zombies": 30
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 5.662169275789097,
+        "y": 82.88533252912076,
+        "z": 3.6005380147779853,
+        "inventory": [],
+        "mobs": [
+          {
+            "id": "feralzombie:warrior_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_b91eef93-228d-4a56-8d3b-cea3dc7197a6_0",
+              "cw_job_b91eef93-228d-4a56-8d3b-cea3dc7197a6"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:axe_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_b91eef93-228d-4a56-8d3b-cea3dc7197a6_1",
+              "cw_probe",
+              "cw_job_b91eef93-228d-4a56-8d3b-cea3dc7197a6"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:runner_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_b91eef93-228d-4a56-8d3b-cea3dc7197a6_2",
+              "cw_probe",
+              "cw_job_b91eef93-228d-4a56-8d3b-cea3dc7197a6"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_b91eef93-228d-4a56-8d3b-cea3dc7197a6_3",
+              "cw_probe",
+              "cw_job_b91eef93-228d-4a56-8d3b-cea3dc7197a6"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:axe_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_b91eef93-228d-4a56-8d3b-cea3dc7197a6_4",
+              "cw_probe",
+              "cw_job_b91eef93-228d-4a56-8d3b-cea3dc7197a6"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:weak_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_b91eef93-228d-4a56-8d3b-cea3dc7197a6",
+              "cw_job_b91eef93-228d-4a56-8d3b-cea3dc7197a6_5"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "feralzombie:drone_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_b91eef93-228d-4a56-8d3b-cea3dc7197a6",
+              "cw_job_b91eef93-228d-4a56-8d3b-cea3dc7197a6_6"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:sword_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_b91eef93-228d-4a56-8d3b-cea3dc7197a6",
+              "cw_job_b91eef93-228d-4a56-8d3b-cea3dc7197a6_7"
+            ],
+            "x": 10.662169275789097,
+            "y": 82.88533252912076,
+            "z": 8.600538014777985
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1_0",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1_1"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1_2"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "feralzombie:feral_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1_3",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:weak_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1_4",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:brute_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1_5",
+              "cw_probe",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:sword_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1_6",
+              "cw_probe",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1_7",
+              "cw_probe",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1"
+            ],
+            "x": 10.662169275789097,
+            "y": 82.88533252912076,
+            "z": 8.600538014777985
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1_8",
+              "cw_probe",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1"
+            ],
+            "x": 10.662169275789097,
+            "y": 82.88533252912076,
+            "z": 8.600538014777985
+          },
+          {
+            "id": "zombies_plus:axe_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1_9",
+              "cw_job_efb8cdc3-6b4d-4c31-99dd-a78d92b3e7c1"
+            ],
+            "x": 10.662169275789097,
+            "y": 82.88533252912076,
+            "z": 8.600538014777985
+          },
+          {
+            "id": "feralzombie:feral_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_847bbea1-9e4c-40b2-8762-c9f9e8acd48f",
+              "cw_probe",
+              "cw_job_847bbea1-9e4c-40b2-8762-c9f9e8acd48f_0"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:bow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_847bbea1-9e4c-40b2-8762-c9f9e8acd48f",
+              "cw_probe",
+              "cw_job_847bbea1-9e4c-40b2-8762-c9f9e8acd48f_1"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:runner_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7_0"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7_1"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:runner_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7_2"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "feralzombie:zombie_dog",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7_3"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:vile_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7_4",
+              "cw_probe",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:bow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7_5",
+              "cw_probe",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:crawler_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7_6",
+              "cw_probe",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:crossbow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7_7",
+              "cw_probe",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:weak_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7_8",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7"
+            ],
+            "x": 10.662169275789097,
+            "y": 82.88533252912076,
+            "z": 8.600538014777985
+          },
+          {
+            "id": "zombies_plus:axe_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7_9",
+              "cw_job_74538876-ef61-41f0-b7c8-bea7f19b4af7"
+            ],
+            "x": 10.662169275789097,
+            "y": 82.88533252912076,
+            "z": 8.600538014777985
+          }
+        ]
+      },
+      "result": {
+        "ok": true,
+        "accepted": 10,
+        "safeRetry": true,
+        "requested": 10,
+        "entities": [
+          "zombies_plus:runner_zombie",
+          "zombies_plus:leaper_zombie",
+          "zombies_plus:runner_zombie",
+          "feralzombie:zombie_dog",
+          "zombies_plus:vile_zombie",
+          "zombies_plus:bow_zombie",
+          "zombies_plus:crawler_zombie",
+          "zombies_plus:crossbow_zombie",
+          "zombies_plus:weak_zombie",
+          "zombies_plus:axe_zombie"
+        ],
+        "response": "Summoned 10/10"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 3,
+        "zombies": 46,
+        "rewards": 1
+      }
+    },
+    {
+      "label": "Okay",
+      "pass": true,
+      "elapsedMs": 949,
+      "event": {
+        "event": "gift",
+        "data": {
+          "giftName": "Okay",
+          "giftType": 1,
+          "repeatEnd": true,
+          "repeatCount": 1,
+          "diamondCount": 5,
+          "userId": "cw-test-viewer",
+          "msgId": "real-test-1791713328841-7"
+        }
+      },
+      "expected": {
+        "reward": "iron_armor"
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 5.662169275789097,
+        "y": 82.88533252912076,
+        "z": 3.6005380147779853,
+        "inventory": [
+          {
+            "slot": 0,
+            "id": "minecraft:iron_helmet",
+            "count": 1,
+            "tag": "{Damage:0}"
+          },
+          {
+            "slot": 1,
+            "id": "minecraft:iron_chestplate",
+            "count": 1,
+            "tag": "{Damage:0}"
+          },
+          {
+            "slot": 2,
+            "id": "minecraft:iron_leggings",
+            "count": 1,
+            "tag": "{Damage:0}"
+          },
+          {
+            "slot": 3,
+            "id": "minecraft:iron_boots",
+            "count": 1,
+            "tag": "{Damage:0}"
+          }
+        ],
+        "mobs": []
+      },
+      "result": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "iron_armor",
+        "variant": 0,
+        "response": "Executed 4 command(s) from function 'cw_live:rewards/iron_armor'\n"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 4,
+        "zombies": 46,
+        "rewards": 2
+      }
+    },
+    {
+      "label": "Spinning Soccer",
+      "pass": true,
+      "elapsedMs": 962,
+      "event": {
+        "event": "gift",
+        "data": {
+          "giftName": "Spinning Soccer",
+          "giftType": 1,
+          "repeatEnd": true,
+          "repeatCount": 1,
+          "diamondCount": 5,
+          "userId": "cw-test-viewer",
+          "msgId": "real-test-1791713329810-8"
+        }
+      },
+      "expected": {
+        "reward": "modern_axe"
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 5.662169275789097,
+        "y": 82.88533252912076,
+        "z": 3.6005380147779853,
+        "inventory": [
+          {
+            "slot": 0,
+            "id": "marbledsmelees:modern_axe",
+            "count": 1,
+            "tag": "{Damage:0}"
+          }
+        ],
+        "mobs": []
+      },
+      "result": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "modern_axe",
+        "variant": 0,
+        "response": "Executed 1 command(s) from function 'cw_live:rewards/modern_axe'\n"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 5,
+        "zombies": 46,
+        "rewards": 3
+      }
+    },
+    {
+      "label": "Rosa",
+      "pass": true,
+      "elapsedMs": 25509,
+      "event": {
+        "event": "gift",
+        "data": {
+          "giftName": "Rosa",
+          "giftId": 8913,
+          "giftType": 1,
+          "repeatEnd": true,
+          "repeatCount": 1,
+          "diamondCount": 10,
+          "userId": "cw-test-viewer",
+          "msgId": "real-test-1791713330780-9"
+        }
+      },
+      "expected": {
+        "zombies": 50
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 13.596870197396608,
+        "y": 84.49570156847653,
+        "z": 4.658128777388383,
+        "inventory": [],
+        "mobs": [
+          {
+            "id": "feralzombie:warrior_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955_0",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:bow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955_1"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "feralzombie:feral_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955_2"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:bow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955_3",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955_4",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "feralzombie:spitter_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955_5",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:vile_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955_6",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955"
+            ],
+            "x": 10.662169275789097,
+            "y": 82.88533252912076,
+            "z": 8.600538014777985
+          },
+          {
+            "id": "zombies_plus:bow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955_7",
+              "cw_probe",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955"
+            ],
+            "x": 10.662169275789097,
+            "y": 82.88533252912076,
+            "z": 8.600538014777985
+          },
+          {
+            "id": "zombies_plus:crawler_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955_8",
+              "cw_probe",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955"
+            ],
+            "x": 5.662169275789097,
+            "y": 84.88533252912076,
+            "z": 9.600538014777985
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955_9",
+              "cw_probe",
+              "cw_job_57b8ab59-503d-444d-b516-0aae72a9c955"
+            ],
+            "x": 5.624922198295782,
+            "y": 84.88533252912076,
+            "z": 9.568700059520358
+          },
+          {
+            "id": "zombies_plus:runner_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320_0"
+            ],
+            "x": 6.562901349349819,
+            "y": 84.88533252912076,
+            "z": 10.660908776365911
+          },
+          {
+            "id": "zombies_plus:vile_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320_1"
+            ],
+            "x": 6.550094201419961,
+            "y": 84.88533252912076,
+            "z": 10.649961517407357
+          },
+          {
+            "id": "zombies_plus:brute_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320_2",
+              "cw_probe",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320"
+            ],
+            "x": 6.5384396964679095,
+            "y": 84.88533252912076,
+            "z": 10.63999951146797
+          },
+          {
+            "id": "zombies_plus:runner_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320_3",
+              "cw_probe",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320"
+            ],
+            "x": 6.5384396964679095,
+            "y": 84.88533252912076,
+            "z": 10.63999951146797
+          },
+          {
+            "id": "zombies_plus:bow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320_4",
+              "cw_probe",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320"
+            ],
+            "x": 4.518183000548811,
+            "y": 84.88533252912076,
+            "z": 8.622684548207957
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320_5",
+              "cw_probe",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320"
+            ],
+            "x": 4.509400502838258,
+            "y": 84.88533252912076,
+            "z": 8.615177468781148
+          },
+          {
+            "id": "zombies_plus:vile_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320_6"
+            ],
+            "x": 4.509400502838258,
+            "y": 84.88533252912076,
+            "z": 8.615177468781148
+          },
+          {
+            "id": "zombies_plus:brute_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320_7"
+            ],
+            "x": 9.501408429691326,
+            "y": 83.88533252912076,
+            "z": 7.608346026305872
+          },
+          {
+            "id": "feralzombie:feral_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320_8"
+            ],
+            "x": 9.494135642918017,
+            "y": 83.88533252912076,
+            "z": 7.602129413474208
+          },
+          {
+            "id": "zombies_plus:bow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320",
+              "cw_job_b55b4a33-d4bc-4db4-87d3-4a3c3b74b320_9"
+            ],
+            "x": 9.494135642918017,
+            "y": 83.88533252912076,
+            "z": 7.602129413474208
+          },
+          {
+            "id": "zombies_plus:sword_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55_0",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55"
+            ],
+            "x": 7.8819302060046,
+            "y": 83.88533252912076,
+            "z": 10.64133628104756
+          },
+          {
+            "id": "zombies_plus:runner_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55_1",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55"
+            ],
+            "x": 7.9738326524873475,
+            "y": 83.88533252912076,
+            "z": 10.602287303217196
+          },
+          {
+            "id": "minecraft:zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55_2",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55"
+            ],
+            "x": 8.057463881196885,
+            "y": 82.88533252912076,
+            "z": 10.566752732367465
+          },
+          {
+            "id": "zombies_plus:vile_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55_3",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55"
+            ],
+            "x": 8.133568301515881,
+            "y": 82.88533252912076,
+            "z": 10.534416271962279
+          },
+          {
+            "id": "zombies_plus:crossbow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55_4",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55"
+            ],
+            "x": 8.133568301515881,
+            "y": 82.88533252912076,
+            "z": 10.534416271962279
+          },
+          {
+            "id": "feralzombie:warrior_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55_5",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55"
+            ],
+            "x": 6.202823326002085,
+            "y": 84.88533252912076,
+            "z": 8.504990092145501
+          },
+          {
+            "id": "feralzombie:spitter_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55_6",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55"
+            ],
+            "x": 6.202823326002085,
+            "y": 84.88533252912076,
+            "z": 8.504990092145501
+          },
+          {
+            "id": "feralzombie:warrior_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55_7"
+            ],
+            "x": 6.265845400100816,
+            "y": 84.88533252912076,
+            "z": 8.478212267740503
+          },
+          {
+            "id": "feralzombie:feral_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55_8",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55"
+            ],
+            "x": 11.323195489183481,
+            "y": 81.88533252912076,
+            "z": 7.4538444468296765
+          },
+          {
+            "id": "feralzombie:spitter_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55_9",
+              "cw_probe",
+              "cw_job_170eca76-a9b3-4e1b-968e-160cc4b7ae55"
+            ],
+            "x": 6.46609305097619,
+            "y": 84.88533252912076,
+            "z": 8.393127850743152
+          },
+          {
+            "id": "zombies_plus:weak_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d_0",
+              "cw_probe",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d"
+            ],
+            "x": 9.34804488628308,
+            "y": 82,
+            "z": 9.55030061630265
+          },
+          {
+            "id": "zombies_plus:brute_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d_1",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d"
+            ],
+            "x": 9.403741998253928,
+            "y": 82,
+            "z": 9.630934555717147
+          },
+          {
+            "id": "zombies_plus:runner_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d_2",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d"
+            ],
+            "x": 9.403741998253928,
+            "y": 82,
+            "z": 9.630934555717147
+          },
+          {
+            "id": "zombies_plus:weak_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d_3"
+            ],
+            "x": 7.474449518234762,
+            "y": 83,
+            "z": 7.764292441518427
+          },
+          {
+            "id": "feralzombie:zombie_dog",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d_4",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d"
+            ],
+            "x": 7.545255892069579,
+            "y": 83,
+            "z": 7.929664793850278
+          },
+          {
+            "id": "zombies_plus:crossbow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d_5",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d"
+            ],
+            "x": 7.545255892069579,
+            "y": 83,
+            "z": 7.929664793850278
+          },
+          {
+            "id": "zombies_plus:brute_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d_6",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d"
+            ],
+            "x": 1.612211191491177,
+            "y": 79,
+            "z": 2.1137845058974216
+          },
+          {
+            "id": "zombies_plus:brute_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d_7",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d"
+            ],
+            "x": 12.67534101630148,
+            "y": 80,
+            "z": 7.308642654707767
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d_8",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d"
+            ],
+            "x": 12.67534101630148,
+            "y": 80,
+            "z": 7.308642654707767
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d_9",
+              "cw_job_4317b9c0-db2e-40b9-9436-209bfded705d"
+            ],
+            "x": 2.6753410163014806,
+            "y": 83,
+            "z": 7.308642654707767
+          },
+          {
+            "id": "zombies_plus:brute_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_b3577261-7255-47f3-85d6-39c926fd4791_0",
+              "cw_probe",
+              "cw_job_b3577261-7255-47f3-85d6-39c926fd4791"
+            ],
+            "x": 4.359932376738749,
+            "y": 84.10570155297933,
+            "z": 7.0338389101971295
+          },
+          {
+            "id": "zombies_plus:runner_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_b3577261-7255-47f3-85d6-39c926fd4791_1",
+              "cw_probe",
+              "cw_job_b3577261-7255-47f3-85d6-39c926fd4791"
+            ],
+            "x": 18.359932376738747,
+            "y": 81.48530152832684,
+            "z": 9.18176101804036
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_664abc98-0a70-497f-a590-cd58c5c8655a",
+              "cw_job_664abc98-0a70-497f-a590-cd58c5c8655a_0"
+            ],
+            "x": 14.00891037297824,
+            "y": 83.57952142361144,
+            "z": 9.759579414717242
+          },
+          {
+            "id": "feralzombie:spitter_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_664abc98-0a70-497f-a590-cd58c5c8655a",
+              "cw_job_664abc98-0a70-497f-a590-cd58c5c8655a_1"
+            ],
+            "x": 14.00891037297824,
+            "y": 83.57952142361144,
+            "z": 9.759579414717242
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_664abc98-0a70-497f-a590-cd58c5c8655a",
+              "cw_job_664abc98-0a70-497f-a590-cd58c5c8655a_2"
+            ],
+            "x": 8.00891037297824,
+            "y": 81.57952142361144,
+            "z": 3.759579414717242
+          },
+          {
+            "id": "feralzombie:zombie_dog",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_664abc98-0a70-497f-a590-cd58c5c8655a",
+              "cw_job_664abc98-0a70-497f-a590-cd58c5c8655a_3"
+            ],
+            "x": 9.014682993679108,
+            "y": 83.94822287826231,
+            "z": 8.725217891241535
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_664abc98-0a70-497f-a590-cd58c5c8655a",
+              "cw_job_664abc98-0a70-497f-a590-cd58c5c8655a_4"
+            ],
+            "x": 9.014682993679108,
+            "y": 83.94822287826231,
+            "z": 8.725217891241535
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_664abc98-0a70-497f-a590-cd58c5c8655a",
+              "cw_job_664abc98-0a70-497f-a590-cd58c5c8655a_5"
+            ],
+            "x": 9.014682993679108,
+            "y": 83.94822287826231,
+            "z": 8.725217891241535
+          },
+          {
+            "id": "zombies_plus:weak_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_664abc98-0a70-497f-a590-cd58c5c8655a",
+              "cw_job_664abc98-0a70-497f-a590-cd58c5c8655a_6"
+            ],
+            "x": 14.033025038927128,
+            "y": 83.4295994974545,
+            "z": 9.616036870862388
+          },
+          {
+            "id": "feralzombie:drone_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_664abc98-0a70-497f-a590-cd58c5c8655a",
+              "cw_job_664abc98-0a70-497f-a590-cd58c5c8655a_7"
+            ],
+            "x": 8.924079204531235,
+            "y": 83.48579313867727,
+            "z": 8.636167886223102
+          }
+        ]
+      },
+      "result": {
+        "ok": true,
+        "accepted": 8,
+        "safeRetry": true,
+        "requested": 8,
+        "entities": [
+          "zombies_plus:leaper_zombie",
+          "feralzombie:spitter_zombie",
+          "zombies_plus:slow_zombie",
+          "feralzombie:zombie_dog",
+          "zombies_plus:slow_zombie",
+          "zombies_plus:slow_zombie",
+          "zombies_plus:weak_zombie",
+          "feralzombie:drone_zombie"
+        ],
+        "response": "Summoned 8/8"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 6,
+        "zombies": 96,
+        "rewards": 3
+      }
+    },
+    {
+      "label": "Shamrock",
+      "pass": true,
+      "elapsedMs": 1498,
+      "event": {
+        "event": "gift",
+        "data": {
+          "giftName": "Shamrock",
+          "giftType": 1,
+          "repeatEnd": true,
+          "repeatCount": 1,
+          "diamondCount": 10,
+          "userId": "cw-test-viewer",
+          "msgId": "real-test-1791713356324-10"
+        }
+      },
+      "expected": {
+        "reward": "sledgehammer"
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 14.697957943104406,
+        "y": 84.49570156847653,
+        "z": 7.852860888083939,
+        "inventory": [
+          {
+            "slot": 0,
+            "id": "marbledsmelees:sledgehammer",
+            "count": 1,
+            "tag": "{Damage:0}"
+          }
+        ],
+        "mobs": []
+      },
+      "result": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "sledgehammer",
+        "variant": 0,
+        "response": "Executed 1 command(s) from function 'cw_live:rewards/sledgehammer'\n"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 7,
+        "zombies": 96,
+        "rewards": 4
+      }
+    },
+    {
+      "label": "Little kisses",
+      "pass": true,
+      "elapsedMs": 45357,
+      "event": {
+        "event": "gift",
+        "data": {
+          "giftName": "Little kisses",
+          "giftType": 1,
+          "repeatEnd": true,
+          "repeatCount": 1,
+          "diamondCount": 20,
+          "userId": "cw-test-viewer",
+          "msgId": "real-test-1791713357830-11"
+        }
+      },
+      "expected": {
+        "zombies": 100
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 7.296036086036332,
+        "y": 81,
+        "z": 3.3138265398727444,
+        "inventory": [],
+        "mobs": [
+          {
+            "id": "zombies_plus:brute_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd_0",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd"
+            ],
+            "x": 10.526983991540806,
+            "y": 83.49570156847653,
+            "z": 6.103200155870762
+          },
+          {
+            "id": "zombies_plus:weak_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd_1",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd"
+            ],
+            "x": 7.534120607509235,
+            "y": 83.49570156847653,
+            "z": 10.214425521211556
+          },
+          {
+            "id": "zombies_plus:bow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd_2",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd"
+            ],
+            "x": 7.563430189118731,
+            "y": 83.49570156847653,
+            "z": 10.876896449184068
+          },
+          {
+            "id": "minecraft:zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd_3",
+              "cw_probe",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd"
+            ],
+            "x": 5.587701455048542,
+            "y": 84.49570156847653,
+            "z": 9.42548865625877
+          },
+          {
+            "id": "feralzombie:warrior_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd_4",
+              "cw_probe",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd"
+            ],
+            "x": 5.60780049152352,
+            "y": 84.49570156847653,
+            "z": 9.879777889122405
+          },
+          {
+            "id": "feralzombie:feral_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd_5",
+              "cw_probe",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd"
+            ],
+            "x": 5.6165146343694605,
+            "y": 84.49570156847653,
+            "z": 10.076739632710211
+          },
+          {
+            "id": "feralzombie:spitter_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd_6",
+              "cw_probe",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd"
+            ],
+            "x": 5.631660686694466,
+            "y": 84.10570155297933,
+            "z": 10.419078853806965
+          },
+          {
+            "id": "minecraft:zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd_7",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd"
+            ],
+            "x": 11.63822741260078,
+            "y": 81.81170154129681,
+            "z": 4.5675035247168925
+          },
+          {
+            "id": "zombies_plus:sword_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd_8",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd"
+            ],
+            "x": 11.644203133347744,
+            "y": 81.48530152832684,
+            "z": 4.702569979137518
+          },
+          {
+            "id": "feralzombie:zombie_dog",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd_9",
+              "cw_job_0c206134-8d3c-4c88-8e05-f87f61b89ccd"
+            ],
+            "x": 5.644203133347745,
+            "y": 84.48530152832684,
+            "z": 10.702569979137518
+          },
+          {
+            "id": "zombies_plus:weak_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_08022117-6fb1-4370-83a4-af3e9e06e793",
+              "cw_job_08022117-6fb1-4370-83a4-af3e9e06e793_0"
+            ],
+            "x": 11.195714419315737,
+            "y": 81.62592939975544,
+            "z": 9.935717242610401
+          },
+          {
+            "id": "feralzombie:feral_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_08022117-6fb1-4370-83a4-af3e9e06e793",
+              "cw_job_08022117-6fb1-4370-83a4-af3e9e06e793_1"
+            ],
+            "x": 11.225570679264937,
+            "y": 81.62592939975544,
+            "z": 9.91082248503755
+          },
+          {
+            "id": "feralzombie:feral_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_08022117-6fb1-4370-83a4-af3e9e06e793",
+              "cw_job_08022117-6fb1-4370-83a4-af3e9e06e793_2"
+            ],
+            "x": 6.299962660502148,
+            "y": 84.62592939975544,
+            "z": 10.848792936078116
+          },
+          {
+            "id": "zombies_plus:axe_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_08022117-6fb1-4370-83a4-af3e9e06e793_3",
+              "cw_probe",
+              "cw_job_08022117-6fb1-4370-83a4-af3e9e06e793"
+            ],
+            "x": 6.371450859480025,
+            "y": 84.62592939975544,
+            "z": 10.789184619902477
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_08022117-6fb1-4370-83a4-af3e9e06e793_4",
+              "cw_probe",
+              "cw_job_08022117-6fb1-4370-83a4-af3e9e06e793"
+            ],
+            "x": 6.539598395441103,
+            "y": 84.62592939975544,
+            "z": 10.747919229229879
+          },
+          {
+            "id": "zombies_plus:vile_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_08022117-6fb1-4370-83a4-af3e9e06e793_5",
+              "cw_probe",
+              "cw_job_08022117-6fb1-4370-83a4-af3e9e06e793"
+            ],
+            "x": 6.9408042878317255,
+            "y": 84.62592939975544,
+            "z": 10.660250574220994
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4033cd6a-c5e3-4282-a627-11b818682c7d_0",
+              "cw_job_4033cd6a-c5e3-4282-a627-11b818682c7d"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:weak_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4033cd6a-c5e3-4282-a627-11b818682c7d_1",
+              "cw_job_4033cd6a-c5e3-4282-a627-11b818682c7d"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:feral_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4033cd6a-c5e3-4282-a627-11b818682c7d_2",
+              "cw_job_4033cd6a-c5e3-4282-a627-11b818682c7d"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:drone_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_4033cd6a-c5e3-4282-a627-11b818682c7d_3",
+              "cw_probe",
+              "cw_job_4033cd6a-c5e3-4282-a627-11b818682c7d"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:feral_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_4033cd6a-c5e3-4282-a627-11b818682c7d_4",
+              "cw_probe",
+              "cw_job_4033cd6a-c5e3-4282-a627-11b818682c7d"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:crawler_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_4033cd6a-c5e3-4282-a627-11b818682c7d_5",
+              "cw_probe",
+              "cw_job_4033cd6a-c5e3-4282-a627-11b818682c7d"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_4033cd6a-c5e3-4282-a627-11b818682c7d_6",
+              "cw_probe",
+              "cw_job_4033cd6a-c5e3-4282-a627-11b818682c7d"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:spitter_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae_0",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:brute_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae_1",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:runner_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae_2",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae"
+            ],
+            "x": 2.296036086036332,
+            "y": 83,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:axe_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae_3",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:feral_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae_4"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:vile_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae_5"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "minecraft:zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae_6"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:vile_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae_7"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae_8",
+              "cw_probe",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:weak_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae_9",
+              "cw_probe",
+              "cw_job_c106fbe7-3f1f-41ab-aa1a-ce4fbc0ea5ae"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4e4a39c3-62bb-4683-9386-c340f7f09a39_0",
+              "cw_job_4e4a39c3-62bb-4683-9386-c340f7f09a39"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:bow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4e4a39c3-62bb-4683-9386-c340f7f09a39_1",
+              "cw_job_4e4a39c3-62bb-4683-9386-c340f7f09a39"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:zombie_dog",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4e4a39c3-62bb-4683-9386-c340f7f09a39_2",
+              "cw_job_4e4a39c3-62bb-4683-9386-c340f7f09a39"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:warrior_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4e4a39c3-62bb-4683-9386-c340f7f09a39_3",
+              "cw_job_4e4a39c3-62bb-4683-9386-c340f7f09a39"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "feralzombie:feral_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_4e4a39c3-62bb-4683-9386-c340f7f09a39_4",
+              "cw_probe",
+              "cw_job_4e4a39c3-62bb-4683-9386-c340f7f09a39"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_4e4a39c3-62bb-4683-9386-c340f7f09a39_5",
+              "cw_probe",
+              "cw_job_4e4a39c3-62bb-4683-9386-c340f7f09a39"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "minecraft:zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_4e4a39c3-62bb-4683-9386-c340f7f09a39_6",
+              "cw_probe",
+              "cw_job_4e4a39c3-62bb-4683-9386-c340f7f09a39"
+            ],
+            "x": 2.296036086036332,
+            "y": 83,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "feralzombie:spitter_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89_0"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89_1"
+            ],
+            "x": 2.296036086036332,
+            "y": 83,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "feralzombie:zombie_dog",
+            "tags": [
+              "cw_live",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89_2",
+              "cw_probe",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:crawler_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89_3",
+              "cw_probe",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:crossbow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89_4",
+              "cw_probe",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:warrior_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89_5",
+              "cw_probe",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:runner_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89_6",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:bow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89_7",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:sword_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89_8",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:crawler_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89_9",
+              "cw_job_4e384d84-1129-4bb1-9dba-5e6f5eee8a89"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:runner_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_46da381a-2317-44cb-a96c-ba0c737ed0d2_0",
+              "cw_job_46da381a-2317-44cb-a96c-ba0c737ed0d2"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_46da381a-2317-44cb-a96c-ba0c737ed0d2_1",
+              "cw_job_46da381a-2317-44cb-a96c-ba0c737ed0d2"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:brute_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_46da381a-2317-44cb-a96c-ba0c737ed0d2",
+              "cw_job_46da381a-2317-44cb-a96c-ba0c737ed0d2_2"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:runner_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_46da381a-2317-44cb-a96c-ba0c737ed0d2",
+              "cw_job_46da381a-2317-44cb-a96c-ba0c737ed0d2_3"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:axe_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_46da381a-2317-44cb-a96c-ba0c737ed0d2",
+              "cw_job_46da381a-2317-44cb-a96c-ba0c737ed0d2_4"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:bow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_46da381a-2317-44cb-a96c-ba0c737ed0d2_5",
+              "cw_probe",
+              "cw_job_46da381a-2317-44cb-a96c-ba0c737ed0d2"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846_0"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846_1"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:sword_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846_2"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:vile_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846_3"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846_4"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:crossbow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846_5",
+              "cw_probe",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846"
+            ],
+            "x": 2.296036086036332,
+            "y": 83,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:weak_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846_6",
+              "cw_probe",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:spitter_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846_7",
+              "cw_probe",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846_8",
+              "cw_probe",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:axe_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846_9",
+              "cw_job_abaf6248-1324-4f7b-9163-a6ed56ad7846"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:sword_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a_0",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:crossbow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a_1",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a"
+            ],
+            "x": 2.296036086036332,
+            "y": 83,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "feralzombie:drone_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a_2",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a_3",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:zombie_dog",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a_4",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a_5",
+              "cw_probe",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a_6",
+              "cw_probe",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a_7",
+              "cw_probe",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:brute_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a_8",
+              "cw_probe",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:crawler_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a",
+              "cw_job_aa720f5c-901b-460f-8c59-bffed49b015a_9"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:crawler_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282",
+              "cw_probe",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282_0"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:runner_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282",
+              "cw_probe",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282_1"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:crawler_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282",
+              "cw_probe",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282_2"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:zombie_dog",
+            "tags": [
+              "cw_live",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282",
+              "cw_probe",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282_3"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:weak_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282",
+              "cw_probe",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282_4"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:brute_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282",
+              "cw_probe",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282_5"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:sword_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282_6",
+              "cw_probe"
+            ],
+            "x": 2.296036086036332,
+            "y": 83,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:vile_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282_7",
+              "cw_probe"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:vile_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282_8",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282",
+              "cw_probe"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:drone_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282_9",
+              "cw_job_51bb07e7-9b15-42a1-840c-84b04226c282",
+              "cw_probe"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:spitter_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56_0",
+              "cw_probe",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:crawler_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56_1",
+              "cw_probe",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:feral_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56_2",
+              "cw_probe",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:crossbow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56_3",
+              "cw_probe",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:zombie_dog",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56_4"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "feralzombie:zombie_dog",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56_5"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:axe_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56_6"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:brute_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56_7"
+            ],
+            "x": 2.296036086036332,
+            "y": 83,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "feralzombie:drone_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56_8",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:feral_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56",
+              "cw_job_fc48afd2-7375-482c-88a0-249e62526d56_9"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:sword_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_f3d8fa91-575a-4d6e-8ce5-f15af8e81e92",
+              "cw_job_f3d8fa91-575a-4d6e-8ce5-f15af8e81e92_0"
+            ],
+            "x": 2.296036086036332,
+            "y": 83,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:axe_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_f3d8fa91-575a-4d6e-8ce5-f15af8e81e92",
+              "cw_job_f3d8fa91-575a-4d6e-8ce5-f15af8e81e92_1"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:warrior_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_f3d8fa91-575a-4d6e-8ce5-f15af8e81e92",
+              "cw_job_f3d8fa91-575a-4d6e-8ce5-f15af8e81e92_2"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:crossbow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_f3d8fa91-575a-4d6e-8ce5-f15af8e81e92",
+              "cw_job_f3d8fa91-575a-4d6e-8ce5-f15af8e81e92_3"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          }
+        ]
+      },
+      "result": {
+        "ok": true,
+        "accepted": 4,
+        "safeRetry": true,
+        "requested": 4,
+        "entities": [
+          "zombies_plus:sword_zombie",
+          "zombies_plus:axe_zombie",
+          "feralzombie:warrior_zombie",
+          "zombies_plus:crossbow_zombie"
+        ],
+        "response": "Summoned 4/4"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 8,
+        "zombies": 196,
+        "rewards": 4
+      }
+    },
+    {
+      "label": "Perfume",
+      "pass": true,
+      "elapsedMs": 1482,
+      "event": {
+        "event": "gift",
+        "data": {
+          "giftName": "Perfume",
+          "giftType": 1,
+          "repeatEnd": true,
+          "repeatCount": 1,
+          "diamondCount": 20,
+          "userId": "cw-test-viewer",
+          "msgId": "real-test-1791713403224-12"
+        }
+      },
+      "expected": {
+        "reward": "gun_t2"
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 7.296036086036332,
+        "y": 81,
+        "z": 3.3138265398727444,
+        "inventory": [
+          {
+            "slot": 0,
+            "id": "tacz:modern_kinetic_gun",
+            "count": 1,
+            "tag": "{GunCurrentAmmoCount:30,GunFireMode:\"AUTO\",GunId:\"tacz:hk416d\",HasBulletInBarrel:1b}"
+          },
+          {
+            "slot": 1,
+            "id": "tacz:ammo",
+            "count": 60,
+            "tag": "{AmmoId:\"tacz:556x45\"}"
+          },
+          {
+            "slot": 2,
+            "id": "tacz:ammo",
+            "count": 30,
+            "tag": "{AmmoId:\"tacz:556x45\"}"
+          }
+        ],
+        "mobs": []
+      },
+      "result": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t2",
+        "variant": 21,
+        "gun": "tacz:hk416d",
+        "ammo": "tacz:556x45",
+        "ammoCount": 90,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t2/tacz/hk416d'\n"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 9,
+        "zombies": 196,
+        "rewards": 5
+      }
+    },
+    {
+      "label": "Rose combo progress ignored",
+      "pass": true,
+      "elapsedMs": 948,
+      "event": {
+        "event": "gift",
+        "data": {
+          "giftName": "Rose",
+          "giftId": 5655,
+          "giftType": 1,
+          "repeatEnd": false,
+          "repeatCount": 2,
+          "diamondCount": 1,
+          "userId": "cw-test-viewer",
+          "groupId": "cw-test-combo",
+          "msgId": "real-test-1791713404717-13"
+        }
+      },
+      "expected": {
+        "none": true
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 7.296036086036332,
+        "y": 81,
+        "z": 3.3138265398727444,
+        "inventory": [],
+        "mobs": []
+      },
+      "result": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t2",
+        "variant": 21,
+        "gun": "tacz:hk416d",
+        "ammo": "tacz:556x45",
+        "ammoCount": 90,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t2/tacz/hk416d'\n"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 9,
+        "zombies": 196,
+        "rewards": 5
+      }
+    },
+    {
+      "label": "Rose combo final x2",
+      "pass": true,
+      "elapsedMs": 8247,
+      "event": {
+        "event": "gift",
+        "data": {
+          "giftName": "Rose",
+          "giftId": 5655,
+          "giftType": 1,
+          "repeatEnd": true,
+          "repeatCount": 2,
+          "diamondCount": 1,
+          "userId": "cw-test-viewer",
+          "groupId": "cw-test-combo",
+          "msgId": "real-test-1791713405672-14"
+        }
+      },
+      "expected": {
+        "zombies": 20
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 7.296036086036332,
+        "y": 81,
+        "z": 3.3138265398727444,
+        "inventory": [],
+        "mobs": [
+          {
+            "id": "zombies_plus:bow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_06cb0bd8-4f49-4728-9a1d-d0268f4f0b58",
+              "cw_job_06cb0bd8-4f49-4728-9a1d-d0268f4f0b58_0"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:vile_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_06cb0bd8-4f49-4728-9a1d-d0268f4f0b58",
+              "cw_job_06cb0bd8-4f49-4728-9a1d-d0268f4f0b58_1"
+            ],
+            "x": 2.296036086036332,
+            "y": 83,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:runner_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_06cb0bd8-4f49-4728-9a1d-d0268f4f0b58",
+              "cw_job_06cb0bd8-4f49-4728-9a1d-d0268f4f0b58_2"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:vile_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_06cb0bd8-4f49-4728-9a1d-d0268f4f0b58_3",
+              "cw_probe",
+              "cw_job_06cb0bd8-4f49-4728-9a1d-d0268f4f0b58"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:warrior_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1_0",
+              "cw_probe"
+            ],
+            "x": 2.296036086036332,
+            "y": 83,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1_1",
+              "cw_probe"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:feral_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1_2",
+              "cw_probe"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:zombie_dog",
+            "tags": [
+              "cw_live",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1",
+              "cw_probe",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1_3"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:sword_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1",
+              "cw_probe",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1_4"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1",
+              "cw_probe",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1_5"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:axe_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1",
+              "cw_probe",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1_6"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:weak_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1",
+              "cw_probe",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1_7"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:vile_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1",
+              "cw_probe",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1_8"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:axe_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1",
+              "cw_probe",
+              "cw_job_0ab9e8cd-4b3b-4ffb-afef-e182969bb9d1_9"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          },
+          {
+            "id": "zombies_plus:bow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_9e8a86b9-b44e-4372-ad90-d49a73169499",
+              "cw_probe",
+              "cw_job_9e8a86b9-b44e-4372-ad90-d49a73169499_0"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:bow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_9e8a86b9-b44e-4372-ad90-d49a73169499",
+              "cw_probe",
+              "cw_job_9e8a86b9-b44e-4372-ad90-d49a73169499_1"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_9e8a86b9-b44e-4372-ad90-d49a73169499",
+              "cw_probe",
+              "cw_job_9e8a86b9-b44e-4372-ad90-d49a73169499_2"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:warrior_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_9e8a86b9-b44e-4372-ad90-d49a73169499_3",
+              "cw_job_9e8a86b9-b44e-4372-ad90-d49a73169499",
+              "cw_probe"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "feralzombie:feral_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_9e8a86b9-b44e-4372-ad90-d49a73169499_4",
+              "cw_job_9e8a86b9-b44e-4372-ad90-d49a73169499",
+              "cw_probe"
+            ],
+            "x": 7.296036086036332,
+            "y": 83,
+            "z": 9.313826539872744
+          },
+          {
+            "id": "zombies_plus:vile_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_9e8a86b9-b44e-4372-ad90-d49a73169499_5",
+              "cw_job_9e8a86b9-b44e-4372-ad90-d49a73169499",
+              "cw_probe"
+            ],
+            "x": 12.296036086036331,
+            "y": 81,
+            "z": 8.313826539872744
+          }
+        ]
+      },
+      "result": {
+        "ok": true,
+        "accepted": 6,
+        "safeRetry": true,
+        "requested": 6,
+        "entities": [
+          "zombies_plus:bow_zombie",
+          "zombies_plus:bow_zombie",
+          "zombies_plus:slow_zombie",
+          "feralzombie:warrior_zombie",
+          "feralzombie:feral_zombie",
+          "zombies_plus:vile_zombie"
+        ],
+        "response": "Summoned 6/6"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 11,
+        "zombies": 216,
+        "rewards": 5
+      }
+    },
+    {
+      "label": "Repeated combo final ignored",
+      "pass": true,
+      "elapsedMs": 945,
+      "event": {
+        "event": "gift",
+        "data": {
+          "giftName": "Rose",
+          "giftId": 5655,
+          "giftType": 1,
+          "repeatEnd": true,
+          "repeatCount": 2,
+          "diamondCount": 1,
+          "userId": "cw-test-viewer",
+          "groupId": "cw-test-combo",
+          "msgId": "real-test-1791713405672-14"
+        }
+      },
+      "expected": {
+        "none": true
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 7.296036086036332,
+        "y": 81,
+        "z": 3.3138265398727444,
+        "inventory": [],
+        "mobs": []
+      },
+      "result": {
+        "ok": true,
+        "accepted": 6,
+        "safeRetry": true,
+        "requested": 6,
+        "entities": [
+          "zombies_plus:bow_zombie",
+          "zombies_plus:bow_zombie",
+          "zombies_plus:slow_zombie",
+          "feralzombie:warrior_zombie",
+          "feralzombie:feral_zombie",
+          "zombies_plus:vile_zombie"
+        ],
+        "response": "Summoned 6/6"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 11,
+        "zombies": 216,
+        "rewards": 5
+      }
+    },
+    {
+      "label": "Non-combo gift accepted",
+      "pass": true,
+      "elapsedMs": 947,
+      "event": {
+        "event": "gift",
+        "data": {
+          "giftName": "Shamrock",
+          "giftType": 0,
+          "repeatEnd": false,
+          "repeatCount": 1,
+          "diamondCount": 10,
+          "userId": "cw-test-viewer",
+          "msgId": "real-test-1791713414910-15"
+        }
+      },
+      "expected": {
+        "reward": "sledgehammer"
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 7.296036086036332,
+        "y": 81,
+        "z": 3.3138265398727444,
+        "inventory": [
+          {
+            "slot": 0,
+            "id": "marbledsmelees:sledgehammer",
+            "count": 1,
+            "tag": "{Damage:0}"
+          }
+        ],
+        "mobs": []
+      },
+      "result": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "sledgehammer",
+        "variant": 0,
+        "response": "Executed 1 command(s) from function 'cw_live:rewards/sledgehammer'\n"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 12,
+        "zombies": 216,
+        "rewards": 6
+      }
+    },
+    {
+      "label": "Catalogue gun_t1/0",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:4,GunFireMode:\"SEMI\",GunId:\"bf1:obrez\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 8,
+          "tag": "{AmmoId:\"tacz:762x54\"}"
+        }
+      ],
+      "result": {
+        "id": "1a3f24fb-ff56-4765-8376-6f873318217f",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t1",
+        "variant": 0,
+        "gun": "bf1:obrez",
+        "ammo": "tacz:762x54",
+        "ammoCount": 8,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t1/bf1/obrez'\n"
+      }
+    },
+    {
+      "label": "Catalogue gun_t1/1",
+      "pass": true,
+      "actual": [
+        {
+          "slot": 0,
+          "id": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "tag": "{GunCurrentAmmoCount:6,GunFireMode:\"SEMI\",GunId:\"bf1:sw_model3\",HasBulletInBarrel:1b}"
+        },
+        {
+          "slot": 1,
+          "id": "tacz:ammo",
+          "count": 12,
+          "tag": "{AmmoId:\"tacz:357mag\"}"
+        }
+      ],
+      "result": {
+        "id": "dc2e5752-0d98-47f2-9a7f-e999c76e4f61",
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t1",
+        "variant": 1,
+        "gun": "bf1:sw_model3",
+        "ammo": "tacz:357mag",
+        "ammoCount": 12,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t1/bf1/sw_model3'\n"
+      }
+    }
+  ],
+  "restored": true,
+  "original": {
+    "player": "Dogalive",
+    "x": 8.420339253405347,
+    "y": 68,
+    "z": -0.6298375714005778,
+    "inventory": [
+      {
+        "slot": 0,
+        "id": "marbledsmelees:fire_axe",
+        "count": 1,
+        "tag": "{Damage:50}"
+      },
+      {
+        "slot": 1,
+        "id": "minecraft:bread",
+        "count": 9,
+        "tag": ""
+      },
+      {
+        "slot": 2,
+        "id": "ftbquests:book",
+        "count": 1,
+        "tag": ""
+      },
+      {
+        "slot": 3,
+        "id": "cure:vaccine",
+        "count": 6,
+        "tag": "{Damage:0}"
+      },
+      {
+        "slot": 4,
+        "id": "binocularsmod:binoculars",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "slot": 5,
+        "id": "minecraft:light_gray_bed",
+        "count": 1,
+        "tag": ""
+      },
+      {
+        "slot": 6,
+        "id": "create:cardboard_block",
+        "count": 14,
+        "tag": ""
+      },
+      {
+        "slot": 7,
+        "id": "minecraft:string",
+        "count": 7,
+        "tag": ""
+      },
+      {
+        "slot": 36,
+        "id": "minecraft:iron_boots",
+        "count": 1,
+        "tag": "{Damage:3}"
+      },
+      {
+        "slot": 39,
+        "id": "marbledsarsenal:cm6m_gas_mask",
+        "count": 1,
+        "tag": "{Damage:3}"
+      }
+    ],
+    "mobs": []
+  },
+  "passed": false,
+  "error": "AssertionError [ERR_ASSERTION]: total item count\n\n1 !== 121\n\n    at verifyReward (file:///C:/Users/PHAT/Documents/Codex/2026-10-10/new-chat/work/test-real-pipeline.mjs:20:9)\n    at file:///C:/Users/PHAT/Documents/Codex/2026-10-10/new-chat/work/test-real-pipeline.mjs:77:33\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)",
+  "restoreReply": "Test ended: inventory/game mode restored; test mobs removed.\n",
+  "finished": "2026-10-11T10:10:17.251Z"
+}

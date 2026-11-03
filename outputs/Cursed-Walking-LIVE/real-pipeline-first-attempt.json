@@ -1,0 +1,507 @@
+{
+  "started": "2026-10-11T10:06:48.371Z",
+  "source": "Simulated TikFinity-format events; actual Streamer.bot and Minecraft server with Dogalive online",
+  "cases": [
+    {
+      "label": "99 likes, no spawn",
+      "pass": true,
+      "elapsedMs": 954,
+      "event": {
+        "event": "like",
+        "data": {
+          "likeCount": 99,
+          "msgId": "real-test-1791713208763-1"
+        }
+      },
+      "expected": {
+        "none": true,
+        "remainder": 99
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 1.9131395528397042,
+        "y": 69.43337546922226,
+        "z": -11.707190816500548,
+        "inventory": [],
+        "mobs": []
+      },
+      "result": null,
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 0,
+        "rewards": 0
+      }
+    },
+    {
+      "label": "100th like, one zombie",
+      "pass": true,
+      "elapsedMs": 2005,
+      "event": {
+        "event": "like",
+        "data": {
+          "likeCount": 1,
+          "msgId": "real-test-1791713209728-2"
+        }
+      },
+      "expected": {
+        "zombies": 1,
+        "remainder": 0
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 1.9131395528397042,
+        "y": 69.43337546922226,
+        "z": -11.707190816500548,
+        "inventory": [],
+        "mobs": [
+          {
+            "id": "feralzombie:drone_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_771f60a7-e319-47b7-acd1-49e663a8e996_0",
+              "cw_probe",
+              "cw_job_771f60a7-e319-47b7-acd1-49e663a8e996"
+            ],
+            "x": -0.08686044716029584,
+            "y": 71.43337546922226,
+            "z": -19.70719081650055
+          }
+        ]
+      },
+      "result": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": true,
+        "requested": 1,
+        "entities": [
+          "feralzombie:drone_zombie"
+        ],
+        "response": "Summoned 1/1"
+      },
+      "stats": {
+        "follows": 0,
+        "gifts": 0,
+        "zombies": 1,
+        "rewards": 0
+      }
+    },
+    {
+      "label": "Follow, five zombies",
+      "pass": true,
+      "elapsedMs": 1459,
+      "event": {
+        "event": "follow",
+        "data": {
+          "userId": "cw-test-viewer",
+          "msgId": "real-test-1791713211780-3"
+        }
+      },
+      "expected": {
+        "zombies": 5
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 1.9131395528397042,
+        "y": 69.43337546922226,
+        "z": -11.707190816500548,
+        "inventory": [],
+        "mobs": [
+          {
+            "id": "zombies_plus:sword_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_3b1c6dd9-a694-48ee-ae1f-af64e030b385_0",
+              "cw_job_3b1c6dd9-a694-48ee-ae1f-af64e030b385"
+            ],
+            "x": -3.086860447160296,
+            "y": 71.43337546922226,
+            "z": -6.707190816500548
+          },
+          {
+            "id": "zombies_plus:weak_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_3b1c6dd9-a694-48ee-ae1f-af64e030b385_1",
+              "cw_job_3b1c6dd9-a694-48ee-ae1f-af64e030b385"
+            ],
+            "x": 6.913139552839704,
+            "y": 70.43337546922226,
+            "z": -16.70719081650055
+          },
+          {
+            "id": "zombies_plus:crossbow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_3b1c6dd9-a694-48ee-ae1f-af64e030b385_2",
+              "cw_job_3b1c6dd9-a694-48ee-ae1f-af64e030b385"
+            ],
+            "x": -3.086860447160296,
+            "y": 71.43337546922226,
+            "z": -16.70719081650055
+          },
+          {
+            "id": "zombies_plus:weak_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_3b1c6dd9-a694-48ee-ae1f-af64e030b385_3",
+              "cw_job_3b1c6dd9-a694-48ee-ae1f-af64e030b385"
+            ],
+            "x": 9.913139552839704,
+            "y": 68.43337546922226,
+            "z": -9.707190816500548
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_probe",
+              "cw_job_3b1c6dd9-a694-48ee-ae1f-af64e030b385_4",
+              "cw_job_3b1c6dd9-a694-48ee-ae1f-af64e030b385"
+            ],
+            "x": 3.913139552839704,
+            "y": 69.43337546922226,
+            "z": -3.707190816500548
+          }
+        ]
+      },
+      "result": {
+        "ok": true,
+        "accepted": 5,
+        "safeRetry": true,
+        "requested": 5,
+        "entities": [
+          "zombies_plus:sword_zombie",
+          "zombies_plus:weak_zombie",
+          "zombies_plus:crossbow_zombie",
+          "zombies_plus:weak_zombie",
+          "zombies_plus:slow_zombie"
+        ],
+        "response": "Summoned 5/5"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 0,
+        "zombies": 6,
+        "rewards": 0
+      }
+    },
+    {
+      "label": "Rose",
+      "pass": true,
+      "elapsedMs": 1480,
+      "event": {
+        "event": "gift",
+        "data": {
+          "giftName": "Rose",
+          "giftId": 5655,
+          "giftType": 1,
+          "repeatEnd": true,
+          "repeatCount": 1,
+          "diamondCount": 1,
+          "userId": "cw-test-viewer",
+          "msgId": "real-test-1791713213258-4"
+        }
+      },
+      "expected": {
+        "zombies": 10
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 1.9131395528397042,
+        "y": 69.43337546922226,
+        "z": -11.707190816500548,
+        "inventory": [],
+        "mobs": [
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686",
+              "cw_probe",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686_0"
+            ],
+            "x": 1.9131395528397042,
+            "y": 70.43337546922226,
+            "z": -5.707190816500548
+          },
+          {
+            "id": "feralzombie:feral_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686",
+              "cw_probe",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686_1"
+            ],
+            "x": -4.086860447160296,
+            "y": 71.43337546922226,
+            "z": -11.707190816500548
+          },
+          {
+            "id": "zombies_plus:slow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686",
+              "cw_probe",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686_2"
+            ],
+            "x": 1.9131395528397042,
+            "y": 71.43337546922226,
+            "z": -17.70719081650055
+          },
+          {
+            "id": "zombies_plus:vile_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686",
+              "cw_probe",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686_3"
+            ],
+            "x": 6.913139552839704,
+            "y": 69.43337546922226,
+            "z": -6.707190816500548
+          },
+          {
+            "id": "zombies_plus:crossbow_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686",
+              "cw_probe",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686_4"
+            ],
+            "x": -3.086860447160296,
+            "y": 71.43337546922226,
+            "z": -6.707190816500548
+          },
+          {
+            "id": "zombies_plus:weak_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686",
+              "cw_probe",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686_5"
+            ],
+            "x": 6.913139552839704,
+            "y": 70.43337546922226,
+            "z": -16.70719081650055
+          },
+          {
+            "id": "zombies_plus:runner_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686",
+              "cw_probe",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686_6"
+            ],
+            "x": -3.086860447160296,
+            "y": 71.43337546922226,
+            "z": -16.70719081650055
+          },
+          {
+            "id": "feralzombie:spitter_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686",
+              "cw_probe",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686_7"
+            ],
+            "x": 3.913139552839704,
+            "y": 69.43337546922226,
+            "z": -3.707190816500548
+          },
+          {
+            "id": "zombies_plus:brute_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686",
+              "cw_probe",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686_8"
+            ],
+            "x": 3.913139552839704,
+            "y": 69.43337546922226,
+            "z": -3.707190816500548
+          },
+          {
+            "id": "zombies_plus:leaper_zombie",
+            "tags": [
+              "cw_live",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686",
+              "cw_probe",
+              "cw_job_8fc9e975-1240-4c22-a2f8-ec1fd9133686_9"
+            ],
+            "x": 3.913139552839704,
+            "y": 69.43337546922226,
+            "z": -3.707190816500548
+          }
+        ]
+      },
+      "result": {
+        "ok": true,
+        "accepted": 10,
+        "safeRetry": true,
+        "requested": 10,
+        "entities": [
+          "zombies_plus:leaper_zombie",
+          "feralzombie:feral_zombie",
+          "zombies_plus:slow_zombie",
+          "zombies_plus:vile_zombie",
+          "zombies_plus:crossbow_zombie",
+          "zombies_plus:weak_zombie",
+          "zombies_plus:runner_zombie",
+          "feralzombie:spitter_zombie",
+          "zombies_plus:brute_zombie",
+          "zombies_plus:leaper_zombie"
+        ],
+        "response": "Summoned 10/10"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 1,
+        "zombies": 16,
+        "rewards": 0
+      }
+    },
+    {
+      "label": "You're awesome",
+      "pass": true,
+      "elapsedMs": 1473,
+      "event": {
+        "event": "gift",
+        "data": {
+          "giftName": "You're awesome",
+          "giftType": 1,
+          "repeatEnd": true,
+          "repeatCount": 1,
+          "diamondCount": 1,
+          "userId": "cw-test-viewer",
+          "msgId": "real-test-1791713214767-5"
+        }
+      },
+      "expected": {
+        "reward": "gun_t1"
+      },
+      "actual": {
+        "player": "Dogalive",
+        "x": 1.9131395528397042,
+        "y": 69.43337546922226,
+        "z": -11.707190816500548,
+        "inventory": [
+          {
+            "slot": 0,
+            "id": "tacz:modern_kinetic_gun",
+            "count": 1,
+            "tag": "{GunCurrentAmmoCount:1,GunFireMode:\"SEMI\",GunId:\"bf1:martini\",HasBulletInBarrel:1b}"
+          },
+          {
+            "slot": 1,
+            "id": "tacz:ammo",
+            "count": 2,
+            "tag": "{AmmoId:\"tacz:45_70\"}"
+          }
+        ],
+        "mobs": []
+      },
+      "result": {
+        "ok": true,
+        "accepted": 1,
+        "safeRetry": false,
+        "reward": "gun_t1",
+        "variant": 10,
+        "gun": "bf1:martini",
+        "ammo": "tacz:45_70",
+        "ammoCount": 2,
+        "response": "Executed 2 command(s) from function 'cw_live:rewards/t1/bf1/martini'\n"
+      },
+      "stats": {
+        "follows": 1,
+        "gifts": 2,
+        "zombies": 16,
+        "rewards": 1
+      }
+    }
+  ],
+  "restored": true,
+  "original": {
+    "player": "Dogalive",
+    "x": 1.9131395528397042,
+    "y": 69.43337546922226,
+    "z": -11.707190816500548,
+    "inventory": [
+      {
+        "slot": 0,
+        "id": "marbledsmelees:fire_axe",
+        "count": 1,
+        "tag": "{Damage:42}"
+      },
+      {
+        "slot": 1,
+        "id": "minecraft:bread",
+        "count": 9,
+        "tag": ""
+      },
+      {
+        "slot": 2,
+        "id": "ftbquests:book",
+        "count": 1,
+        "tag": ""
+      },
+      {
+        "slot": 3,
+        "id": "cure:vaccine",
+        "count": 6,
+        "tag": "{Damage:0}"
+      },
+      {
+        "slot": 4,
+        "id": "binocularsmod:binoculars",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "slot": 5,
+        "id": "minecraft:light_gray_bed",
+        "count": 1,
+        "tag": ""
+      },
+      {
+        "slot": 6,
+        "id": "create:cardboard_block",
+        "count": 14,
+        "tag": ""
+      },
+      {
+        "slot": 7,
+        "id": "minecraft:string",
+        "count": 7,
+        "tag": ""
+      },
+      {
+        "slot": 8,
+        "id": "tacz:modern_kinetic_gun",
+        "count": 1,
+        "tag": "{GunCurrentAmmoCount:15,GunFireMode:\"SEMI\",GunId:\"tacz:spr15hb\",HasBulletInBarrel:1b}"
+      },
+      {
+        "slot": 36,
+        "id": "minecraft:iron_boots",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "slot": 39,
+        "id": "marbledsarsenal:cm6m_gas_mask",
+        "count": 1,
+        "tag": "{Damage:0}"
+      }
+    ],
+    "mobs": []
+  },
+  "passed": false,
+  "error": "TypeError: fetch failed",
+  "restoreReply": "Test ended: inventory/game mode restored; test mobs removed.\n",
+  "finished": "2026-10-11T10:08:10.476Z"
+}

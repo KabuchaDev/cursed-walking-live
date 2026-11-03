@@ -1,0 +1,11 @@
+{
+  "kind": "summon",
+  "entities": [
+    "zombies_plus:axe_zombie",
+    "zombies_plus:weak_zombie",
+    "feralzombie:drone_zombie",
+    "zombies_plus:slow_zombie",
+    "zombies_plus:weak_zombie"
+  ],
+  "createdAt": 1791726456877
+}

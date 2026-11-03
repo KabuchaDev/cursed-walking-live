@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "accepted": 1,
+  "safeRetry": false,
+  "reward": "iron_armor",
+  "variant": 0,
+  "response": "Executed 4 command(s) from function 'cw_live:rewards/iron_armor'\n"
+}

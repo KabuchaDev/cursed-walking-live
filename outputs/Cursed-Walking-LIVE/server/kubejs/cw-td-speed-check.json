@@ -1,0 +1,77 @@
+{
+	"ticks": 40,
+	"rows": [
+		{
+			"type": "minecraft:zombie",
+			"distance": 2.925000000000111
+		},
+		{
+			"type": "feralzombie:drone_zombie",
+			"distance": 2.925000000000111
+		},
+		{
+			"type": "feralzombie:feral_zombie",
+			"distance": 3.510000000000133
+		},
+		{
+			"type": "feralzombie:warrior_zombie",
+			"distance": 2.3400000000000887
+		},
+		{
+			"type": "feralzombie:spitter_zombie",
+			"distance": 3.510000000000133
+		},
+		{
+			"type": "feralzombie:zombie_dog",
+			"distance": 4.875
+		},
+		{
+			"type": "mutantmonsters:mutant_zombie",
+			"distance": 2.3400000000000887
+		},
+		{
+			"type": "zombies_plus:runner_zombie",
+			"distance": 4.875
+		},
+		{
+			"type": "zombies_plus:brute_zombie",
+			"distance": 2.3400000000000887
+		},
+		{
+			"type": "zombies_plus:crawler_zombie",
+			"distance": 2.5349999999999113
+		},
+		{
+			"type": "zombies_plus:crossbow_zombie",
+			"distance": 3.510000000000133
+		},
+		{
+			"type": "zombies_plus:bow_zombie",
+			"distance": 3.510000000000133
+		},
+		{
+			"type": "zombies_plus:axe_zombie",
+			"distance": 3.510000000000133
+		},
+		{
+			"type": "zombies_plus:sword_zombie",
+			"distance": 3.510000000000133
+		},
+		{
+			"type": "zombies_plus:weak_zombie",
+			"distance": 2.925000000000111
+		},
+		{
+			"type": "zombies_plus:slow_zombie",
+			"distance": 2.925000000000111
+		},
+		{
+			"type": "zombies_plus:vile_zombie",
+			"distance": 3.510000000000133
+		},
+		{
+			"type": "zombies_plus:leaper_zombie",
+			"distance": 4.875
+		}
+	]
+}

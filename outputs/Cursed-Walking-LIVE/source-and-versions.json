@@ -1,0 +1,16 @@
+{
+  "pack": "Cursed Walking v3.3 (patch)",
+  "minecraft": "1.20.1",
+  "forge": "47.4.0",
+  "serverModCount": 218,
+  "source": "https://www.curseforge.com/minecraft/modpacks/cursed-walking-a-modern-zombie-apocalypse/files/8712048",
+  "serverArchiveSHA256": "bcd9c40c12f1959fde4a7f1f9c0efb3997046adc1cc33cb1acab4b2c50c67dc5",
+  "localOnly": true,
+  "authentication": "offline, matching existing personal localhost server",
+  "liveGiftMappings": "9 gift rules active; Rosa 50 zombies, Little kisses 100 zombies, Shamrock Sledgehammer",
+  "disabledServerMods": [
+    "alltheleaks-1.1.1+1.20.1-forge.jar"
+  ],
+  "liveLikes": "100 cumulative likes = 1 zombie, weak/medium/strong 80/18/2",
+  "liveFollow": "1 follow = 5 weighted zombies"
+}

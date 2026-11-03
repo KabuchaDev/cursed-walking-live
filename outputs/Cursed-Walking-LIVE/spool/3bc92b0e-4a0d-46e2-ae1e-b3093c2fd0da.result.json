@@ -1,0 +1,8 @@
+{
+  "ok": false,
+  "accepted": 0,
+  "safeRetry": true,
+  "requested": 5,
+  "entities": [],
+  "response": "TD_WAIT mob_limit\n"
+}

@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "accepted": 1,
+  "safeRetry": true,
+  "requested": 1,
+  "entities": [
+    "mutantmonsters:mutant_zombie"
+  ],
+  "response": "TD_SPAWNED cw_job_37292ed0-a89a-47da-acec-b86a0caa6fd2_0\n"
+}

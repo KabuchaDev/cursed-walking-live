@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-12T10:23:13.918Z",
+  "online": "There are 1 of a max of 4 players online: Dogalive67\n",
+  "worlds": [
+    {
+      "dimension": "minecraft:overworld",
+      "chunks": 0,
+      "entities": 0,
+      "vanillaForced": 0
+    },
+    {
+      "dimension": "the_deep_void:deep_void",
+      "chunks": 0,
+      "entities": 0,
+      "vanillaForced": 0
+    },
+    {
+      "dimension": "lostcities:lostcity",
+      "chunks": 0,
+      "entities": 0,
+      "vanillaForced": 0
+    },
+    {
+      "dimension": "the_deeper_void:void_dimension",
+      "chunks": 0,
+      "entities": 0,
+      "vanillaForced": 0
+    },
+    {
+      "dimension": "minecraft:the_nether",
+      "chunks": 0,
+      "entities": 0,
+      "vanillaForced": 0
+    },
+    {
+      "dimension": "cw_live:defense",
+      "chunks": 1886,
+      "entities": 24,
+      "vanillaForced": 0
+    },
+    {
+      "dimension": "minecraft:the_end",
+      "chunks": 0,
+      "entities": 0,
+      "vanillaForced": 0
+    }
+  ],
+  "clientReloaded": true
+}

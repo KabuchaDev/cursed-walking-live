@@ -1,0 +1,120 @@
+{
+  "started": "2026-10-11T22:12:17.626Z",
+  "checks": [
+    {
+      "name": "Entire path and all three physical buttons exist after restart",
+      "map": {
+        "passed": true,
+        "checkedColumns": 4165,
+        "clearHeight": 5,
+        "errors": []
+      }
+    },
+    {
+      "name": "All 17 map signs loaded from saved world",
+      "debug": {
+        "dimension": "cw_live:defense",
+        "loaded": 1763,
+        "hasSpawn": true,
+        "forced": 195,
+        "chunk": "minecraft:full",
+        "entities": {
+          "minecraft:text_display": 17,
+          "minecraft:item": 1
+        }
+      }
+    },
+    {
+      "name": "Natural hordes and untracked zombies cannot add unrequested waves"
+    },
+    {
+      "name": "Tagged event zombies still move normally",
+      "wave": {
+        "version": 1,
+        "ready": true,
+        "dimension": "cw_live:defense",
+        "phase": "running",
+        "hp": 1000,
+        "maxHp": 1000,
+        "round": 1,
+        "players": 0,
+        "active": 3,
+        "spawned": 3,
+        "killed": 0,
+        "leaked": 0,
+        "damage": 0,
+        "routeLength": 588,
+        "testMode": true,
+        "mobs": [
+          {
+            "type": "minecraft:zombie",
+            "progress": 3.149999999999999,
+            "lane": -0.85,
+            "x": -97.19999999999999,
+            "y": 64,
+            "z": -65.35,
+            "health": 27.154709,
+            "noAI": true,
+            "target": null,
+            "tags": "[cw_live, cw_td, qa_final_0]"
+          },
+          {
+            "type": "feralzombie:spitter_zombie",
+            "progress": 3.600000000000001,
+            "lane": 0,
+            "x": -95.9,
+            "y": 64,
+            "z": -64.5,
+            "health": 48.878475,
+            "noAI": true,
+            "target": null,
+            "tags": "[cw_live, cw_td, qa_final_1]"
+          },
+          {
+            "type": "mutantmonsters:mutant_zombie",
+            "progress": 2.4000000000000012,
+            "lane": 0.85,
+            "x": -96.25,
+            "y": 64,
+            "z": -63.65,
+            "health": 1000,
+            "noAI": true,
+            "target": null,
+            "tags": "[cw_live, cw_td, qa_final_2]"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Starter pistol and matching ammo registered in actual server",
+      "starter": {
+        "gun": "bf1:sw_model3",
+        "ammo": "tacz:357mag",
+        "capacity": 6,
+        "reserve": 96
+      }
+    }
+  ],
+  "passed": true,
+  "cleanup": "TD_QA_ENDED\n",
+  "emptyServerPause": "TD_QA_EMPTY_SERVER_PAUSE_RESTORED\n",
+  "final": {
+    "version": 1,
+    "ready": true,
+    "dimension": "cw_live:defense",
+    "phase": "idle",
+    "hp": 1000,
+    "maxHp": 1000,
+    "round": 0,
+    "players": 0,
+    "active": 0,
+    "spawned": 0,
+    "killed": 0,
+    "leaked": 0,
+    "damage": 0,
+    "routeLength": 588,
+    "testMode": false,
+    "mobs": []
+  },
+  "finished": "2026-10-11T22:12:20.369Z"
+}

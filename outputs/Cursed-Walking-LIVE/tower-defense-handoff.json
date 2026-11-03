@@ -1,0 +1,42 @@
+{
+  "stage": "ready-player-verified",
+  "verifiedAt": "2026-10-12T05:18:58.170Z",
+  "minecraft": true,
+  "tikfinityLocalSocket": true,
+  "streamerbot": true,
+  "mode": "tower_defense",
+  "tower": {
+    "version": 1,
+    "ready": true,
+    "dimension": "cw_live:defense",
+    "phase": "paused",
+    "hp": 1000,
+    "maxHp": 1000,
+    "round": 1,
+    "players": 0,
+    "active": 0,
+    "spawned": 4,
+    "killed": 3,
+    "leaked": 0,
+    "damage": 0,
+    "routeLength": 588,
+    "testMode": false,
+    "mobs": []
+  },
+  "pendingZombies": 0,
+  "pendingRewards": 0,
+  "player": "Dogalive67",
+  "playerVerificationPassed": true,
+  "limitations": [
+    "Real paid TikTok gift delivery was not tested because the user has no coins; local gift dispatch and Streamer.bot reward delivery were tested."
+  ],
+  "futureConfiguration": "Keep current gift gun mappings until the user supplies the replacement gun list.",
+  "adjustments": {
+    "rotation": "Exact cardinal yaw for head and body; 18 types passed all 8 corners",
+    "speedMultiplier": 0.5,
+    "food": "Continuously full in cw_live:defense",
+    "verifiedAt": "2026-10-12T05:27:40.626Z",
+    "evidence": "tower-defense-movement-food-verification.json",
+    "clientVisualRecheck": "Player was offline during this adjustment; server rotation checks passed"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "accepted": 10,
+  "safeRetry": true,
+  "requested": 10,
+  "entities": [
+    "feralzombie:drone_zombie",
+    "zombies_plus:bow_zombie",
+    "zombies_plus:bow_zombie",
+    "zombies_plus:slow_zombie",
+    "feralzombie:drone_zombie",
+    "zombies_plus:slow_zombie",
+    "minecraft:zombie",
+    "zombies_plus:slow_zombie",
+    "minecraft:zombie",
+    "zombies_plus:slow_zombie"
+  ],
+  "response": "TD_SPAWNED cw_job_b05cc559-e1e3-4cea-badf-92059ce30e79_9\n"
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "at": "2026-10-13T11:28:57.747Z",
+  "checks": [
+    "one like -> one weakest zombie",
+    "duplicate likes and gifts ignored",
+    "disabled follows and old gifts ignored",
+    "all seven gift mappings",
+    "80/20 weak/medium distribution",
+    "Mutant-only giant gifts",
+    "boost jobs prioritized over zombie backlog"
+  ]
+}

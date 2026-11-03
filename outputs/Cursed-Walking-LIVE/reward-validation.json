@@ -1,0 +1,438 @@
+{
+  "at": "2026-10-11T04:24:43.827Z",
+  "method": "Empty-server function parse/load checks; runtime gun/ammo registry cross-checks are in test-events.mjs. Player inventory delivery not tested.",
+  "results": [
+    {
+      "reward": "gun_t1",
+      "gun": "bf1:obrez",
+      "function": "cw_live:rewards/t1/bf1/obrez",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t1",
+      "gun": "bf1:sw_model3",
+      "function": "cw_live:rewards/t1/bf1/sw_model3",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t1",
+      "gun": "bf1:smg0818",
+      "function": "cw_live:rewards/t1/bf1/smg0818",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t1",
+      "gun": "tacz:db_short",
+      "function": "cw_live:rewards/t1/tacz/db_short",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t1",
+      "gun": "tacz:db_long",
+      "function": "cw_live:rewards/t1/tacz/db_long",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t1",
+      "gun": "bf1:model10",
+      "function": "cw_live:rewards/t1/bf1/model10",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t1",
+      "gun": "bf1:vg15",
+      "function": "cw_live:rewards/t1/bf1/vg15",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t1",
+      "gun": "bf1:m1916",
+      "function": "cw_live:rewards/t1/bf1/m1916",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t1",
+      "gun": "bf1:rsc1917",
+      "function": "cw_live:rewards/t1/bf1/rsc1917",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t1",
+      "gun": "bf1:man_m95",
+      "function": "cw_live:rewards/t1/bf1/man_m95",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t1",
+      "gun": "bf1:martini",
+      "function": "cw_live:rewards/t1/bf1/martini",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t1",
+      "gun": "bf1:mhgl",
+      "function": "cw_live:rewards/t1/bf1/mhgl",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:cz75",
+      "function": "cw_live:rewards/t2/tacz/cz75",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:deagle",
+      "function": "cw_live:rewards/t2/tacz/deagle",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:deagle_golden",
+      "function": "cw_live:rewards/t2/tacz/deagle_golden",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:glock_17",
+      "function": "cw_live:rewards/t2/tacz/glock_17",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:p320",
+      "function": "cw_live:rewards/t2/tacz/p320",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:b93r",
+      "function": "cw_live:rewards/t2/tacz/b93r",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:m1911",
+      "function": "cw_live:rewards/t2/tacz/m1911",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:ump45",
+      "function": "cw_live:rewards/t2/tacz/ump45",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:uzi",
+      "function": "cw_live:rewards/t2/tacz/uzi",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:vector45",
+      "function": "cw_live:rewards/t2/tacz/vector45",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:hk_mp5a5",
+      "function": "cw_live:rewards/t2/tacz/hk_mp5a5",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:p90",
+      "function": "cw_live:rewards/t2/tacz/p90",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:scar_h",
+      "function": "cw_live:rewards/t2/tacz/scar_h",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:scar_l",
+      "function": "cw_live:rewards/t2/tacz/scar_l",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:spr15hb",
+      "function": "cw_live:rewards/t2/tacz/spr15hb",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:aug",
+      "function": "cw_live:rewards/t2/tacz/aug",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:ak47",
+      "function": "cw_live:rewards/t2/tacz/ak47",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:m16a4",
+      "function": "cw_live:rewards/t2/tacz/m16a4",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:m16a1",
+      "function": "cw_live:rewards/t2/tacz/m16a1",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:mk14",
+      "function": "cw_live:rewards/t2/tacz/mk14",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:m4a1",
+      "function": "cw_live:rewards/t2/tacz/m4a1",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:hk416d",
+      "function": "cw_live:rewards/t2/tacz/hk416d",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:hk_g3",
+      "function": "cw_live:rewards/t2/tacz/hk_g3",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:type_81",
+      "function": "cw_live:rewards/t2/tacz/type_81",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:qbz_95",
+      "function": "cw_live:rewards/t2/tacz/qbz_95",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:g36k",
+      "function": "cw_live:rewards/t2/tacz/g36k",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:sks_tactical",
+      "function": "cw_live:rewards/t2/tacz/sks_tactical",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:aa12",
+      "function": "cw_live:rewards/t2/tacz/aa12",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:m870",
+      "function": "cw_live:rewards/t2/tacz/m870",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:db_short",
+      "function": "cw_live:rewards/t2/tacz/db_short",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:db_long",
+      "function": "cw_live:rewards/t2/tacz/db_long",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:m95",
+      "function": "cw_live:rewards/t2/tacz/m95",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:m107",
+      "function": "cw_live:rewards/t2/tacz/m107",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:m700",
+      "function": "cw_live:rewards/t2/tacz/m700",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:ai_awp",
+      "function": "cw_live:rewards/t2/tacz/ai_awp",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:m320",
+      "function": "cw_live:rewards/t2/tacz/m320",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:rpg7",
+      "function": "cw_live:rewards/t2/tacz/rpg7",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:m249",
+      "function": "cw_live:rewards/t2/tacz/m249",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "gun_t2",
+      "gun": "tacz:rpk",
+      "function": "cw_live:rewards/t2/tacz/rpk",
+      "expectedCommands": 2,
+      "loadedCommands": 2,
+      "passed": true
+    },
+    {
+      "reward": "iron_armor",
+      "gun": null,
+      "function": "cw_live:rewards/iron_armor",
+      "expectedCommands": 4,
+      "loadedCommands": 4,
+      "passed": true
+    },
+    {
+      "reward": "modern_axe",
+      "gun": null,
+      "function": "cw_live:rewards/modern_axe",
+      "expectedCommands": 1,
+      "loadedCommands": 1,
+      "passed": true
+    },
+    {
+      "reward": "sledgehammer",
+      "gun": null,
+      "function": "cw_live:rewards/sledgehammer",
+      "expectedCommands": 1,
+      "loadedCommands": 1,
+      "passed": true
+    }
+  ]
+}

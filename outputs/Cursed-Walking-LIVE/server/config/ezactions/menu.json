@@ -1,0 +1,340 @@
+[
+  {
+    "id": "key_19b86861fd3",
+    "title": {
+      "text": "Quests"
+    },
+    "icon": "ftbquests:book",
+    "action": {
+      "type": "KEY",
+      "name": "key.ftbquests.quests",
+      "toggle": false,
+      "mode": "AUTO"
+    }
+  },
+  {
+    "id": "MAP",
+    "title": {
+      "text": "MAP"
+    },
+    "icon": "minecraft:filled_map",
+    "children": [
+      {
+        "id": "key_19b870fa802",
+        "title": {
+          "text": "Open Worldmap"
+        },
+        "icon": "alexsmobs:animal_dictionary",
+        "action": {
+          "type": "KEY",
+          "name": "gui.xaero_open_map",
+          "toggle": false,
+          "mode": "AUTO"
+        }
+      },
+      {
+        "id": "key_19b8712a3ea",
+        "title": {
+          "text": "Minimap Settings"
+        },
+        "icon": "immersive_aircraft:industrial_gears",
+        "action": {
+          "type": "KEY",
+          "name": "gui.xaero_minimap_settings",
+          "toggle": false,
+          "mode": "AUTO"
+        }
+      },
+      {
+        "id": "key_19b87122ba2",
+        "title": {
+          "text": "Toggle Waypoints"
+        },
+        "icon": "refurbished_furniture:light_lightswitch",
+        "action": {
+          "type": "KEY",
+          "name": "gui.xaero_toggle_waypoints",
+          "toggle": false,
+          "mode": "AUTO"
+        }
+      },
+      {
+        "id": "key_19b871fa3de",
+        "title": {
+          "text": "Toggle Light Overlay"
+        },
+        "icon": "minecraft:light",
+        "action": {
+          "type": "KEY",
+          "name": "gui.xaero_toggle_light_overlay",
+          "toggle": false,
+          "mode": "AUTO"
+        }
+      },
+      {
+        "id": "key_19b871626a5",
+        "title": {
+          "text": "Waypoint Screen"
+        },
+        "icon": "create:red_sand_paper",
+        "action": {
+          "type": "KEY",
+          "name": "gui.xaero_waypoints_key",
+          "toggle": false,
+          "mode": "AUTO"
+        }
+      },
+      {
+        "id": "key_19b8710f2cc",
+        "title": {
+          "text": "New Waypoint"
+        },
+        "icon": "create:sand_paper",
+        "action": {
+          "type": "KEY",
+          "name": "gui.xaero_new_waypoint",
+          "toggle": false,
+          "mode": "AUTO"
+        }
+      }
+    ]
+  },
+  {
+    "id": "key_19b86d80e15",
+    "title": {
+      "text": "Open Backpack"
+    },
+    "icon": "sophisticatedbackpacks:backpack",
+    "action": {
+      "type": "KEY",
+      "name": "keybind.sophisticatedbackpacks.open_backpack",
+      "toggle": false,
+      "mode": "AUTO"
+    }
+  },
+  {
+    "id": "key_19b868b63b0",
+    "title": {
+      "text": "Team GUI"
+    },
+    "icon": "securitycraft:codebreaker",
+    "action": {
+      "type": "KEY",
+      "name": "key.ftbteams.open_gui",
+      "toggle": false,
+      "mode": "AUTO"
+    }
+  },
+  {
+    "id": "advancements",
+    "title": {
+      "text": "Advancements"
+    },
+    "icon": "minecraft:book",
+    "action": {
+      "type": "KEY",
+      "name": "key.advancements",
+      "toggle": false,
+      "mode": "AUTO"
+    }
+  },
+  {
+    "id": "key_19b871e795b",
+    "title": {
+      "text": "Open Food Book"
+    },
+    "icon": "solonion:food_book",
+    "action": {
+      "type": "KEY",
+      "name": "key.solonion.open_food_book",
+      "toggle": false,
+      "mode": "AUTO"
+    }
+  },
+  {
+    "id": "Shaders",
+    "title": {
+      "text": "Shaders"
+    },
+    "icon": "ecologics:azalea_flower",
+    "children": [
+      {
+        "id": "key_19b86e053e8",
+        "title": {
+          "text": "Reload Shaders"
+        },
+        "icon": "createdeco:decal_warning",
+        "note": {
+          "text": "helpful for solving visual bugs"
+        },
+        "action": {
+          "type": "KEY",
+          "name": "iris.keybind.reload",
+          "toggle": false,
+          "mode": "AUTO"
+        }
+      },
+      {
+        "id": "key_19b86dcb5ae",
+        "title": {
+          "text": "Toggle Shaders"
+        },
+        "icon": "refurbished_furniture:light_lightswitch",
+        "action": {
+          "type": "KEY",
+          "name": "iris.keybind.toggleShaders",
+          "toggle": false,
+          "mode": "AUTO"
+        }
+      },
+      {
+        "id": "key_19b86db9f44",
+        "title": {
+          "text": "Shader Selection"
+        },
+        "icon": "minecraft:sunflower",
+        "action": {
+          "type": "KEY",
+          "name": "iris.keybind.shaderPackSelection",
+          "toggle": false,
+          "mode": "AUTO"
+        }
+      }
+    ]
+  },
+  {
+    "id": "TACZ",
+    "title": {
+      "text": "TACZ"
+    },
+    "icon": "tacz:gun_smith_table",
+    "children": [
+      {
+        "id": "key_19b8727f0ec",
+        "title": {
+          "text": "Open Config"
+        },
+        "icon": "refurbished_furniture:wrench",
+        "action": {
+          "type": "KEY",
+          "name": "key.tacz.open_config.desc",
+          "toggle": false,
+          "mode": "AUTO"
+        }
+      },
+      {
+        "id": "key_19b8725481a",
+        "title": {
+          "text": "Open Attachment Screen"
+        },
+        "icon": "tacz:target_minecart",
+        "action": {
+          "type": "KEY",
+          "name": "key.tacz.refit.desc",
+          "toggle": false,
+          "mode": "INPUT"
+        }
+      },
+      {
+        "id": "key_19b967cb61e",
+        "title": {
+          "text": "Inspect"
+        },
+        "icon": "create:goggles",
+        "action": {
+          "type": "KEY",
+          "name": "key.tacz.inspect",
+          "toggle": false,
+          "mode": "AUTO"
+        }
+      }
+    ]
+  },
+  {
+    "id": "Voicechat",
+    "title": {
+      "text": "Voicechat"
+    },
+    "icon": "walkietalkie:netherite_walkietalkie",
+    "children": [
+      {
+        "id": "key_19b872dd957",
+        "title": {
+          "text": "Menu"
+        },
+        "icon": "the_deeper_void:pressure_gauge",
+        "action": {
+          "type": "KEY",
+          "name": "key.voice_chat",
+          "toggle": false,
+          "mode": "AUTO"
+        }
+      },
+      {
+        "id": "key_19b872f52ef",
+        "title": {
+          "text": "Disable Voicechat"
+        },
+        "icon": "createdeco:decal_cross",
+        "action": {
+          "type": "KEY",
+          "name": "key.disable_voice_chat",
+          "toggle": false,
+          "mode": "AUTO"
+        }
+      },
+      {
+        "id": "key_19b8735a6a9",
+        "title": {
+          "text": "Toggle Recording"
+        },
+        "icon": "securitycraft:camera_monitor",
+        "action": {
+          "type": "KEY",
+          "name": "key.voice_chat_toggle_recording",
+          "toggle": false,
+          "mode": "AUTO"
+        }
+      },
+      {
+        "id": "key_19b873504a0",
+        "title": {
+          "text": "Adjust Volumes"
+        },
+        "icon": "securitycraft:universal_block_modifier",
+        "action": {
+          "type": "KEY",
+          "name": "key.voice_chat_adjust_volumes",
+          "toggle": false,
+          "mode": "AUTO"
+        }
+      },
+      {
+        "id": "key_19b87307fea",
+        "title": {
+          "text": "Mute"
+        },
+        "icon": "the_deeper_void:playmaker",
+        "action": {
+          "type": "KEY",
+          "name": "key.mute_microphone",
+          "toggle": false,
+          "mode": "AUTO"
+        }
+      },
+      {
+        "id": "key_19b872ffc78",
+        "title": {
+          "text": "Group Managment"
+        },
+        "icon": "minecraft:player_head",
+        "action": {
+          "type": "KEY",
+          "name": "key.voice_chat_group",
+          "toggle": false,
+          "mode": "AUTO"
+        }
+      }
+    ]
+  }
+]

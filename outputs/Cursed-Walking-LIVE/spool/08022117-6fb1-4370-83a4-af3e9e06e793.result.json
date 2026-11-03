@@ -1,0 +1,15 @@
+{
+  "ok": false,
+  "accepted": 6,
+  "safeRetry": true,
+  "requested": 10,
+  "entities": [
+    "zombies_plus:weak_zombie",
+    "feralzombie:feral_zombie",
+    "feralzombie:feral_zombie",
+    "zombies_plus:axe_zombie",
+    "zombies_plus:slow_zombie",
+    "zombies_plus:vile_zombie"
+  ],
+  "response": "Summoned 6/10"
+}

@@ -1,0 +1,16 @@
+{
+  "kind": "summon",
+  "entities": [
+    "feralzombie:spitter_zombie",
+    "zombies_plus:slow_zombie",
+    "feralzombie:zombie_dog",
+    "zombies_plus:crawler_zombie",
+    "zombies_plus:crossbow_zombie",
+    "feralzombie:warrior_zombie",
+    "zombies_plus:runner_zombie",
+    "zombies_plus:bow_zombie",
+    "zombies_plus:sword_zombie",
+    "zombies_plus:crawler_zombie"
+  ],
+  "createdAt": 1791713384752
+}

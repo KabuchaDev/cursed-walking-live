@@ -1,0 +1,167 @@
+{
+  "at": "2026-10-10T12:05:01.360Z",
+  "dimension": "minecraft:overworld",
+  "results": [
+    {
+      "entity": "minecraft:zombie",
+      "passed": true,
+      "response": "Summoned new Zombie",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "feralzombie:drone_zombie",
+      "passed": true,
+      "response": "Summoned new Drone Zombie",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "feralzombie:feral_zombie",
+      "passed": true,
+      "response": "Summoned new Feral Zombie",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "feralzombie:warrior_zombie",
+      "passed": true,
+      "response": "Summoned new Warrior Zombie",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "feralzombie:spitter_zombie",
+      "passed": true,
+      "response": "Summoned new Spitter Zombie",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "feralzombie:zombie_dog",
+      "passed": true,
+      "response": "Summoned new Zombie Dog",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "mutantmonsters:mutant_creeper",
+      "passed": true,
+      "response": "Summoned new Mutant Creeper",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "mutantmonsters:mutant_enderman",
+      "passed": true,
+      "response": "Summoned new Mutant Enderman",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "mutantmonsters:mutant_skeleton",
+      "passed": true,
+      "response": "Summoned new Mutant Skeleton",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "mutantmonsters:mutant_zombie",
+      "passed": true,
+      "response": "Summoned new Mutant Zombie",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "zombies_plus:runner_zombie",
+      "passed": true,
+      "response": "Summoned new Runner Zombie",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "zombies_plus:brute_zombie",
+      "passed": true,
+      "response": "Summoned new Brute Zombie",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "zombies_plus:crawler_zombie",
+      "passed": true,
+      "response": "Summoned new Crawler Zombie",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "zombies_plus:crossbow_zombie",
+      "passed": true,
+      "response": "Summoned new Crossbow Zombie",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "zombies_plus:bow_zombie",
+      "passed": true,
+      "response": "Summoned new Bow Zombie",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "zombies_plus:shrieker_zombie",
+      "passed": false,
+      "response": "Summoned new Shrieker Zombie",
+      "exists": "Test failed",
+      "cleanup": "Removed test entities: 0"
+    },
+    {
+      "entity": "zombies_plus:axe_zombie",
+      "passed": true,
+      "response": "Summoned new Axe Zombie",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "zombies_plus:sword_zombie",
+      "passed": true,
+      "response": "Summoned new Sword Zombie",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "zombies_plus:weak_zombie",
+      "passed": true,
+      "response": "Summoned new Weak Zombie",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "zombies_plus:slow_zombie",
+      "passed": true,
+      "response": "Summoned new Slow Zombie",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "zombies_plus:vile_zombie",
+      "passed": true,
+      "response": "Summoned new Vile Zombie",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    },
+    {
+      "entity": "zombies_plus:cave_zombie",
+      "passed": false,
+      "response": "Summoned new Cave Zombie",
+      "exists": "Test failed",
+      "cleanup": "Removed test entities: 0"
+    },
+    {
+      "entity": "zombies_plus:leaper_zombie",
+      "passed": true,
+      "response": "Summoned new Leaper Zombie",
+      "exists": "Test passed, count: 1",
+      "cleanup": "Removed test entities: 1"
+    }
+  ]
+}

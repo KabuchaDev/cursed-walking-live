@@ -1,0 +1,13 @@
+{
+	"f7736530-fdff-3890-86f8-933a4ffb5847": {
+		"active": true,
+		"inventory": "[{Count:1b,Slot:0b,id:\"ftbquests:book\"}]",
+		"dimension": "minecraft:overworld",
+		"x": 1.5,
+		"y": 75,
+		"z": 4.5,
+		"yaw": 88.5314,
+		"pitch": 14.815461,
+		"selected": 0
+	}
+}

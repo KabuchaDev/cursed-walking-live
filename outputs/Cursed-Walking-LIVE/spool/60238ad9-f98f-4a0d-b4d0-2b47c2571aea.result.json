@@ -1,0 +1,11 @@
+{
+  "ok": false,
+  "accepted": 2,
+  "safeRetry": true,
+  "requested": 5,
+  "entities": [
+    "minecraft:zombie",
+    "zombies_plus:weak_zombie"
+  ],
+  "response": "Summoned 2/5"
+}

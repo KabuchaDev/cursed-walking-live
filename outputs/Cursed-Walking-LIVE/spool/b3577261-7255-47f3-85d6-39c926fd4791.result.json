@@ -1,0 +1,11 @@
+{
+  "ok": false,
+  "accepted": 2,
+  "safeRetry": true,
+  "requested": 10,
+  "entities": [
+    "zombies_plus:brute_zombie",
+    "zombies_plus:runner_zombie"
+  ],
+  "response": "Summoned 2/10"
+}

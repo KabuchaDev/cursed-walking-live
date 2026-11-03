@@ -1,0 +1,44 @@
+[
+  "zombies_plus:slow_zombie-6-0-20",
+  "zombies_plus:weak_zombie-8-0-20",
+  "minecraft:zombie-10-0-0",
+  "zombies_plus:crawler_zombie-3-20-40",
+  "zombies_plus:axe_zombie-2-20-40",
+  "zombies_plus:sword_zombie-2-20-40",
+  "zombies_plus:leaper_zombie-2-40-60",
+  "zombies_plus:runner_zombie-2-40-60",
+  "zombies_plus:bow_zombie-2-60-80",
+  "zombies_plus:crossbow_zombie-2-60-80",
+  "zombies_plus:brute_zombie-3-80-99",
+  "feralzombie:drone_zombie-5-100-0",
+  "feralzombie:feral_zombie-1-100-0",
+    {
+    "entity": "minecraft:zombie",
+    "weight": 1,
+    "first_day": 80,
+    "last_day": 0,
+    "nbt": "{Attributes:[{Name:\"jeffs_cursed_walking_structures:rage\",Base:1f}]}"
+  },
+  {
+    "entity": "minecraft:zombie",
+    "weight": 1,
+    "first_day": 150,
+    "last_day": 199,
+    "nbt": "{CustomName:'[{\"text\":\"Mu\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"t\",\"obfuscated\":true},{\"text\":\"at\",\"obfuscated\":false},{\"text\":\"e\",\"obfuscated\":true},{\"text\":\"d Zom\",\"obfuscated\":false},{\"text\":\"bi\",\"obfuscated\":true},{\"text\":\"e\",\"obfuscated\":false}]',Health:150,HasVisualFire:1b,PersistenceRequired:1b,Attributes:[{Name:\"generic.attack_damage\",Base:9f},{Name:\"generic.knockback_resistance\",Base:0.1f},{Name:\"generic.movement_speed\",Base:0.3f},{Name:\"generic.max_health\",Base:150f}],ArmorItems:[{id:netherite_boots,Count:1,CustomTag:mutant1b},{id:leather_leggings,tag:{display:{color:11546150}},Count:1},{id:leather_chestplate,tag:{display:{color:11546150}},Count:1},{id:player_head,tag:{SkullOwner:NetherrackDigger},Count:1}],ArmorDropChances:[0.05f,0f,0f,0f]}"
+  },
+    {
+    "entity": "minecraft:zombie",
+    "weight": 3,
+    "first_day": 200,
+    "last_day": 0,
+    "nbt": "{CustomName:'[{\"text\":\"Mu\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"t\",\"obfuscated\":true},{\"text\":\"at\",\"obfuscated\":false},{\"text\":\"e\",\"obfuscated\":true},{\"text\":\"d Zom\",\"obfuscated\":false},{\"text\":\"bi\",\"obfuscated\":true},{\"text\":\"e\",\"obfuscated\":false}]',Health:150,HasVisualFire:1b,PersistenceRequired:1b,Attributes:[{Name:\"generic.attack_damage\",Base:9f},{Name:\"generic.knockback_resistance\",Base:0.1f},{Name:\"generic.movement_speed\",Base:0.3f},{Name:\"generic.max_health\",Base:150f}],ArmorItems:[{id:netherite_boots,Count:1,CustomTag:mutant1b},{id:leather_leggings,tag:{display:{color:11546150}},Count:1},{id:leather_chestplate,tag:{display:{color:11546150}},Count:1},{id:player_head,tag:{SkullOwner:NetherrackDigger},Count:1}],ArmorDropChances:[0.05f,0f,0f,0f]}"
+  },
+  {
+    "entity": "mutantmonsters:mutant_zombie",
+    "weight": 1,
+    "first_day": 100,
+    "last_day": 0,
+    "nbt": "{Attributes:[{Name:\"minecraft:generic.max_health\",Base:250f}]}"
+  }
+]
+

@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "accepted": 1,
+  "safeRetry": true,
+  "requested": 1,
+  "entities": [
+    "feralzombie:feral_zombie"
+  ],
+  "response": "TD_SPAWNED cw_job_a9f895a6-eaba-40cb-9622-8d54a0c039a6_0\n"
+}

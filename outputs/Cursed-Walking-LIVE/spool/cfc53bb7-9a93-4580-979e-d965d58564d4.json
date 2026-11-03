@@ -1,0 +1,16 @@
+{
+  "kind": "summon",
+  "entities": [
+    "mutantmonsters:mutant_zombie",
+    "zombies_plus:crossbow_zombie",
+    "minecraft:zombie",
+    "feralzombie:feral_zombie",
+    "feralzombie:spitter_zombie",
+    "zombies_plus:brute_zombie",
+    "zombies_plus:weak_zombie",
+    "feralzombie:zombie_dog",
+    "feralzombie:drone_zombie",
+    "zombies_plus:crossbow_zombie"
+  ],
+  "createdAt": 1791713998852
+}

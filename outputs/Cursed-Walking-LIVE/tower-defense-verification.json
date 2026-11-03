@@ -1,0 +1,3629 @@
+{
+  "started": "2026-10-11T15:42:19.772Z",
+  "checks": [
+    {
+      "name": "All 18 modded zombie types spawn, move and have no attack target",
+      "passed": true,
+      "details": [
+        {
+          "type": "minecraft:zombie",
+          "progress": 5.850000000000003,
+          "lane": -0.85,
+          "x": -94.49999999999999,
+          "y": 64,
+          "z": -65.35,
+          "health": 27.153208,
+          "noAI": true,
+          "target": null,
+          "tags": "[cw_live, cw_td, qa_0]"
+        },
+        {
+          "type": "feralzombie:drone_zombie",
+          "progress": 5.850000000000003,
+          "lane": 0,
+          "x": -93.64999999999999,
+          "y": 64,
+          "z": -64.5,
+          "health": 40.729813,
+          "noAI": true,
+          "target": null,
+          "tags": "[cw_live, cw_td, qa_1]"
+        },
+        {
+          "type": "feralzombie:feral_zombie",
+          "progress": 7.019999999999997,
+          "lane": 0.85,
+          "x": -91.63000000000001,
+          "y": 64,
+          "z": -63.65,
+          "health": 40.729813,
+          "noAI": true,
+          "target": null,
+          "tags": "[cw_live, cw_td, qa_2]"
+        },
+        {
+          "type": "feralzombie:warrior_zombie",
+          "progress": 4.680000000000003,
+          "lane": 1.7,
+          "x": -93.11999999999999,
+          "y": 64,
+          "z": -62.8,
+          "health": 54.306416,
+          "noAI": true,
+          "target": null,
+          "tags": "[qa_3, cw_live, cw_td]"
+        },
+        {
+          "type": "feralzombie:spitter_zombie",
+          "progress": 6.839999999999997,
+          "lane": -1.7,
+          "x": -94.36,
+          "y": 64,
+          "z": -66.2,
+          "health": 48.875774,
+          "noAI": true,
+          "target": null,
+          "tags": "[cw_live, qa_4, cw_td]"
+        },
+        {
+          "type": "feralzombie:zombie_dog",
+          "progress": 9.5,
+          "lane": -0.85,
+          "x": -90.85,
+          "y": 64,
+          "z": -65.35,
+          "health": 30,
+          "noAI": true,
+          "target": null,
+          "tags": "[cw_live, cw_td, qa_5]"
+        },
+        {
+          "type": "mutantmonsters:mutant_zombie",
+          "progress": 4.560000000000003,
+          "lane": 0,
+          "x": -94.94,
+          "y": 64,
+          "z": -64.5,
+          "health": 1000,
+          "noAI": true,
+          "target": null,
+          "tags": "[cw_live, cw_td, qa_6]"
+        },
+        {
+          "type": "zombies_plus:runner_zombie",
+          "progress": 9.5,
+          "lane": 0.85,
+          "x": -89.15,
+          "y": 64,
+          "z": -63.65,
+          "health": 27.153208,
+          "noAI": true,
+          "target": null,
+          "tags": "[cw_live, cw_td, qa_7]"
+        },
+        {
+          "type": "zombies_plus:brute_zombie",
+          "progress": 4.560000000000003,
+          "lane": 1.7,
+          "x": -93.24,
+          "y": 64,
+          "z": -62.8,
+          "health": 54.306416,
+          "noAI": true,
+          "target": null,
+          "tags": "[cw_live, cw_td, qa_8]"
+        },
+        {
+          "type": "zombies_plus:crawler_zombie",
+          "progress": 4.809999999999997,
+          "lane": -1.7,
+          "x": -96.39,
+          "y": 64,
+          "z": -66.2,
+          "health": 20.364906,
+          "noAI": true,
+          "target": null,
+          "tags": "[cw_live, cw_td, qa_9]"
+        },
+        {
+          "type": "zombies_plus:crossbow_zombie",
+          "progress": 6.6599999999999975,
+          "lane": -0.85,
+          "x": -93.69,
+          "y": 64,
+          "z": -65.35,
+          "health": 27.153208,
+          "noAI": true,
+          "target": null,
+          "tags": "[cw_live, cw_td, qa_10]"
+        },
+        {
+          "type": "zombies_plus:bow_zombie",
+          "progress": 6.6599999999999975,
+          "lane": 0,
+          "x": -92.84,
+          "y": 64,
+          "z": -64.5,
+          "health": 27.153208,
+          "noAI": true,
+          "target": null,
+          "tags": "[cw_live, cw_td, qa_11]"
+        },
+        {
+          "type": "zombies_plus:axe_zombie",
+          "progress": 6.6599999999999975,
+          "lane": 0.85,
+          "x": -91.99000000000001,
+          "y": 64,
+          "z": -63.65,
+          "health": 27.153208,
+          "noAI": true,
+          "target": null,
+          "tags": "[cw_live, cw_td, qa_12]"
+        },
+        {
+          "type": "zombies_plus:sword_zombie",
+          "progress": 6.6599999999999975,
+          "lane": 1.7,
+          "x": -91.14,
+          "y": 64,
+          "z": -62.8,
+          "health": 27.153208,
+          "noAI": true,
+          "target": null,
+          "tags": "[cw_live, cw_td, qa_13]"
+        },
+        {
+          "type": "zombies_plus:weak_zombie",
+          "progress": 5.5500000000000025,
+          "lane": -1.7,
+          "x": -95.65,
+          "y": 64,
+          "z": -66.2,
+          "health": 27.153208,
+          "noAI": true,
+          "target": null,
+          "tags": "[cw_live, cw_td, qa_14]"
+        },
+        {
+          "type": "zombies_plus:slow_zombie",
+          "progress": 5.5500000000000025,
+          "lane": -0.85,
+          "x": -94.8,
+          "y": 64,
+          "z": -65.35,
+          "health": 27.153208,
+          "noAI": true,
+          "target": null,
+          "tags": "[cw_live, cw_td, qa_15]"
+        },
+        {
+          "type": "zombies_plus:vile_zombie",
+          "progress": 6.479999999999998,
+          "lane": 0,
+          "x": -93.02,
+          "y": 64,
+          "z": -64.5,
+          "health": 27.153208,
+          "noAI": true,
+          "target": null,
+          "tags": "[cw_live, qa_16, cw_td]"
+        },
+        {
+          "type": "zombies_plus:leaper_zombie",
+          "progress": 9,
+          "lane": 0.85,
+          "x": -89.65,
+          "y": 64,
+          "z": -63.65,
+          "health": 27.153208,
+          "noAI": true,
+          "target": null,
+          "tags": "[qa_17, cw_live, cw_td]"
+        }
+      ]
+    },
+    {
+      "name": "Repeated job tag cannot spawn a duplicate",
+      "passed": true
+    },
+    {
+      "name": "Pause freezes route progress",
+      "passed": true
+    },
+    {
+      "name": "Entire route and exact one-time base damage for all 18 types",
+      "passed": true,
+      "details": {
+        "damage": 313,
+        "hp": 687,
+        "samples": [
+          {
+            "hp": 1000,
+            "active": 18,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 28.500000000000004,
+                "x": -71.85,
+                "y": 64,
+                "z": -65.35,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 28.500000000000004,
+                "x": -71,
+                "y": 64,
+                "z": -64.5,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 34.199999999999996,
+                "x": -64.45000000000002,
+                "y": 64,
+                "z": -63.65,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 22.800000000000004,
+                "x": -74.99999999999999,
+                "y": 64,
+                "z": -62.8,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 34.019999999999996,
+                "x": -67.18,
+                "y": 64,
+                "z": -66.2,
+                "lane": -1.7
+              },
+              {
+                "type": "feralzombie:zombie_dog",
+                "progress": 47.25,
+                "x": -53.1,
+                "y": 64,
+                "z": -65.35,
+                "lane": -0.85
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 22.68,
+                "x": -76.82,
+                "y": 64,
+                "z": -64.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:runner_zombie",
+                "progress": 47.25,
+                "x": -51.4,
+                "y": 64,
+                "z": -63.65,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 22.68,
+                "x": -75.11999999999999,
+                "y": 64,
+                "z": -62.8,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 24.439999999999998,
+                "x": -76.76,
+                "y": 64,
+                "z": -66.2,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 33.839999999999996,
+                "x": -66.50999999999999,
+                "y": 64,
+                "z": -65.35,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 33.839999999999996,
+                "x": -65.66,
+                "y": 64,
+                "z": -64.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 33.839999999999996,
+                "x": -64.81,
+                "y": 64,
+                "z": -63.65,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 33.839999999999996,
+                "x": -63.959999999999994,
+                "y": 64,
+                "z": -62.8,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 28.200000000000003,
+                "x": -73,
+                "y": 64,
+                "z": -66.2,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 28.200000000000003,
+                "x": -72.14999999999999,
+                "y": 64,
+                "z": -65.35,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 33.66,
+                "x": -65.84,
+                "y": 64,
+                "z": -64.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:leaper_zombie",
+                "progress": 46.75,
+                "x": -51.9,
+                "y": 64,
+                "z": -63.65,
+                "lane": 0.85
+              }
+            ]
+          },
+          {
+            "hp": 1000,
+            "active": 18,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 51,
+                "x": -50.35,
+                "y": 64,
+                "z": -64.35,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 51,
+                "x": -49.5,
+                "y": 64,
+                "z": -63.5,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 61.19999999999999,
+                "x": -48.65,
+                "y": 64,
+                "z": -52.45000000000001,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 40.80000000000001,
+                "x": -56.999999999999986,
+                "y": 64,
+                "z": -62.8,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 61.01999999999999,
+                "x": -51.2,
+                "y": 64,
+                "z": -55.180000000000014,
+                "lane": -1.7
+              },
+              {
+                "type": "feralzombie:zombie_dog",
+                "progress": 84.75,
+                "x": -50.35,
+                "y": 64,
+                "z": -30.6,
+                "lane": -0.85
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 40.68000000000001,
+                "x": -58.81999999999999,
+                "y": 64,
+                "z": -64.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:runner_zombie",
+                "progress": 84.75,
+                "x": -48.65,
+                "y": 64,
+                "z": -28.9,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 40.68000000000001,
+                "x": -57.11999999999999,
+                "y": 64,
+                "z": -62.8,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 43.93999999999999,
+                "x": -57.26000000000001,
+                "y": 64,
+                "z": -66.2,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 60.83999999999999,
+                "x": -50.35,
+                "y": 64,
+                "z": -54.51000000000001,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 60.83999999999999,
+                "x": -49.5,
+                "y": 64,
+                "z": -53.66000000000001,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 60.83999999999999,
+                "x": -48.65,
+                "y": 64,
+                "z": -52.81000000000001,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 60.83999999999999,
+                "x": -47.8,
+                "y": 64,
+                "z": -51.96000000000001,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 50.7,
+                "x": -51.2,
+                "y": 64,
+                "z": -65.5,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 50.7,
+                "x": -50.35,
+                "y": 64,
+                "z": -64.64999999999999,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 60.65999999999999,
+                "x": -49.5,
+                "y": 64,
+                "z": -53.84000000000001,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:leaper_zombie",
+                "progress": 84.25,
+                "x": -48.65,
+                "y": 64,
+                "z": -29.4,
+                "lane": 0.85
+              }
+            ]
+          },
+          {
+            "hp": 1000,
+            "active": 18,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 78,
+                "x": -50.35,
+                "y": 64,
+                "z": -37.35,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 78,
+                "x": -49.5,
+                "y": 64,
+                "z": -36.5,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 93.60000000000002,
+                "x": -48.65,
+                "y": 64,
+                "z": -20.049999999999976,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 62.40000000000002,
+                "x": -47.8,
+                "y": 64,
+                "z": -50.39999999999998,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 93.42000000000002,
+                "x": -51.2,
+                "y": 64,
+                "z": -22.779999999999983,
+                "lane": -1.7
+              },
+              {
+                "type": "feralzombie:zombie_dog",
+                "progress": 129.75,
+                "x": -40.6,
+                "y": 64,
+                "z": 4.65,
+                "lane": -0.85
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 62.280000000000015,
+                "x": -49.5,
+                "y": 64,
+                "z": -52.219999999999985,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:runner_zombie",
+                "progress": 129.75,
+                "x": -38.9,
+                "y": 64,
+                "z": 6.35,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 62.280000000000015,
+                "x": -47.8,
+                "y": 64,
+                "z": -50.51999999999998,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 67.33999999999999,
+                "x": -51.2,
+                "y": 64,
+                "z": -48.860000000000014,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 93.24000000000002,
+                "x": -50.35,
+                "y": 64,
+                "z": -22.109999999999985,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 93.24000000000002,
+                "x": -49.5,
+                "y": 64,
+                "z": -21.259999999999984,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 93.24000000000002,
+                "x": -48.65,
+                "y": 64,
+                "z": -20.409999999999982,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 93.24000000000002,
+                "x": -47.8,
+                "y": 64,
+                "z": -19.559999999999985,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 77.7,
+                "x": -51.2,
+                "y": 64,
+                "z": -38.5,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 77.7,
+                "x": -50.35,
+                "y": 64,
+                "z": -37.65,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 93.06000000000002,
+                "x": -49.5,
+                "y": 64,
+                "z": -21.43999999999999,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:leaper_zombie",
+                "progress": 129.25,
+                "x": -39.4,
+                "y": 64,
+                "z": 6.35,
+                "lane": 0.85
+              }
+            ]
+          },
+          {
+            "hp": 1000,
+            "active": 18,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 100.5,
+                "x": -50.35,
+                "y": 64,
+                "z": -14.85,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 100.5,
+                "x": -49.5,
+                "y": 64,
+                "z": -14,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 120.60000000000005,
+                "x": -48.04999999999995,
+                "y": 64,
+                "z": 6.35,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 80.39999999999999,
+                "x": -47.8,
+                "y": 64,
+                "z": -32.400000000000006,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 120.42000000000004,
+                "x": -50.77999999999996,
+                "y": 64,
+                "z": 3.8,
+                "lane": -1.7
+              },
+              {
+                "type": "feralzombie:zombie_dog",
+                "progress": 167.25,
+                "x": -3.1,
+                "y": 64,
+                "z": 4.65,
+                "lane": -0.85
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 80.27999999999999,
+                "x": -49.5,
+                "y": 64,
+                "z": -34.22000000000001,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:runner_zombie",
+                "progress": 167.25,
+                "x": -1.4,
+                "y": 64,
+                "z": 6.35,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 80.27999999999999,
+                "x": -47.8,
+                "y": 64,
+                "z": -32.52000000000001,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 86.84000000000002,
+                "x": -51.2,
+                "y": 64,
+                "z": -29.35999999999998,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 120.24000000000005,
+                "x": -50.10999999999995,
+                "y": 64,
+                "z": 4.65,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 120.24000000000005,
+                "x": -49.25999999999995,
+                "y": 64,
+                "z": 5.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 120.24000000000005,
+                "x": -48.40999999999995,
+                "y": 64,
+                "z": 6.35,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 120.24000000000005,
+                "x": -47.559999999999945,
+                "y": 64,
+                "z": 7.2,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 100.2,
+                "x": -51.2,
+                "y": 64,
+                "z": -15.999999999999996,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 100.2,
+                "x": -50.35,
+                "y": 64,
+                "z": -15.149999999999997,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 120.06000000000004,
+                "x": -49.439999999999955,
+                "y": 64,
+                "z": 5.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:leaper_zombie",
+                "progress": 166.75,
+                "x": -1.9,
+                "y": 64,
+                "z": 6.35,
+                "lane": 0.85
+              }
+            ]
+          },
+          {
+            "hp": 1000,
+            "active": 18,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 123,
+                "x": -47.35,
+                "y": 64,
+                "z": 4.65,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 123,
+                "x": -46.5,
+                "y": 64,
+                "z": 5.5,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 147.60000000000008,
+                "x": -21.04999999999992,
+                "y": 64,
+                "z": 6.35,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 98.39999999999996,
+                "x": -47.8,
+                "y": 64,
+                "z": -14.400000000000038,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 147.42000000000007,
+                "x": -23.779999999999927,
+                "y": 64,
+                "z": 3.8,
+                "lane": -1.7
+              },
+              {
+                "type": "feralzombie:zombie_dog",
+                "progress": 204.75,
+                "x": 13.65,
+                "y": 64,
+                "z": -16.1,
+                "lane": -0.85
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 98.27999999999996,
+                "x": -49.5,
+                "y": 64,
+                "z": -16.22000000000004,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:runner_zombie",
+                "progress": 204.75,
+                "x": 15.35,
+                "y": 64,
+                "z": -14.4,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 98.27999999999996,
+                "x": -47.8,
+                "y": 64,
+                "z": -14.520000000000042,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 106.34000000000005,
+                "x": -51.2,
+                "y": 64,
+                "z": -9.859999999999953,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 147.24000000000007,
+                "x": -23.109999999999935,
+                "y": 64,
+                "z": 4.65,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 147.24000000000007,
+                "x": -22.259999999999934,
+                "y": 64,
+                "z": 5.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 147.24000000000007,
+                "x": -21.409999999999933,
+                "y": 64,
+                "z": 6.35,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 147.24000000000007,
+                "x": -20.559999999999935,
+                "y": 64,
+                "z": 7.2,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 122.7,
+                "x": -48.5,
+                "y": 64,
+                "z": 3.8,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 122.7,
+                "x": -47.65,
+                "y": 64,
+                "z": 4.65,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 147.06000000000006,
+                "x": -22.43999999999994,
+                "y": 64,
+                "z": 5.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:leaper_zombie",
+                "progress": 204.25,
+                "x": 15.35,
+                "y": 64,
+                "z": -13.900000000000004,
+                "lane": 0.85
+              }
+            ]
+          },
+          {
+            "hp": 1000,
+            "active": 18,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 145.5,
+                "x": -24.85,
+                "y": 64,
+                "z": 4.65,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 145.5,
+                "x": -24,
+                "y": 64,
+                "z": 5.5,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 174.6000000000001,
+                "x": 5.950000000000108,
+                "y": 64,
+                "z": 6.35,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 116.39999999999993,
+                "x": -47.8,
+                "y": 64,
+                "z": 3.599999999999935,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 174.4200000000001,
+                "x": 3.220000000000101,
+                "y": 64,
+                "z": 3.8,
+                "lane": -1.7
+              },
+              {
+                "type": "feralzombie:zombie_dog",
+                "progress": 242.25,
+                "x": 13.65,
+                "y": 64,
+                "z": -53.6,
+                "lane": -0.85
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 116.27999999999993,
+                "x": -49.5,
+                "y": 64,
+                "z": 1.77999999999993,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:runner_zombie",
+                "progress": 242.25,
+                "x": 15.35,
+                "y": 64,
+                "z": -51.9,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 116.27999999999993,
+                "x": -47.8,
+                "y": 64,
+                "z": 3.4799999999999303,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 125.84000000000007,
+                "x": -45.35999999999993,
+                "y": 64,
+                "z": 3.8,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 174.2400000000001,
+                "x": 3.8900000000000943,
+                "y": 64,
+                "z": 4.65,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 174.2400000000001,
+                "x": 4.740000000000094,
+                "y": 64,
+                "z": 5.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 174.2400000000001,
+                "x": 5.590000000000094,
+                "y": 64,
+                "z": 6.35,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 174.2400000000001,
+                "x": 6.4400000000000945,
+                "y": 64,
+                "z": 7.2,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 145.2,
+                "x": -26.00000000000001,
+                "y": 64,
+                "z": 3.8,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 145.2,
+                "x": -25.150000000000013,
+                "y": 64,
+                "z": 4.65,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 174.0600000000001,
+                "x": 4.5600000000000875,
+                "y": 64,
+                "z": 5.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:leaper_zombie",
+                "progress": 241.75,
+                "x": 15.35,
+                "y": 64,
+                "z": -51.4,
+                "lane": 0.85
+              }
+            ]
+          },
+          {
+            "hp": 1000,
+            "active": 18,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 172.5,
+                "x": 2.15,
+                "y": 64,
+                "z": 4.65,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 172.5,
+                "x": 3,
+                "y": 64,
+                "z": 5.5,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 207.00000000000014,
+                "x": 15.35,
+                "y": 64,
+                "z": -16.65000000000014,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 137.99999999999991,
+                "x": -29.800000000000086,
+                "y": 64,
+                "z": 7.2,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 206.82000000000014,
+                "x": 12.8,
+                "y": 64,
+                "z": -19.020000000000135,
+                "lane": -1.7
+              },
+              {
+                "type": "feralzombie:zombie_dog",
+                "progress": 287.25,
+                "x": 46.9,
+                "y": 64,
+                "z": -65.35,
+                "lane": -0.85
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 137.8799999999999,
+                "x": -31.62000000000009,
+                "y": 64,
+                "z": 5.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:runner_zombie",
+                "progress": 287.25,
+                "x": 48.6,
+                "y": 64,
+                "z": -63.65,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 137.8799999999999,
+                "x": -29.92000000000009,
+                "y": 64,
+                "z": 7.2,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 149.2400000000001,
+                "x": -21.959999999999905,
+                "y": 64,
+                "z": 3.8,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 206.64000000000013,
+                "x": 13.65,
+                "y": 64,
+                "z": -17.99000000000013,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 206.64000000000013,
+                "x": 14.5,
+                "y": 64,
+                "z": -17.14000000000013,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 206.64000000000013,
+                "x": 15.35,
+                "y": 64,
+                "z": -16.290000000000127,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 206.64000000000013,
+                "x": 16.2,
+                "y": 64,
+                "z": -15.44000000000013,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 172.2,
+                "x": 0.9999999999999887,
+                "y": 64,
+                "z": 3.8,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 172.2,
+                "x": 1.8499999999999885,
+                "y": 64,
+                "z": 4.65,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 206.46000000000012,
+                "x": 14.5,
+                "y": 64,
+                "z": -16.96000000000012,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:leaper_zombie",
+                "progress": 286.75,
+                "x": 48.1,
+                "y": 64,
+                "z": -63.65,
+                "lane": 0.85
+              }
+            ]
+          },
+          {
+            "hp": 1000,
+            "active": 18,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 195,
+                "x": 13.65,
+                "y": 64,
+                "z": -6.35,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 195,
+                "x": 14.5,
+                "y": 64,
+                "z": -5.5,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 234.00000000000017,
+                "x": 15.35,
+                "y": 64,
+                "z": -43.65000000000017,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 155.9999999999999,
+                "x": -11.800000000000114,
+                "y": 64,
+                "z": 7.2,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 233.82000000000016,
+                "x": 12.8,
+                "y": 64,
+                "z": -46.02000000000017,
+                "lane": -1.7
+              },
+              {
+                "type": "feralzombie:zombie_dog",
+                "progress": 324.75,
+                "x": 67.65,
+                "y": 64,
+                "z": -48.6,
+                "lane": -0.85
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 155.87999999999988,
+                "x": -13.620000000000118,
+                "y": 64,
+                "z": 5.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:runner_zombie",
+                "progress": 324.75,
+                "x": 69.35,
+                "y": 64,
+                "z": -46.9,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 155.87999999999988,
+                "x": -11.920000000000119,
+                "y": 64,
+                "z": 7.2,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 168.74000000000012,
+                "x": -2.4599999999998774,
+                "y": 64,
+                "z": 3.8,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 233.64000000000016,
+                "x": 13.65,
+                "y": 64,
+                "z": -44.99000000000016,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 233.64000000000016,
+                "x": 14.5,
+                "y": 64,
+                "z": -44.14000000000016,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 233.64000000000016,
+                "x": 15.35,
+                "y": 64,
+                "z": -43.290000000000155,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 233.64000000000016,
+                "x": 16.2,
+                "y": 64,
+                "z": -42.440000000000154,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 194.7,
+                "x": 12.8,
+                "y": 64,
+                "z": -6.899999999999989,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 194.7,
+                "x": 13.65,
+                "y": 64,
+                "z": -6.049999999999988,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 233.46000000000015,
+                "x": 14.5,
+                "y": 64,
+                "z": -43.96000000000015,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:leaper_zombie",
+                "progress": 324.25,
+                "x": 69.35,
+                "y": 64,
+                "z": -47.4,
+                "lane": 0.85
+              }
+            ]
+          },
+          {
+            "hp": 1000,
+            "active": 18,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 222,
+                "x": 13.65,
+                "y": 64,
+                "z": -33.35,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 222,
+                "x": 14.5,
+                "y": 64,
+                "z": -32.5,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 266.40000000000015,
+                "x": 27.75000000000015,
+                "y": 64,
+                "z": -63.65,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 177.59999999999985,
+                "x": 9.799999999999851,
+                "y": 64,
+                "z": 7.2,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 266.22000000000014,
+                "x": 25.02000000000014,
+                "y": 64,
+                "z": -66.2,
+                "lane": -1.7
+              },
+              {
+                "type": "feralzombie:zombie_dog",
+                "progress": 369.75,
+                "x": 67.65,
+                "y": 64,
+                "z": -3.6,
+                "lane": -0.85
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 177.47999999999985,
+                "x": 7.979999999999848,
+                "y": 64,
+                "z": 5.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:runner_zombie",
+                "progress": 369.75,
+                "x": 69.35,
+                "y": 64,
+                "z": -1.9,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 177.47999999999985,
+                "x": 9.679999999999847,
+                "y": 64,
+                "z": 7.2,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 192.14000000000016,
+                "x": 12.8,
+                "y": 64,
+                "z": -4.340000000000157,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 266.04000000000013,
+                "x": 25.690000000000133,
+                "y": 64,
+                "z": -65.35,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 266.04000000000013,
+                "x": 26.540000000000134,
+                "y": 64,
+                "z": -64.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 266.04000000000013,
+                "x": 27.390000000000136,
+                "y": 64,
+                "z": -63.65,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 266.04000000000013,
+                "x": 28.240000000000133,
+                "y": 64,
+                "z": -62.8,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 221.7,
+                "x": 12.8,
+                "y": 64,
+                "z": -33.89999999999999,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 221.7,
+                "x": 13.65,
+                "y": 64,
+                "z": -33.04999999999999,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 265.8600000000001,
+                "x": 26.360000000000127,
+                "y": 64,
+                "z": -64.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:leaper_zombie",
+                "progress": 369.25,
+                "x": 69.35,
+                "y": 64,
+                "z": -2.399999999999993,
+                "lane": 0.85
+              }
+            ]
+          },
+          {
+            "hp": 1000,
+            "active": 18,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 244.5,
+                "x": 13.65,
+                "y": 64,
+                "z": -55.85,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 244.5,
+                "x": 14.5,
+                "y": 64,
+                "z": -55,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 293.40000000000003,
+                "x": 54.750000000000036,
+                "y": 64,
+                "z": -63.65,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 195.59999999999982,
+                "x": 16.2,
+                "y": 64,
+                "z": -4.399999999999824,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 293.22,
+                "x": 52.020000000000024,
+                "y": 64,
+                "z": -66.2,
+                "lane": -1.7
+              },
+              {
+                "type": "feralzombie:zombie_dog",
+                "progress": 407.25,
+                "x": 67.65,
+                "y": 64,
+                "z": 33.9,
+                "lane": -0.85
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 195.47999999999982,
+                "x": 14.5,
+                "y": 64,
+                "z": -5.979999999999819,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:runner_zombie",
+                "progress": 407.25,
+                "x": 69.35,
+                "y": 64,
+                "z": 35.6,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 195.47999999999982,
+                "x": 16.2,
+                "y": 64,
+                "z": -4.279999999999819,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 211.64000000000019,
+                "x": 12.8,
+                "y": 64,
+                "z": -23.840000000000185,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 293.04,
+                "x": 52.69000000000002,
+                "y": 64,
+                "z": -65.35,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 293.04,
+                "x": 53.54000000000002,
+                "y": 64,
+                "z": -64.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 293.04,
+                "x": 54.39000000000002,
+                "y": 64,
+                "z": -63.65,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 293.04,
+                "x": 55.24000000000002,
+                "y": 64,
+                "z": -62.8,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 244.2,
+                "x": 12.8,
+                "y": 64,
+                "z": -56.39999999999999,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 244.2,
+                "x": 13.65,
+                "y": 64,
+                "z": -55.54999999999999,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 292.86,
+                "x": 53.360000000000014,
+                "y": 64,
+                "z": -64.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:leaper_zombie",
+                "progress": 406.75,
+                "x": 69.35,
+                "y": 64,
+                "z": 35.1,
+                "lane": 0.85
+              }
+            ]
+          },
+          {
+            "hp": 1000,
+            "active": 18,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 267,
+                "x": 26.65,
+                "y": 64,
+                "z": -65.35,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 267,
+                "x": 27.5,
+                "y": 64,
+                "z": -64.5,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 320.3999999999999,
+                "x": 69.35,
+                "y": 64,
+                "z": -51.25000000000008,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 213.5999999999998,
+                "x": 16.2,
+                "y": 64,
+                "z": -22.399999999999796,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 320.2199999999999,
+                "x": 66.8,
+                "y": 64,
+                "z": -53.98000000000009,
+                "lane": -1.7
+              },
+              {
+                "type": "feralzombie:zombie_dog",
+                "progress": 444.75,
+                "x": 35.9,
+                "y": 64,
+                "z": 39.65,
+                "lane": -0.85
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 213.4799999999998,
+                "x": 14.5,
+                "y": 64,
+                "z": -23.97999999999979,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:runner_zombie",
+                "progress": 444.75,
+                "x": 37.6,
+                "y": 64,
+                "z": 41.35,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 213.4799999999998,
+                "x": 16.2,
+                "y": 64,
+                "z": -22.27999999999979,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 231.1400000000002,
+                "x": 12.8,
+                "y": 64,
+                "z": -43.34000000000022,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 320.0399999999999,
+                "x": 67.65,
+                "y": 64,
+                "z": -53.310000000000095,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 320.0399999999999,
+                "x": 68.5,
+                "y": 64,
+                "z": -52.46000000000009,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 320.0399999999999,
+                "x": 69.35,
+                "y": 64,
+                "z": -51.61000000000009,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 320.0399999999999,
+                "x": 70.2,
+                "y": 64,
+                "z": -50.76000000000009,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 266.7,
+                "x": 25.49999999999999,
+                "y": 64,
+                "z": -66.2,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 266.7,
+                "x": 26.349999999999987,
+                "y": 64,
+                "z": -65.35,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 319.8599999999999,
+                "x": 68.5,
+                "y": 64,
+                "z": -52.6400000000001,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:leaper_zombie",
+                "progress": 444.25,
+                "x": 38.1,
+                "y": 64,
+                "z": 41.35,
+                "lane": 0.85
+              }
+            ]
+          },
+          {
+            "hp": 1000,
+            "active": 18,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 294,
+                "x": 53.65,
+                "y": 64,
+                "z": -65.35,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 294,
+                "x": 54.5,
+                "y": 64,
+                "z": -64.5,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 352.7999999999998,
+                "x": 69.35,
+                "y": 64,
+                "z": -18.850000000000215,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 235.19999999999976,
+                "x": 16.2,
+                "y": 64,
+                "z": -43.99999999999976,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 352.6199999999998,
+                "x": 66.8,
+                "y": 64,
+                "z": -21.580000000000222,
+                "lane": -1.7
+              },
+              {
+                "type": "feralzombie:zombie_dog",
+                "progress": 489.75,
+                "x": 4.65,
+                "y": 64,
+                "z": 53.4,
+                "lane": -0.85
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 235.07999999999976,
+                "x": 14.5,
+                "y": 64,
+                "z": -45.57999999999976,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:runner_zombie",
+                "progress": 489.75,
+                "x": 6.35,
+                "y": 64,
+                "z": 55.1,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 235.07999999999976,
+                "x": 16.2,
+                "y": 64,
+                "z": -43.879999999999754,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 254.54000000000025,
+                "x": 13.340000000000249,
+                "y": 64,
+                "z": -66.2,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 352.43999999999977,
+                "x": 67.65,
+                "y": 64,
+                "z": -20.91000000000023,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 352.43999999999977,
+                "x": 68.5,
+                "y": 64,
+                "z": -20.06000000000023,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 352.43999999999977,
+                "x": 69.35,
+                "y": 64,
+                "z": -19.21000000000023,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 352.43999999999977,
+                "x": 70.2,
+                "y": 64,
+                "z": -18.36000000000023,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 293.7,
+                "x": 52.499999999999986,
+                "y": 64,
+                "z": -66.2,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 293.7,
+                "x": 53.34999999999999,
+                "y": 64,
+                "z": -65.35,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 352.25999999999976,
+                "x": 68.5,
+                "y": 64,
+                "z": -20.240000000000236,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:leaper_zombie",
+                "progress": 489.25,
+                "x": 6.35,
+                "y": 64,
+                "z": 54.6,
+                "lane": 0.85
+              }
+            ]
+          },
+          {
+            "hp": 1000,
+            "active": 18,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 316.5,
+                "x": 67.65,
+                "y": 64,
+                "z": -56.85,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 316.5,
+                "x": 68.5,
+                "y": 64,
+                "z": -56,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 379.79999999999967,
+                "x": 69.35,
+                "y": 64,
+                "z": 8.14999999999967,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 253.19999999999973,
+                "x": 16.2,
+                "y": 64,
+                "z": -61.99999999999973,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 379.61999999999966,
+                "x": 66.8,
+                "y": 64,
+                "z": 5.419999999999663,
+                "lane": -1.7
+              },
+              {
+                "type": "feralzombie:zombie_dog",
+                "progress": 527.25,
+                "x": 20.9,
+                "y": 64,
+                "z": 74.65,
+                "lane": -0.85
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 253.07999999999973,
+                "x": 14.5,
+                "y": 64,
+                "z": -63.57999999999973,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:runner_zombie",
+                "progress": 527.25,
+                "x": 22.6,
+                "y": 64,
+                "z": 76.35,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 253.07999999999973,
+                "x": 16.2,
+                "y": 64,
+                "z": -61.879999999999725,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 274.04000000000013,
+                "x": 32.84000000000013,
+                "y": 64,
+                "z": -66.2,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 379.43999999999966,
+                "x": 67.65,
+                "y": 64,
+                "z": 6.089999999999657,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 379.43999999999966,
+                "x": 68.5,
+                "y": 64,
+                "z": 6.939999999999657,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 379.43999999999966,
+                "x": 69.35,
+                "y": 64,
+                "z": 7.789999999999656,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 379.43999999999966,
+                "x": 70.2,
+                "y": 64,
+                "z": 8.639999999999656,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 316.2,
+                "x": 66.8,
+                "y": 64,
+                "z": -58.000000000000014,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 316.2,
+                "x": 67.65,
+                "y": 64,
+                "z": -57.15000000000001,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 379.25999999999965,
+                "x": 68.5,
+                "y": 64,
+                "z": 6.75999999999965,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:leaper_zombie",
+                "progress": 526.75,
+                "x": 22.1,
+                "y": 64,
+                "z": 76.35,
+                "lane": 0.85
+              }
+            ]
+          },
+          {
+            "hp": 1000,
+            "active": 18,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 339,
+                "x": 67.65,
+                "y": 64,
+                "z": -34.35,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 339,
+                "x": 68.5,
+                "y": 64,
+                "z": -33.5,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 406.79999999999956,
+                "x": 69.35,
+                "y": 64,
+                "z": 35.14999999999956,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 271.1999999999998,
+                "x": 33.39999999999982,
+                "y": 64,
+                "z": -62.8,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 406.61999999999955,
+                "x": 66.8,
+                "y": 64,
+                "z": 32.41999999999955,
+                "lane": -1.7
+              },
+              {
+                "type": "feralzombie:zombie_dog",
+                "progress": 564.75,
+                "x": 58.4,
+                "y": 64,
+                "z": 74.65,
+                "lane": -0.85
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 271.0799999999998,
+                "x": 31.579999999999814,
+                "y": 64,
+                "z": -64.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:runner_zombie",
+                "progress": 564.75,
+                "x": 60.1,
+                "y": 64,
+                "z": 76.35,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 271.0799999999998,
+                "x": 33.279999999999816,
+                "y": 64,
+                "z": -62.8,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 293.54,
+                "x": 52.34000000000002,
+                "y": 64,
+                "z": -66.2,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 406.43999999999954,
+                "x": 67.65,
+                "y": 64,
+                "z": 33.08999999999954,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 406.43999999999954,
+                "x": 68.5,
+                "y": 64,
+                "z": 33.93999999999954,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 406.43999999999954,
+                "x": 69.35,
+                "y": 64,
+                "z": 34.789999999999544,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 406.43999999999954,
+                "x": 70.2,
+                "y": 64,
+                "z": 35.639999999999546,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 338.7,
+                "x": 66.8,
+                "y": 64,
+                "z": -35.500000000000014,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 338.7,
+                "x": 67.65,
+                "y": 64,
+                "z": -34.65000000000001,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 406.25999999999954,
+                "x": 68.5,
+                "y": 64,
+                "z": 33.759999999999536,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:leaper_zombie",
+                "progress": 564.25,
+                "x": 59.6,
+                "y": 64,
+                "z": 76.35,
+                "lane": 0.85
+              }
+            ]
+          },
+          {
+            "hp": 964,
+            "active": 15,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 366,
+                "x": 67.65,
+                "y": 64,
+                "z": -7.3499999999999925,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 366,
+                "x": 68.5,
+                "y": 64,
+                "z": -6.499999999999993,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 439.1999999999994,
+                "x": 43.15000000000058,
+                "y": 64,
+                "z": 41.35,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 292.79999999999995,
+                "x": 54.99999999999996,
+                "y": 64,
+                "z": -62.8,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 439.0199999999994,
+                "x": 40.780000000000584,
+                "y": 64,
+                "z": 38.8,
+                "lane": -1.7
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 292.67999999999995,
+                "x": 53.17999999999995,
+                "y": 64,
+                "z": -64.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 292.67999999999995,
+                "x": 54.87999999999995,
+                "y": 64,
+                "z": -62.8,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 316.9399999999999,
+                "x": 66.8,
+                "y": 64,
+                "z": -57.26000000000012,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 438.8399999999994,
+                "x": 41.81000000000059,
+                "y": 64,
+                "z": 39.65,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 438.8399999999994,
+                "x": 42.66000000000059,
+                "y": 64,
+                "z": 40.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 438.8399999999994,
+                "x": 43.510000000000595,
+                "y": 64,
+                "z": 41.35,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 438.8399999999994,
+                "x": 44.360000000000596,
+                "y": 64,
+                "z": 42.2,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 365.7,
+                "x": 66.8,
+                "y": 64,
+                "z": -8.50000000000001,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 365.7,
+                "x": 67.65,
+                "y": 64,
+                "z": -7.650000000000011,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 438.6599999999994,
+                "x": 42.8400000000006,
+                "y": 64,
+                "z": 40.5,
+                "lane": 0
+              }
+            ]
+          },
+          {
+            "hp": 964,
+            "active": 15,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 388.5,
+                "x": 67.65,
+                "y": 64,
+                "z": 15.15,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 388.5,
+                "x": 68.5,
+                "y": 64,
+                "z": 16,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 466.1999999999993,
+                "x": 16.150000000000695,
+                "y": 64,
+                "z": 41.35,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 310.80000000000007,
+                "x": 70.2,
+                "y": 64,
+                "z": -59.99999999999993,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 466.0199999999993,
+                "x": 13.780000000000701,
+                "y": 64,
+                "z": 38.8,
+                "lane": -1.7
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 310.68000000000006,
+                "x": 68.5,
+                "y": 64,
+                "z": -61.819999999999936,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 310.68000000000006,
+                "x": 70.2,
+                "y": 64,
+                "z": -60.11999999999993,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 336.43999999999977,
+                "x": 66.8,
+                "y": 64,
+                "z": -37.76000000000023,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 465.8399999999993,
+                "x": 14.810000000000707,
+                "y": 64,
+                "z": 39.65,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 465.8399999999993,
+                "x": 15.660000000000707,
+                "y": 64,
+                "z": 40.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 465.8399999999993,
+                "x": 16.51000000000071,
+                "y": 64,
+                "z": 41.35,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 465.8399999999993,
+                "x": 17.360000000000706,
+                "y": 64,
+                "z": 42.2,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 388.2,
+                "x": 66.8,
+                "y": 64,
+                "z": 13.99999999999999,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 388.2,
+                "x": 67.65,
+                "y": 64,
+                "z": 14.849999999999989,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 465.6599999999993,
+                "x": 15.840000000000714,
+                "y": 64,
+                "z": 40.5,
+                "lane": 0
+              }
+            ]
+          },
+          {
+            "hp": 964,
+            "active": 15,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 411,
+                "x": 67.65,
+                "y": 64,
+                "z": 37.65,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 411,
+                "x": 68.5,
+                "y": 64,
+                "z": 38.5,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 493.1999999999992,
+                "x": 6.35,
+                "y": 64,
+                "z": 58.549999999999194,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 328.8000000000002,
+                "x": 70.2,
+                "y": 64,
+                "z": -41.999999999999815,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 493.0199999999992,
+                "x": 3.8,
+                "y": 64,
+                "z": 55.81999999999918,
+                "lane": -1.7
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 328.6800000000002,
+                "x": 68.5,
+                "y": 64,
+                "z": -43.81999999999982,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 328.6800000000002,
+                "x": 70.2,
+                "y": 64,
+                "z": -42.11999999999982,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 355.93999999999966,
+                "x": 66.8,
+                "y": 64,
+                "z": -18.260000000000343,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 492.8399999999992,
+                "x": 4.65,
+                "y": 64,
+                "z": 56.48999999999918,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 492.8399999999992,
+                "x": 5.5,
+                "y": 64,
+                "z": 57.33999999999918,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 492.8399999999992,
+                "x": 6.35,
+                "y": 64,
+                "z": 58.18999999999918,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 492.8399999999992,
+                "x": 7.2,
+                "y": 64,
+                "z": 59.03999999999918,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 410.7,
+                "x": 66.8,
+                "y": 64,
+                "z": 36.499999999999986,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 410.7,
+                "x": 67.65,
+                "y": 64,
+                "z": 37.34999999999999,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 492.6599999999992,
+                "x": 5.5,
+                "y": 64,
+                "z": 57.15999999999917,
+                "lane": 0
+              }
+            ]
+          },
+          {
+            "hp": 964,
+            "active": 15,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 438,
+                "x": 42.65,
+                "y": 64,
+                "z": 39.65,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 438,
+                "x": 43.5,
+                "y": 64,
+                "z": 40.5,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 525.5999999999991,
+                "x": 20.949999999999115,
+                "y": 64,
+                "z": 76.35,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 350.4000000000003,
+                "x": 70.2,
+                "y": 64,
+                "z": -20.399999999999682,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 525.419999999999,
+                "x": 18.21999999999905,
+                "y": 64,
+                "z": 73.8,
+                "lane": -1.7
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 350.2800000000003,
+                "x": 68.5,
+                "y": 64,
+                "z": -22.219999999999686,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 350.2800000000003,
+                "x": 70.2,
+                "y": 64,
+                "z": -20.519999999999687,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 379.3399999999995,
+                "x": 66.8,
+                "y": 64,
+                "z": 5.13999999999952,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 525.2399999999991,
+                "x": 18.889999999999098,
+                "y": 64,
+                "z": 74.65,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 525.2399999999991,
+                "x": 19.7399999999991,
+                "y": 64,
+                "z": 75.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 525.2399999999991,
+                "x": 20.5899999999991,
+                "y": 64,
+                "z": 76.35,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 525.2399999999991,
+                "x": 21.4399999999991,
+                "y": 64,
+                "z": 77.2,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 437.7,
+                "x": 42.10000000000001,
+                "y": 64,
+                "z": 38.8,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 437.7,
+                "x": 42.95000000000001,
+                "y": 64,
+                "z": 39.65,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 525.059999999999,
+                "x": 19.559999999999036,
+                "y": 64,
+                "z": 75.5,
+                "lane": 0
+              }
+            ]
+          },
+          {
+            "hp": 964,
+            "active": 15,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 460.5,
+                "x": 20.15,
+                "y": 64,
+                "z": 39.65,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 460.5,
+                "x": 21,
+                "y": 64,
+                "z": 40.5,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 552.599999999999,
+                "x": 47.949999999999,
+                "y": 64,
+                "z": 76.35,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 368.40000000000043,
+                "x": 70.2,
+                "y": 64,
+                "z": -2.399999999999568,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 552.4199999999989,
+                "x": 45.21999999999893,
+                "y": 64,
+                "z": 73.8,
+                "lane": -1.7
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 368.2800000000004,
+                "x": 68.5,
+                "y": 64,
+                "z": -4.219999999999565,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 368.2800000000004,
+                "x": 70.2,
+                "y": 64,
+                "z": -2.5199999999995653,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 398.8399999999994,
+                "x": 66.8,
+                "y": 64,
+                "z": 24.639999999999407,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 552.239999999999,
+                "x": 45.889999999998984,
+                "y": 64,
+                "z": 74.65,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 552.239999999999,
+                "x": 46.739999999998986,
+                "y": 64,
+                "z": 75.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 552.239999999999,
+                "x": 47.58999999999899,
+                "y": 64,
+                "z": 76.35,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 552.239999999999,
+                "x": 48.43999999999899,
+                "y": 64,
+                "z": 77.2,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 460.2,
+                "x": 19.600000000000012,
+                "y": 64,
+                "z": 38.8,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 460.2,
+                "x": 20.45000000000001,
+                "y": 64,
+                "z": 39.65,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 552.0599999999989,
+                "x": 46.559999999998915,
+                "y": 64,
+                "z": 75.5,
+                "lane": 0
+              }
+            ]
+          },
+          {
+            "hp": 964,
+            "active": 15,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 483,
+                "x": 4.65,
+                "y": 64,
+                "z": 46.65,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 483,
+                "x": 5.5,
+                "y": 64,
+                "z": 47.5,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:feral_zombie",
+                "progress": 579.5999999999989,
+                "x": 74.94999999999888,
+                "y": 64,
+                "z": 76.35,
+                "lane": 0.85
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 386.40000000000055,
+                "x": 70.2,
+                "y": 64,
+                "z": 15.600000000000545,
+                "lane": 1.7
+              },
+              {
+                "type": "feralzombie:spitter_zombie",
+                "progress": 579.4199999999988,
+                "x": 72.21999999999882,
+                "y": 64,
+                "z": 73.8,
+                "lane": -1.7
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 386.28000000000054,
+                "x": 68.5,
+                "y": 64,
+                "z": 13.780000000000541,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 386.28000000000054,
+                "x": 70.2,
+                "y": 64,
+                "z": 15.48000000000054,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 418.3399999999993,
+                "x": 61.460000000000704,
+                "y": 64,
+                "z": 38.8,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:crossbow_zombie",
+                "progress": 579.2399999999989,
+                "x": 72.88999999999888,
+                "y": 64,
+                "z": 74.65,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:bow_zombie",
+                "progress": 579.2399999999989,
+                "x": 73.73999999999887,
+                "y": 64,
+                "z": 75.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:axe_zombie",
+                "progress": 579.2399999999989,
+                "x": 74.58999999999887,
+                "y": 64,
+                "z": 76.35,
+                "lane": 0.85
+              },
+              {
+                "type": "zombies_plus:sword_zombie",
+                "progress": 579.2399999999989,
+                "x": 75.43999999999888,
+                "y": 64,
+                "z": 77.2,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 482.7,
+                "x": 3.8,
+                "y": 64,
+                "z": 45.499999999999986,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 482.7,
+                "x": 4.65,
+                "y": 64,
+                "z": 46.34999999999999,
+                "lane": -0.85
+              },
+              {
+                "type": "zombies_plus:vile_zombie",
+                "progress": 579.0599999999988,
+                "x": 73.55999999999881,
+                "y": 64,
+                "z": 75.5,
+                "lane": 0
+              }
+            ]
+          },
+          {
+            "hp": 859,
+            "active": 8,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 505.5,
+                "x": 4.65,
+                "y": 64,
+                "z": 69.15,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 505.5,
+                "x": 5.5,
+                "y": 64,
+                "z": 70,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 404.40000000000066,
+                "x": 70.2,
+                "y": 64,
+                "z": 33.60000000000066,
+                "lane": 1.7
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 404.28000000000065,
+                "x": 68.5,
+                "y": 64,
+                "z": 31.780000000000655,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 404.28000000000065,
+                "x": 70.2,
+                "y": 64,
+                "z": 33.48000000000066,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 437.8399999999992,
+                "x": 41.96000000000082,
+                "y": 64,
+                "z": 38.8,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 505.2,
+                "x": 3.8,
+                "y": 64,
+                "z": 67.99999999999999,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 505.2,
+                "x": 4.65,
+                "y": 64,
+                "z": 68.85,
+                "lane": -0.85
+              }
+            ]
+          },
+          {
+            "hp": 859,
+            "active": 8,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 532.5,
+                "x": 26.15,
+                "y": 64,
+                "z": 74.65,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 532.5,
+                "x": 27,
+                "y": 64,
+                "z": 75.5,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 426.0000000000008,
+                "x": 57.19999999999921,
+                "y": 64,
+                "z": 42.2,
+                "lane": 1.7
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 425.8800000000008,
+                "x": 55.61999999999921,
+                "y": 64,
+                "z": 40.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 425.8800000000008,
+                "x": 57.31999999999921,
+                "y": 64,
+                "z": 42.2,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 461.23999999999904,
+                "x": 18.560000000000958,
+                "y": 64,
+                "z": 38.8,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 532.2,
+                "x": 25.000000000000046,
+                "y": 64,
+                "z": 73.8,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 532.2,
+                "x": 25.850000000000044,
+                "y": 64,
+                "z": 74.65,
+                "lane": -0.85
+              }
+            ]
+          },
+          {
+            "hp": 859,
+            "active": 8,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 555,
+                "x": 48.65,
+                "y": 64,
+                "z": 74.65,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 555,
+                "x": 49.5,
+                "y": 64,
+                "z": 75.5,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 444.0000000000009,
+                "x": 39.19999999999909,
+                "y": 64,
+                "z": 42.2,
+                "lane": 1.7
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 443.8800000000009,
+                "x": 37.619999999999095,
+                "y": 64,
+                "z": 40.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 443.8800000000009,
+                "x": 39.3199999999991,
+                "y": 64,
+                "z": 42.2,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 480.73999999999893,
+                "x": 3.8,
+                "y": 64,
+                "z": 43.539999999998926,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 554.7,
+                "x": 47.50000000000004,
+                "y": 64,
+                "z": 73.8,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 554.7,
+                "x": 48.350000000000044,
+                "y": 64,
+                "z": 74.65,
+                "lane": -0.85
+              }
+            ]
+          },
+          {
+            "hp": 859,
+            "active": 8,
+            "mobs": [
+              {
+                "type": "minecraft:zombie",
+                "progress": 577.5,
+                "x": 71.15,
+                "y": 64,
+                "z": 74.65,
+                "lane": -0.85
+              },
+              {
+                "type": "feralzombie:drone_zombie",
+                "progress": 577.5,
+                "x": 72,
+                "y": 64,
+                "z": 75.5,
+                "lane": 0
+              },
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 462.000000000001,
+                "x": 21.199999999998976,
+                "y": 64,
+                "z": 42.2,
+                "lane": 1.7
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 461.880000000001,
+                "x": 19.61999999999898,
+                "y": 64,
+                "z": 40.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 461.880000000001,
+                "x": 21.31999999999898,
+                "y": 64,
+                "z": 42.2,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 500.2399999999988,
+                "x": 3.8,
+                "y": 64,
+                "z": 63.03999999999881,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:weak_zombie",
+                "progress": 577.2,
+                "x": 70.00000000000004,
+                "y": 64,
+                "z": 73.8,
+                "lane": -1.7
+              },
+              {
+                "type": "zombies_plus:slow_zombie",
+                "progress": 577.2,
+                "x": 70.85000000000005,
+                "y": 64,
+                "z": 74.65,
+                "lane": -0.85
+              }
+            ]
+          },
+          {
+            "hp": 819,
+            "active": 4,
+            "mobs": [
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 483.60000000000116,
+                "x": 7.2,
+                "y": 64,
+                "z": 49.80000000000116,
+                "lane": 1.7
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 483.48000000000116,
+                "x": 5.5,
+                "y": 64,
+                "z": 47.980000000001155,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 483.48000000000116,
+                "x": 7.2,
+                "y": 64,
+                "z": 49.68000000000116,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 523.6399999999987,
+                "x": 16.439999999998737,
+                "y": 64,
+                "z": 73.8,
+                "lane": -1.7
+              }
+            ]
+          },
+          {
+            "hp": 819,
+            "active": 4,
+            "mobs": [
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 501.6000000000013,
+                "x": 7.2,
+                "y": 64,
+                "z": 67.80000000000128,
+                "lane": 1.7
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 501.48000000000127,
+                "x": 5.5,
+                "y": 64,
+                "z": 65.98000000000127,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 501.48000000000127,
+                "x": 7.2,
+                "y": 64,
+                "z": 67.68000000000127,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 543.1399999999986,
+                "x": 35.93999999999862,
+                "y": 64,
+                "z": 73.8,
+                "lane": -1.7
+              }
+            ]
+          },
+          {
+            "hp": 819,
+            "active": 4,
+            "mobs": [
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 519.6000000000014,
+                "x": 15.800000000001386,
+                "y": 64,
+                "z": 77.2,
+                "lane": 1.7
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 519.4800000000014,
+                "x": 13.980000000001382,
+                "y": 64,
+                "z": 75.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 519.4800000000014,
+                "x": 15.680000000001382,
+                "y": 64,
+                "z": 77.2,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 562.6399999999985,
+                "x": 55.439999999998506,
+                "y": 64,
+                "z": 73.8,
+                "lane": -1.7
+              }
+            ]
+          },
+          {
+            "hp": 819,
+            "active": 4,
+            "mobs": [
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 537.6000000000015,
+                "x": 33.8000000000015,
+                "y": 64,
+                "z": 77.2,
+                "lane": 1.7
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 537.4800000000015,
+                "x": 31.9800000000015,
+                "y": 64,
+                "z": 75.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 537.4800000000015,
+                "x": 33.6800000000015,
+                "y": 64,
+                "z": 77.2,
+                "lane": 1.7
+              },
+              {
+                "type": "zombies_plus:crawler_zombie",
+                "progress": 582.1399999999984,
+                "x": 74.93999999999839,
+                "y": 64,
+                "z": 73.8,
+                "lane": -1.7
+              }
+            ]
+          },
+          {
+            "hp": 807,
+            "active": 3,
+            "mobs": [
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 559.2000000000016,
+                "x": 55.40000000000164,
+                "y": 64,
+                "z": 77.2,
+                "lane": 1.7
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 559.0800000000016,
+                "x": 53.58000000000163,
+                "y": 64,
+                "z": 75.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 559.0800000000016,
+                "x": 55.280000000001635,
+                "y": 64,
+                "z": 77.2,
+                "lane": 1.7
+              }
+            ]
+          },
+          {
+            "hp": 807,
+            "active": 3,
+            "mobs": [
+              {
+                "type": "feralzombie:warrior_zombie",
+                "progress": 577.2000000000018,
+                "x": 73.40000000000175,
+                "y": 64,
+                "z": 77.2,
+                "lane": 1.7
+              },
+              {
+                "type": "mutantmonsters:mutant_zombie",
+                "progress": 577.0800000000017,
+                "x": 71.58000000000175,
+                "y": 64,
+                "z": 75.5,
+                "lane": 0
+              },
+              {
+                "type": "zombies_plus:brute_zombie",
+                "progress": 577.0800000000017,
+                "x": 73.28000000000175,
+                "y": 64,
+                "z": 77.2,
+                "lane": 1.7
+              }
+            ]
+          },
+          {
+            "hp": 687,
+            "active": 0,
+            "mobs": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "Arrived zombies cannot damage the base twice",
+      "passed": true
+    },
+    {
+      "name": "A killed Mutant Zombie is removed and cannot damage the base",
+      "passed": true
+    },
+    {
+      "name": "Defeat stops and cleans the wave, and rejects new spawns",
+      "passed": true
+    },
+    {
+      "name": "Restart resets HP, round counters and wave",
+      "passed": true
+    },
+    {
+      "name": "200 zombies progress with the server cap enforced",
+      "passed": true,
+      "details": {
+        "active": 200
+      }
+    },
+    {
+      "name": "Server performance with 200 active zombies",
+      "passed": true,
+      "details": "Dim minecraft:overworld (minecraft:overworld): Mean tick time: 3.024 ms. Mean TPS: 20.000\nDim minecraft:the_nether (minecraft:the_nether): Mean tick time: 0.035 ms. Mean TPS: 20.000\nDim lostcities:lostcity (lostcities:lostcity): Mean tick time: 0.024 ms. Mean TPS: 20.000\nDim the_deep_void:deep_void (the_deep_void:deep_void): Mean tick time: 0.022 ms. Mean TPS: 20.000\nDim cw_live:defense (cw_live:defense): Mean tick time: 6.681 ms. Mean TPS: 20.000\nDim minecraft:the_end (minecraft:the_end): Mean tick time: 0.035 ms. Mean TPS: 20.000\nDim the_deeper_void:void_dimension (the_deeper_void:void_dimension): Mean tick time: 0.024 ms. Mean TPS: 20.000\nOverall: Mean tick time: 9.907 ms. Mean TPS: 20.000\n"
+    }
+  ],
+  "passed": true,
+  "cleanup": "TD_QA_ENDED\n",
+  "finished": "2026-10-11T15:42:37.973Z"
+}

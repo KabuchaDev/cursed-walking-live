@@ -1,0 +1,397 @@
+{
+  "version": 1,
+  "dimension": "cw_live:defense",
+  "name": "THÀNH TRÌ 07",
+  "baseMaxHealth": 1000,
+  "maxMobs": 120,
+  "speedMultiplier": 0.5,
+  "route": [
+    [
+      -99.5,
+      64,
+      -64.5
+    ],
+    [
+      -49.5,
+      64,
+      -64.5
+    ],
+    [
+      -49.5,
+      64,
+      5.5
+    ],
+    [
+      14.5,
+      64,
+      5.5
+    ],
+    [
+      14.5,
+      64,
+      -64.5
+    ],
+    [
+      68.5,
+      64,
+      -64.5
+    ],
+    [
+      68.5,
+      64,
+      40.5
+    ],
+    [
+      5.5,
+      64,
+      40.5
+    ],
+    [
+      5.5,
+      64,
+      75.5
+    ],
+    [
+      82.5,
+      64,
+      75.5
+    ]
+  ],
+  "types": {
+    "minecraft:zombie": {
+      "speed": 0.15,
+      "damage": 10
+    },
+    "feralzombie:drone_zombie": {
+      "speed": 0.15,
+      "damage": 10
+    },
+    "feralzombie:feral_zombie": {
+      "speed": 0.18,
+      "damage": 15
+    },
+    "feralzombie:warrior_zombie": {
+      "speed": 0.12,
+      "damage": 40
+    },
+    "feralzombie:spitter_zombie": {
+      "speed": 0.18,
+      "damage": 15
+    },
+    "feralzombie:zombie_dog": {
+      "speed": 0.25,
+      "damage": 12
+    },
+    "mutantmonsters:mutant_zombie": {
+      "speed": 0.07,
+      "damage": 40
+    },
+    "zombies_plus:runner_zombie": {
+      "speed": 0.25,
+      "damage": 12
+    },
+    "zombies_plus:brute_zombie": {
+      "speed": 0.12,
+      "damage": 40
+    },
+    "zombies_plus:crawler_zombie": {
+      "speed": 0.13,
+      "damage": 12
+    },
+    "zombies_plus:crossbow_zombie": {
+      "speed": 0.18,
+      "damage": 15
+    },
+    "zombies_plus:bow_zombie": {
+      "speed": 0.18,
+      "damage": 15
+    },
+    "zombies_plus:axe_zombie": {
+      "speed": 0.18,
+      "damage": 15
+    },
+    "zombies_plus:sword_zombie": {
+      "speed": 0.18,
+      "damage": 15
+    },
+    "zombies_plus:weak_zombie": {
+      "speed": 0.15,
+      "damage": 10
+    },
+    "zombies_plus:slow_zombie": {
+      "speed": 0.15,
+      "damage": 10
+    },
+    "zombies_plus:vile_zombie": {
+      "speed": 0.18,
+      "damage": 15
+    },
+    "zombies_plus:leaper_zombie": {
+      "speed": 0.25,
+      "damage": 12
+    }
+  },
+  "lobby": [
+    95.5,
+    64,
+    57.5,
+    -90,
+    0
+  ],
+  "bounds": [
+    -112,
+    112,
+    -96,
+    96
+  ],
+  "starter": {
+    "gun": "bf1:sw_model3",
+    "ammo": "tacz:357mag",
+    "capacity": 6,
+    "reserve": 96
+  },
+  "buttons": {
+    "start": [
+      98,
+      65,
+      59
+    ],
+    "pause": [
+      101,
+      65,
+      59
+    ],
+    "leave": [
+      104,
+      65,
+      59
+    ]
+  },
+  "buildReady": true,
+  "tickingChunks": [
+    [
+      -7,
+      -5
+    ],
+    [
+      -7,
+      -4
+    ],
+    [
+      -6,
+      -5
+    ],
+    [
+      -6,
+      -4
+    ],
+    [
+      -5,
+      -5
+    ],
+    [
+      -5,
+      -4
+    ],
+    [
+      -4,
+      -5
+    ],
+    [
+      -4,
+      -4
+    ],
+    [
+      -4,
+      -3
+    ],
+    [
+      -4,
+      -2
+    ],
+    [
+      -4,
+      -1
+    ],
+    [
+      -4,
+      0
+    ],
+    [
+      -3,
+      -5
+    ],
+    [
+      -3,
+      -4
+    ],
+    [
+      -3,
+      -3
+    ],
+    [
+      -3,
+      -2
+    ],
+    [
+      -3,
+      -1
+    ],
+    [
+      -3,
+      0
+    ],
+    [
+      -2,
+      0
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      4
+    ],
+    [
+      0,
+      -5
+    ],
+    [
+      0,
+      -4
+    ],
+    [
+      0,
+      -3
+    ],
+    [
+      0,
+      -2
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      -5
+    ],
+    [
+      1,
+      -4
+    ],
+    [
+      1,
+      -3
+    ],
+    [
+      1,
+      -2
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      -5
+    ],
+    [
+      2,
+      -4
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      -5
+    ],
+    [
+      3,
+      -4
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      -5
+    ],
+    [
+      4,
+      -4
+    ],
+    [
+      4,
+      -3
+    ],
+    [
+      4,
+      -2
+    ],
+    [
+      4,
+      -1
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      5,
+      4
+    ]
+  ]
+}

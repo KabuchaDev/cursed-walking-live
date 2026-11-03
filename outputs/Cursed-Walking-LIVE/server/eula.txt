@@ -1,0 +1,2 @@
+# EULA accepted by this user earlier in this conversation.
+eula=true

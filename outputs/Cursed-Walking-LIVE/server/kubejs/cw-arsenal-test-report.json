@@ -1,0 +1,23 @@
+{
+	"state": {
+		"t2": 0,
+		"t3": 0,
+		"indices": {
+			"T1": 1,
+			"T2": 2,
+			"T3": 2
+		},
+		"token": "a917cc97-0139-45ef-aaab-4b0b4be5f792",
+		"tier": "T1",
+		"version": 2,
+		"gun": "bf1:vg15",
+		"emptyTicks": 0,
+		"lastMount": 1791800140179
+	},
+	"item": "{DummyAmmo:64,GunCurrentAmmoCount:15,GunFireMode:\"AUTO\",GunId:\"bf1:vg15\",HasBulletInBarrel:1b,MaxDummyAmmo:64,cwTDManaged:1b,cwTDTier:\"T1\",cwTDToken:\"a917cc97-0139-45ef-aaab-4b0b4be5f792\"}",
+	"ammo": 15,
+	"barrel": true,
+	"reserve": 64,
+	"dummy": true,
+	"turrets": {}
+}

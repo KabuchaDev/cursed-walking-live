@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "accepted": 1,
+  "safeRetry": false,
+  "reward": "gun_t2",
+  "variant": 36,
+  "gun": "tacz:rpg7",
+  "ammo": "tacz:rpg_rocket",
+  "ammoCount": 3,
+  "response": "Executed 2 command(s) from function 'cw_live:rewards/t2/tacz/rpg7'\n"
+}

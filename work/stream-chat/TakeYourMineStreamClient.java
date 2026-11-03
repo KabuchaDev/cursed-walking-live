@@ -1,0 +1,109 @@
+package takeyourminestream.ijustseen;
+
+import net.fabricmc.api.ClientModInitializer;
+import org.slf4j.LoggerFactory;
+import takeyourminestream.ijustseen.filtering.BanwordManager;
+import takeyourminestream.ijustseen.filtering.BlockedUsernameManager;
+import takeyourminestream.ijustseen.filtering.FilteringManager;
+import takeyourminestream.ijustseen.messages.MessageSpawner;
+import takeyourminestream.ijustseen.messages.MessageSystemFactory;
+import takeyourminestream.ijustseen.messages.TwitchEmoteTextureCache;
+import takeyourminestream.ijustseen.interfaces.IConfigManager;
+import takeyourminestream.ijustseen.interfaces.IChatConnectionManager;
+import takeyourminestream.ijustseen.interfaces.IBanwordManager;
+import takeyourminestream.ijustseen.config.ConfigManager;
+import takeyourminestream.ijustseen.integration.chat.ChatConnectionManager;
+import takeyourminestream.ijustseen.commands.CommandManager;
+import takeyourminestream.ijustseen.input.KeyBindingManager;
+import takeyourminestream.ijustseen.utils.Logger;
+
+/**
+ * Главный класс клиентской части мода
+ */
+public class TakeYourMineStreamClient implements ClientModInitializer {
+    public static final String MOD_ID = "take-your-stream-chat";
+    public static final org.slf4j.Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+
+    private static TakeYourMineStreamClient instance;
+    private IConfigManager configManager;
+    private IChatConnectionManager chatConnectionManager;
+    private IBanwordManager banwordManager;
+    private BlockedUsernameManager blockedUsernameManager;
+    private FilteringManager filteringManager;
+    private MessageSpawner messageSpawner;
+    private CommandManager commandManager;
+    private KeyBindingManager keyBindingManager;
+
+    @Override
+    public void onInitializeClient() {
+        instance = this;
+        try {
+            initializeMod();
+            Logger.info("Take Your Stream Chat initialized");
+        } catch (Exception e) {
+            Logger.error("Failed to initialize mod", e);
+        }
+    }
+
+    private void initializeMod() {
+        // Инициализация менеджеров
+        configManager = ConfigManager.getInstance();
+        banwordManager = BanwordManager.getInstance();
+        blockedUsernameManager = BlockedUsernameManager.getInstance();
+        filteringManager = FilteringManager.getInstance();
+        chatConnectionManager = ChatConnectionManager.getInstance(configManager);
+        
+        // Инициализация системы сообщений
+        messageSpawner = MessageSystemFactory.createMessageSystem();
+        
+        // Инициализация менеджеров команд и клавиш
+        commandManager = new CommandManager(chatConnectionManager, banwordManager, blockedUsernameManager, messageSpawner);
+        keyBindingManager = new KeyBindingManager(chatConnectionManager, messageSpawner);
+        
+        // Регистрация команд и клавиш
+        commandManager.registerCommands();
+        keyBindingManager.registerKeyBindings();
+        
+        // Регистрация обработчиков событий мира
+        WorldEventHandler.register(messageSpawner);
+        TwitchEmoteTextureCache.registerClientTick();
+
+        LOGGER.info("All mod components initialized");
+    }
+
+    public static TakeYourMineStreamClient getInstance() {
+        return instance;
+    }
+
+    public IConfigManager getConfigManager() {
+        return configManager;
+    }
+
+    public IChatConnectionManager getChatConnectionManager() {
+        return chatConnectionManager;
+    }
+
+    /** @deprecated Use {@link #getChatConnectionManager()} */
+    @Deprecated
+    public IChatConnectionManager getTwitchManager() {
+        return chatConnectionManager;
+    }
+
+    public IBanwordManager getBanwordManager() {
+        return banwordManager;
+    }
+
+    public BlockedUsernameManager getBlockedUsernameManager() {
+        return blockedUsernameManager;
+    }
+
+    public FilteringManager getFilteringManager() {return filteringManager;}
+
+    public MessageSpawner getMessageSpawner() {
+        return messageSpawner;
+    }
+
+    public static MessageSpawner getStaticMessageSpawner() {
+        return instance != null ? instance.messageSpawner : null;
+    }
+}

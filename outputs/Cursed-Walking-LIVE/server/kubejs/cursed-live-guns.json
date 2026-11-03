@@ -1,0 +1,969 @@
+{
+	"guns": [
+		{
+			"id": "tacz:ump45",
+			"ammo": "tacz:45acp",
+			"capacity": 25,
+			"rpm": 660,
+			"modes": [
+				"AUTO",
+				"BURST"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 9.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:m700",
+			"ammo": "tacz:30_06",
+			"capacity": 5,
+			"rpm": 180,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "MANUAL_ACTION",
+			"damage": 24.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:m107",
+			"ammo": "tacz:50bmg",
+			"capacity": 10,
+			"rpm": 400,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "MANUAL_ACTION",
+			"damage": 50.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:m16a4",
+			"ammo": "tacz:556x45",
+			"capacity": 30,
+			"rpm": 400,
+			"modes": [
+				"BURST",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 8.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:deagle",
+			"ammo": "tacz:50ae",
+			"capacity": 7,
+			"rpm": 300,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 16.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:hk416d",
+			"ammo": "tacz:556x45",
+			"capacity": 30,
+			"rpm": 850,
+			"modes": [
+				"AUTO",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 7.5,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:rpg7",
+			"ammo": "tacz:rpg_rocket",
+			"capacity": 1,
+			"rpm": 150,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "OPEN_BOLT",
+			"damage": 20.0,
+			"projectiles": 1
+		},
+		{
+			"id": "bf1:mhgl",
+			"ammo": "tacz:40mm",
+			"capacity": 1,
+			"rpm": 350,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "OPEN_BOLT",
+			"damage": 9.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:hk_mp5a5",
+			"ammo": "tacz:9mm",
+			"capacity": 30,
+			"rpm": 820,
+			"modes": [
+				"AUTO",
+				"BURST",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 6.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:glock_17",
+			"ammo": "tacz:9mm",
+			"capacity": 17,
+			"rpm": 400,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 7.0,
+			"projectiles": 1
+		},
+		{
+			"id": "sfms:inf_xj",
+			"ammo": "tacz:45acp",
+			"capacity": 24,
+			"rpm": 900,
+			"modes": [
+				"SEMI",
+				"BURST"
+			],
+			"bolt": "OPEN_BOLT",
+			"damage": 13.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:db_short",
+			"ammo": "tacz:12g",
+			"capacity": 2,
+			"rpm": 150,
+			"modes": [
+				"BURST",
+				"SEMI"
+			],
+			"bolt": "OPEN_BOLT",
+			"damage": 40.0,
+			"projectiles": 16
+		},
+		{
+			"id": "sfms:lvsa_cs",
+			"ammo": "tacz:556x45",
+			"capacity": 20,
+			"rpm": 740,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 11.8,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:aug",
+			"ammo": "tacz:556x45",
+			"capacity": 30,
+			"rpm": 710,
+			"modes": [
+				"AUTO",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 7.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:aa12",
+			"ammo": "tacz:12g",
+			"capacity": 8,
+			"rpm": 350,
+			"modes": [
+				"SEMI",
+				"AUTO"
+			],
+			"bolt": "OPEN_BOLT",
+			"damage": 30.0,
+			"projectiles": 10
+		},
+		{
+			"id": "tacz:m870",
+			"ammo": "tacz:12g",
+			"capacity": 5,
+			"rpm": 180,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "MANUAL_ACTION",
+			"damage": 36.0,
+			"projectiles": 9
+		},
+		{
+			"id": "tacz:deagle_golden",
+			"ammo": "tacz:357mag",
+			"capacity": 9,
+			"rpm": 350,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 12.0,
+			"projectiles": 1
+		},
+		{
+			"id": "sfms:mgl320",
+			"ammo": "tacz:40mm",
+			"capacity": 1,
+			"rpm": 200,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "OPEN_BOLT",
+			"damage": 20.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:springfield1873",
+			"ammo": "hamster:medium_ammo",
+			"capacity": 1,
+			"rpm": 90,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "OPEN_BOLT",
+			"damage": 35.0,
+			"projectiles": 1
+		},
+		{
+			"id": "sfms:lvsa_c",
+			"ammo": "tacz:556x45",
+			"capacity": 25,
+			"rpm": 900,
+			"modes": [
+				"AUTO",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 10.6,
+			"projectiles": 1
+		},
+		{
+			"id": "bf1:m1916",
+			"ammo": "tacz:308",
+			"capacity": 25,
+			"rpm": 224,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 12.0,
+			"projectiles": 1
+		},
+		{
+			"id": "bf1:vg15",
+			"ammo": "tacz:762x39",
+			"capacity": 16,
+			"rpm": 670,
+			"modes": [
+				"SEMI",
+				"AUTO"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 7.0,
+			"projectiles": 1
+		},
+		{
+			"id": "sfms:har50",
+			"ammo": "sfms:50arms",
+			"capacity": 60,
+			"rpm": 420,
+			"modes": [
+				"AUTO",
+				"SEMI"
+			],
+			"bolt": "OPEN_BOLT",
+			"damage": 18.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:m4a1",
+			"ammo": "tacz:556x45",
+			"capacity": 30,
+			"rpm": 810,
+			"modes": [
+				"AUTO",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 6.5,
+			"projectiles": 1
+		},
+		{
+			"id": "sfms:g18",
+			"ammo": "tacz:9mm",
+			"capacity": 18,
+			"rpm": 900,
+			"modes": [
+				"AUTO",
+				"BURST",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 8.5,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:ak47",
+			"ammo": "tacz:762x39",
+			"capacity": 30,
+			"rpm": 600,
+			"modes": [
+				"AUTO",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 9.0,
+			"projectiles": 1
+		},
+		{
+			"id": "sfms:m4a5",
+			"ammo": "tacz:556x45",
+			"capacity": 30,
+			"rpm": 900,
+			"modes": [
+				"BURST",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 10.7,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:m95",
+			"ammo": "tacz:50bmg",
+			"capacity": 5,
+			"rpm": 151,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "MANUAL_ACTION",
+			"damage": 75.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:ai_awp",
+			"ammo": "tacz:338",
+			"capacity": 5,
+			"rpm": 171,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "MANUAL_ACTION",
+			"damage": 42.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:m1911",
+			"ammo": "tacz:45acp",
+			"capacity": 7,
+			"rpm": 350,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 11.0,
+			"projectiles": 1
+		},
+		{
+			"id": "bf1:rsc1917",
+			"ammo": "tacz:30_06",
+			"capacity": 5,
+			"rpm": 179,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 16.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:m16a1",
+			"ammo": "tacz:556x45",
+			"capacity": 20,
+			"rpm": 750,
+			"modes": [
+				"AUTO",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 7.0,
+			"projectiles": 1
+		},
+		{
+			"id": "bf1:martini",
+			"ammo": "tacz:45_70",
+			"capacity": 1,
+			"rpm": 350,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "OPEN_BOLT",
+			"damage": 30.0,
+			"projectiles": 1
+		},
+		{
+			"id": "sfms:ats15",
+			"ammo": "sfms:300ms",
+			"capacity": 30,
+			"rpm": 720,
+			"modes": [
+				"AUTO",
+				"BURST",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 17.5,
+			"projectiles": 1
+		},
+		{
+			"id": "sfms:lvsa_hs",
+			"ammo": "tacz:308",
+			"capacity": 10,
+			"rpm": 740,
+			"modes": [
+				"SEMI",
+				"AUTO"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 19.8,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:hk_g3",
+			"ammo": "tacz:308",
+			"capacity": 20,
+			"rpm": 350,
+			"modes": [
+				"SEMI",
+				"AUTO"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 12.0,
+			"projectiles": 1
+		},
+		{
+			"id": "sfms:mgl40",
+			"ammo": "tacz:40mm",
+			"capacity": 5,
+			"rpm": 150,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 20.0,
+			"projectiles": 1
+		},
+		{
+			"id": "sfms:ar50",
+			"ammo": "sfms:50arms",
+			"capacity": 7,
+			"rpm": 550,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 36.0,
+			"projectiles": 1
+		},
+		{
+			"id": "sfms:lvsa_c_erode",
+			"ammo": "tacz:556x45",
+			"capacity": 25,
+			"rpm": 900,
+			"modes": [
+				"AUTO",
+				"BURST",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 10.6,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:g36k",
+			"ammo": "tacz:556x45",
+			"capacity": 30,
+			"rpm": 780,
+			"modes": [
+				"AUTO",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 7.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:m320",
+			"ammo": "tacz:40mm",
+			"capacity": 1,
+			"rpm": 150,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "OPEN_BOLT",
+			"damage": 10.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:m249",
+			"ammo": "tacz:556x45",
+			"capacity": 75,
+			"rpm": 750,
+			"modes": [
+				"AUTO"
+			],
+			"bolt": "OPEN_BOLT",
+			"damage": 7.0,
+			"projectiles": 1
+		},
+		{
+			"id": "sfms:af_46",
+			"ammo": "tacz:46x30",
+			"capacity": 22,
+			"rpm": 850,
+			"modes": [
+				"AUTO",
+				"SEMI"
+			],
+			"bolt": "OPEN_BOLT",
+			"damage": 9.7,
+			"projectiles": 1
+		},
+		{
+			"id": "sfms:sbr15",
+			"ammo": "sfms:300ms",
+			"capacity": 30,
+			"rpm": 800,
+			"modes": [
+				"AUTO",
+				"BURST",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 16.7,
+			"projectiles": 1
+		},
+		{
+			"id": "bf1:sw_model3",
+			"ammo": "tacz:357mag",
+			"capacity": 6,
+			"rpm": 163,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "OPEN_BOLT",
+			"damage": 10.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:type_81",
+			"ammo": "tacz:762x39",
+			"capacity": 30,
+			"rpm": 630,
+			"modes": [
+				"AUTO",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 9.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:cz75",
+			"ammo": "tacz:9mm",
+			"capacity": 16,
+			"rpm": 900,
+			"modes": [
+				"AUTO"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 5.0,
+			"projectiles": 1
+		},
+		{
+			"id": "sfms:inf",
+			"ammo": "tacz:45acp",
+			"capacity": 12,
+			"rpm": 250,
+			"modes": [
+				"SEMI",
+				"AUTO"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 11.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:uzi",
+			"ammo": "tacz:9mm",
+			"capacity": 20,
+			"rpm": 600,
+			"modes": [
+				"AUTO"
+			],
+			"bolt": "OPEN_BOLT",
+			"damage": 6.5,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:spr15hb",
+			"ammo": "tacz:556x45",
+			"capacity": 15,
+			"rpm": 700,
+			"modes": [
+				"SEMI",
+				"BURST"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 10.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:vector45",
+			"ammo": "tacz:45acp",
+			"capacity": 20,
+			"rpm": 1200,
+			"modes": [
+				"AUTO",
+				"BURST",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 7.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:rpk",
+			"ammo": "tacz:762x39",
+			"capacity": 40,
+			"rpm": 630,
+			"modes": [
+				"AUTO",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 10.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:db_long",
+			"ammo": "tacz:12g",
+			"capacity": 2,
+			"rpm": 100,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "OPEN_BOLT",
+			"damage": 40.0,
+			"projectiles": 10
+		},
+		{
+			"id": "sfms:lvsa_c_erode_lmg",
+			"ammo": "tacz:556x45",
+			"capacity": 75,
+			"rpm": 750,
+			"modes": [
+				"AUTO",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 11.6,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:mk14",
+			"ammo": "tacz:308",
+			"capacity": 10,
+			"rpm": 300,
+			"modes": [
+				"SEMI",
+				"AUTO"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 16.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:p320",
+			"ammo": "tacz:45acp",
+			"capacity": 12,
+			"rpm": 450,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 10.0,
+			"projectiles": 1
+		},
+		{
+			"id": "bf1:obrez",
+			"ammo": "tacz:762x54",
+			"capacity": 4,
+			"rpm": 275,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "MANUAL_ACTION",
+			"damage": 15.0,
+			"projectiles": 1
+		},
+		{
+			"id": "bf1:man_m95",
+			"ammo": "tacz:30_06",
+			"capacity": 4,
+			"rpm": 328,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "MANUAL_ACTION",
+			"damage": 15.0,
+			"projectiles": 1
+		},
+		{
+			"id": "sfms:m109",
+			"ammo": "sfms:25gl",
+			"capacity": 5,
+			"rpm": 390,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "MANUAL_ACTION",
+			"damage": 27.7,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:scar_l",
+			"ammo": "tacz:556x45",
+			"capacity": 30,
+			"rpm": 650,
+			"modes": [
+				"AUTO",
+				"BURST",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 7.5,
+			"projectiles": 1
+		},
+		{
+			"id": "sfms:felix_12dg",
+			"ammo": "tacz:12g",
+			"capacity": 5,
+			"rpm": 340,
+			"modes": [
+				"SEMI",
+				"AUTO"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 46.7,
+			"projectiles": 8
+		},
+		{
+			"id": "tacz:minigun",
+			"ammo": "tacz:308",
+			"capacity": 30,
+			"rpm": 1200,
+			"modes": [
+				"AUTO",
+				"BURST"
+			],
+			"bolt": "OPEN_BOLT",
+			"damage": 8.0,
+			"projectiles": 1
+		},
+		{
+			"id": "sfms:af_57",
+			"ammo": "tacz:57x28",
+			"capacity": 20,
+			"rpm": 760,
+			"modes": [
+				"AUTO",
+				"SEMI"
+			],
+			"bolt": "OPEN_BOLT",
+			"damage": 8.2,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:scar_h",
+			"ammo": "tacz:308",
+			"capacity": 20,
+			"rpm": 570,
+			"modes": [
+				"SEMI",
+				"AUTO"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 14.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:b93r",
+			"ammo": "tacz:9mm",
+			"capacity": 20,
+			"rpm": 900,
+			"modes": [
+				"BURST",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 7.5,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:qbz_95",
+			"ammo": "tacz:58x42",
+			"capacity": 30,
+			"rpm": 660,
+			"modes": [
+				"AUTO",
+				"SEMI",
+				"BURST"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 7.5,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:p90",
+			"ammo": "tacz:57x28",
+			"capacity": 50,
+			"rpm": 810,
+			"modes": [
+				"AUTO",
+				"BURST"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 5.5,
+			"projectiles": 1
+		},
+		{
+			"id": "bf1:smg0818",
+			"ammo": "tacz:9mm",
+			"capacity": 60,
+			"rpm": 770,
+			"modes": [
+				"AUTO",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 5.0,
+			"projectiles": 1
+		},
+		{
+			"id": "tacz:timeless50",
+			"ammo": "tacz:50ae",
+			"capacity": 8,
+			"rpm": 300,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 16.0,
+			"projectiles": 1
+		},
+		{
+			"id": "bf1:model10",
+			"ammo": "tacz:12g",
+			"capacity": 5,
+			"rpm": 310,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "MANUAL_ACTION",
+			"damage": 42.0,
+			"projectiles": 12
+		},
+		{
+			"id": "sfms:felix_12",
+			"ammo": "tacz:12g",
+			"capacity": 5,
+			"rpm": 600,
+			"modes": [
+				"SEMI",
+				"AUTO"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 36.5,
+			"projectiles": 7
+		},
+		{
+			"id": "tacz:sks_tactical",
+			"ammo": "tacz:762x39",
+			"capacity": 10,
+			"rpm": 510,
+			"modes": [
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 11.0,
+			"projectiles": 1
+		},
+		{
+			"id": "sfms:tech635",
+			"ammo": "tacz:9mm",
+			"capacity": 32,
+			"rpm": 1000,
+			"modes": [
+				"AUTO",
+				"SEMI"
+			],
+			"bolt": "CLOSED_BOLT",
+			"damage": 10.6,
+			"projectiles": 1
+		},
+		{
+			"id": "sfms:inf_x",
+			"ammo": "tacz:45acp",
+			"capacity": 24,
+			"rpm": 900,
+			"modes": [
+				"SEMI",
+				"BURST"
+			],
+			"bolt": "OPEN_BOLT",
+			"damage": 13.0,
+			"projectiles": 1
+		}
+	],
+	"ammo": [
+		"tacz:68x51fury",
+		"tacz:308",
+		"tacz:45acp",
+		"tacz:50bmg",
+		"tacz:40mm",
+		"bf1:medkit",
+		"tacz:12g",
+		"sfms:25gl",
+		"tacz:rpg_rocket",
+		"tacz:58x42",
+		"tacz:762x39",
+		"tacz:762x54",
+		"sfms:50arms",
+		"tacz:9mm",
+		"tacz:338",
+		"tacz:357mag",
+		"tacz:46x30",
+		"sfms:300ms",
+		"tacz:57x28",
+		"tacz:30_06",
+		"tacz:50ae",
+		"tacz:45_70",
+		"bf1:fuel",
+		"tacz:762x25",
+		"tacz:556x45"
+	]
+}

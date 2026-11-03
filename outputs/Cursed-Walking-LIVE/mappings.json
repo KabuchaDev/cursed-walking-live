@@ -1,0 +1,176 @@
+{
+  "liveEnabled": true,
+  "targetPlayer": "",
+  "maxPerEvent": 10,
+  "maxActiveMobs": 120,
+  "gifts": [
+    {
+      "name": "Rose",
+      "coins": 1,
+      "ids": [
+        5655
+      ],
+      "kind": "summon",
+      "count": 5,
+      "distribution": "gift_low"
+    },
+    {
+      "name": "Okay",
+      "coins": 5,
+      "kind": "summon",
+      "count": 20,
+      "distribution": "gift_low"
+    },
+    {
+      "name": "Rosa",
+      "coins": 10,
+      "ids": [
+        8913
+      ],
+      "kind": "reward",
+      "reward": "boost_t2"
+    },
+    {
+      "name": "Shamrock",
+      "coins": 10,
+      "kind": "summon",
+      "count": 50,
+      "distribution": "gift_low"
+    },
+    {
+      "name": "Little Kisses",
+      "coins": 20,
+      "kind": "summon",
+      "count": 3,
+      "distribution": "giants"
+    },
+    {
+      "name": "Perfume",
+      "coins": 20,
+      "kind": "reward",
+      "reward": "boost_t3"
+    },
+    {
+      "name": "Doughnut",
+      "aliases": [
+        "Doughhut",
+        "Donut"
+      ],
+      "coins": 30,
+      "kind": "summon",
+      "count": 5,
+      "distribution": "giants"
+    }
+  ],
+  "comments": [],
+  "likes": {
+    "enabled": true,
+    "threshold": 1,
+    "entities": [
+      "zombies_plus:weak_zombie"
+    ],
+    "distribution": "weakest"
+  },
+  "batchDelayMs": 500,
+  "zombiePools": {
+    "uniform": [
+      "minecraft:zombie",
+      "feralzombie:drone_zombie",
+      "feralzombie:feral_zombie",
+      "feralzombie:warrior_zombie",
+      "feralzombie:spitter_zombie",
+      "feralzombie:zombie_dog",
+      "mutantmonsters:mutant_zombie",
+      "zombies_plus:runner_zombie",
+      "zombies_plus:brute_zombie",
+      "zombies_plus:crawler_zombie",
+      "zombies_plus:crossbow_zombie",
+      "zombies_plus:bow_zombie",
+      "zombies_plus:axe_zombie",
+      "zombies_plus:sword_zombie",
+      "zombies_plus:weak_zombie",
+      "zombies_plus:slow_zombie",
+      "zombies_plus:vile_zombie",
+      "zombies_plus:leaper_zombie"
+    ],
+    "weighted": [
+      {
+        "name": "weak",
+        "weight": 80,
+        "entities": [
+          "minecraft:zombie",
+          "feralzombie:drone_zombie",
+          "zombies_plus:weak_zombie",
+          "zombies_plus:slow_zombie"
+        ]
+      },
+      {
+        "name": "medium",
+        "weight": 18,
+        "entities": [
+          "feralzombie:feral_zombie",
+          "feralzombie:spitter_zombie",
+          "feralzombie:zombie_dog",
+          "zombies_plus:runner_zombie",
+          "zombies_plus:crawler_zombie",
+          "zombies_plus:crossbow_zombie",
+          "zombies_plus:bow_zombie",
+          "zombies_plus:axe_zombie",
+          "zombies_plus:sword_zombie",
+          "zombies_plus:vile_zombie",
+          "zombies_plus:leaper_zombie"
+        ]
+      },
+      {
+        "name": "strong",
+        "weight": 2,
+        "entities": [
+          "feralzombie:warrior_zombie",
+          "mutantmonsters:mutant_zombie",
+          "zombies_plus:brute_zombie"
+        ]
+      }
+    ],
+    "weakest": [
+      "zombies_plus:weak_zombie"
+    ],
+    "giants": [
+      "mutantmonsters:mutant_zombie"
+    ],
+    "gift_low": [
+      {
+        "name": "T1",
+        "weight": 80,
+        "entities": [
+          "minecraft:zombie",
+          "feralzombie:drone_zombie",
+          "zombies_plus:weak_zombie",
+          "zombies_plus:slow_zombie"
+        ]
+      },
+      {
+        "name": "T2",
+        "weight": 20,
+        "entities": [
+          "feralzombie:feral_zombie",
+          "feralzombie:spitter_zombie",
+          "feralzombie:zombie_dog",
+          "zombies_plus:runner_zombie",
+          "zombies_plus:crawler_zombie",
+          "zombies_plus:crossbow_zombie",
+          "zombies_plus:bow_zombie",
+          "zombies_plus:axe_zombie",
+          "zombies_plus:sword_zombie",
+          "zombies_plus:vile_zombie",
+          "zombies_plus:leaper_zombie"
+        ]
+      }
+    ]
+  },
+  "follow": {
+    "enabled": false,
+    "count": 5,
+    "distribution": "weighted"
+  },
+  "mode": "tower_defense"
+}

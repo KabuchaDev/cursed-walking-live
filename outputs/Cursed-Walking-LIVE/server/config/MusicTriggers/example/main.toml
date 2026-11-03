@@ -1,0 +1,134 @@
+# Template of code adapted from Music Trigger code present in Biohazard Project Mexios by MisterEscartX.
+# All music is original and created by Xander for Cursed Walking. Do not distribute music. 
+
+[songs]
+[[songs.adMortem]]
+		triggers = [ "structure-deepslatebunker", "height-no_sky" ]
+		volume = 0.6
+[[songs.adMortem]]
+		triggers = [ "structure-oilrig"]
+		volume = 0.6
+[[songs.adMortem]]
+		triggers = [ "structure-underwaterlab", "height-no_sky" ]
+		volume = 0.6
+
+[[songs.gatheringDust]]
+		triggers = [ "structure-nuclearbunker", "height-no_sky" ]
+		volume = 0.6
+[[songs.gatheringDust]]
+		triggers = [ "structure-nuclearsilo", "height-no_sky" ]
+		volume = 0.6
+[[songs.gatheringDust]]
+		triggers = [ "structure-nuclearreactor", "height-no_sky" ]
+		volume = 0.6
+
+[[songs.concreteDreams]]
+		triggers = [ "dimension-overworld"]
+		volume = 0.6
+
+[[songs.dim]]
+		triggers = [ "dimension-depths" ]
+		volume = 0.6
+
+[[songs.echoesBeneath]]
+		triggers = [ "structure-teleporter", "height-no_sky" ]
+		volume = 0.6
+
+[[songs.patientZero]]
+		triggers = [ "dimension-overworld"]
+		volume = 0.6	
+
+[[songs.unseen]]
+		triggers = [ "dimension-depths"]
+		volume = 0.6	
+
+[[songs.anticipation]]
+		triggers = [ "dimension-overworld"]
+		volume = 0.6	
+
+#[[songs.noSafe]]
+#	triggers = [ "mob-hordes"]
+#		volume = 0.6	
+
+[[songs.zombie]]
+		triggers = [ "dimension-overworld"]
+		volume = 0.6	
+
+[[songs.finalExcuse]]
+		triggers = [ "dimension-overworld" ]
+		volume = 0.6
+
+[triggers]
+[[triggers.structure]]
+		fade_in = 100
+		fade_out = 100
+		identifier = "deepslatebunker"
+		resource_name = [ "jeffs_cursed_walking_structures:deepslatebunker" ]
+[[triggers.structure]]
+		fade_in = 100
+		fade_out = 100
+		identifier = "nuclearbunker"
+		resource_name = [ "jeffs_cursed_walking_structures:nuclearbunker" ]
+[[triggers.structure]]
+		fade_in = 100
+		fade_out = 100
+		identifier = "nuclearsilo"
+		resource_name = [ "jeffs_cursed_walking_structures:nuclearsilo" ]
+[[triggers.structure]]
+		fade_in = 100
+		fade_out = 100
+		identifier = "nuclearreactor"
+		resource_name = [ "jeffs_cursed_walking_structures:nuclearreactor" ]
+[[triggers.structure]]
+		fade_in = 100
+		fade_out = 100
+		identifier = "teleporter"
+		resource_name = [ "jeffs_cursed_walking_structures:teleporter" ]
+[[triggers.structure]]
+		fade_in = 100
+		fade_out = 100
+		identifier = "oilrig"
+		resource_name = [ "jeffs_cursed_walking_structures:oilrig" ]
+[[triggers.structure]]
+		fade_in = 100
+		fade_out = 100
+		identifier = "underwaterlab"
+		resource_name = [ "jeffs_cursed_walking_structures:underwaterlab" ]
+
+[[triggers.height]]
+		fade_in = 100
+		fade_out = 100
+		identifier = "no_sky"
+		level = 55
+		not = true
+
+#[[triggers.mob]]
+#		identifier = "hordes"
+#		resource_name = [ "MOB" ]
+#		detection_range = 24
+#		min_entities = 15
+#		mob_targeting = false
+#		fade_in = 100
+#		fade_out = 100
+#		persistence = 0
+
+[[triggers.dimension]]
+		fade_in = 100
+		fade_out = 100
+		identifier = "overworld"
+		resource_name = [ "minecraft:overworld" ]	
+[[triggers.dimension]]
+		fade_in = 100
+		fade_out = 100
+		identifier = "depths"
+		resource_name = [ "the_deeper_void:void_dimension" ]	
+
+	[triggers.universal]
+		active_cooldown = "0"
+		fade_in = "0"
+		fade_out = "0"
+		persistence = "0"
+		ticks_before_active = "0"
+		ticks_before_audio = "0"
+		ticks_between_audio = "24000"
+

@@ -1,0 +1,512 @@
+[
+  {
+    "tier": "T1",
+    "category": "T1 Pistols",
+    "id": "bf1:obrez",
+    "name": "Mosin-Nagant Obrez",
+    "ammo": "tacz:762x54",
+    "capacity": 4,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T1",
+    "category": "T1 Pistols",
+    "id": "bf1:sw_model3",
+    "name": "No. 3 Revolver",
+    "ammo": "tacz:357mag",
+    "capacity": 6,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T1",
+    "category": "T1 SMGs",
+    "id": "bf1:smg0818",
+    "name": "SMG08/18",
+    "ammo": "tacz:9mm",
+    "capacity": 60,
+    "mode": "AUTO",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T1",
+    "category": "T1 Shotguns",
+    "id": "tacz:db_short",
+    "name": "DB-2 Durin",
+    "ammo": "tacz:12g",
+    "capacity": 2,
+    "mode": "BURST",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T1",
+    "category": "T1 Shotguns",
+    "id": "tacz:db_long",
+    "name": "DB-4 Ursus",
+    "ammo": "tacz:12g",
+    "capacity": 2,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T1",
+    "category": "T1 Shotguns",
+    "id": "bf1:model10",
+    "name": "Model 10-A",
+    "ammo": "tacz:12g",
+    "capacity": 5,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Pistols",
+    "id": "tacz:cz75",
+    "name": "CZ 75",
+    "ammo": "tacz:9mm",
+    "capacity": 16,
+    "mode": "AUTO",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Pistols",
+    "id": "tacz:deagle",
+    "name": "Deagle 50",
+    "ammo": "tacz:50ae",
+    "capacity": 7,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Pistols",
+    "id": "tacz:deagle_golden",
+    "name": "Golden Deagle 357",
+    "ammo": "tacz:357mag",
+    "capacity": 9,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Pistols",
+    "id": "tacz:glock_17",
+    "name": "Glock 17",
+    "ammo": "tacz:9mm",
+    "capacity": 17,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Pistols",
+    "id": "tacz:p320",
+    "name": "P320",
+    "ammo": "tacz:45acp",
+    "capacity": 12,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Pistols",
+    "id": "tacz:b93r",
+    "name": "B93R",
+    "ammo": "tacz:9mm",
+    "capacity": 20,
+    "mode": "BURST",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Pistols",
+    "id": "tacz:m1911",
+    "name": "M1911",
+    "ammo": "tacz:45acp",
+    "capacity": 7,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T1",
+    "category": "T1 Rifles",
+    "id": "bf1:vg15",
+    "name": "Volkssturmgewehr 1-5",
+    "ammo": "tacz:762x39",
+    "capacity": 16,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T1",
+    "category": "T1 Rifles",
+    "id": "bf1:m1916",
+    "name": "Selbstlader M1916",
+    "ammo": "tacz:308",
+    "capacity": 25,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T1",
+    "category": "T1 Rifles",
+    "id": "bf1:rsc1917",
+    "name": "RSC 1917",
+    "ammo": "tacz:30_06",
+    "capacity": 5,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T1",
+    "category": "T1 Snipers",
+    "id": "bf1:man_m95",
+    "name": "Mannlicher M1895",
+    "ammo": "tacz:30_06",
+    "capacity": 4,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T1",
+    "category": "T1 Snipers",
+    "id": "bf1:martini",
+    "name": "Martini-Henry",
+    "ammo": "tacz:45_70",
+    "capacity": 1,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 SMGs",
+    "id": "tacz:ump45",
+    "name": "UMP45 SMG",
+    "ammo": "tacz:45acp",
+    "capacity": 25,
+    "mode": "AUTO",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 SMGs",
+    "id": "tacz:uzi",
+    "name": "UZI",
+    "ammo": "tacz:9mm",
+    "capacity": 20,
+    "mode": "AUTO",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 SMGs",
+    "id": "tacz:vector45",
+    "name": "Vector SMG",
+    "ammo": "tacz:45acp",
+    "capacity": 20,
+    "mode": "AUTO",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 SMGs",
+    "id": "tacz:hk_mp5a5",
+    "name": "HK-MP5A5",
+    "ammo": "tacz:9mm",
+    "capacity": 30,
+    "mode": "AUTO",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 SMGs",
+    "id": "tacz:p90",
+    "name": "P90 PDW",
+    "ammo": "tacz:57x28",
+    "capacity": 50,
+    "mode": "AUTO",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Assault Rifles",
+    "id": "tacz:scar_h",
+    "name": "SCAR-H Battle Rifle",
+    "ammo": "tacz:308",
+    "capacity": 20,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Assault Rifles",
+    "id": "tacz:scar_l",
+    "name": "SCAR-L Assault Rifle",
+    "ammo": "tacz:556x45",
+    "capacity": 30,
+    "mode": "AUTO",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Assault Rifles",
+    "id": "tacz:spr15hb",
+    "name": "SPR-15 HB \"Sagittarius\"",
+    "ammo": "tacz:556x45",
+    "capacity": 15,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Assault Rifles",
+    "id": "tacz:aug",
+    "name": "AUG",
+    "ammo": "tacz:556x45",
+    "capacity": 30,
+    "mode": "AUTO",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Assault Rifles",
+    "id": "tacz:ak47",
+    "name": "AKM",
+    "ammo": "tacz:762x39",
+    "capacity": 30,
+    "mode": "AUTO",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Assault Rifles",
+    "id": "tacz:m16a4",
+    "name": "M16A4 Service Rifle",
+    "ammo": "tacz:556x45",
+    "capacity": 30,
+    "mode": "BURST",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Assault Rifles",
+    "id": "tacz:m16a1",
+    "name": "M16A1 Service Rifle",
+    "ammo": "tacz:556x45",
+    "capacity": 20,
+    "mode": "AUTO",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Assault Rifles",
+    "id": "tacz:mk14",
+    "name": "MK14 EBR",
+    "ammo": "tacz:308",
+    "capacity": 10,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Assault Rifles",
+    "id": "tacz:m4a1",
+    "name": "M4A1 Carbine",
+    "ammo": "tacz:556x45",
+    "capacity": 30,
+    "mode": "AUTO",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Assault Rifles",
+    "id": "tacz:hk416d",
+    "name": "HK-416D",
+    "ammo": "tacz:556x45",
+    "capacity": 30,
+    "mode": "AUTO",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Assault Rifles",
+    "id": "tacz:hk_g3",
+    "name": "HK G3 Battle rifle",
+    "ammo": "tacz:308",
+    "capacity": 20,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Assault Rifles",
+    "id": "tacz:type_81",
+    "name": "Type 81-1 Service Rifle",
+    "ammo": "tacz:762x39",
+    "capacity": 30,
+    "mode": "AUTO",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Assault Rifles",
+    "id": "tacz:qbz_95",
+    "name": "QBZ-95 \"Longbow\"",
+    "ammo": "tacz:58x42",
+    "capacity": 30,
+    "mode": "AUTO",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Assault Rifles",
+    "id": "tacz:g36k",
+    "name": "G36K",
+    "ammo": "tacz:556x45",
+    "capacity": 30,
+    "mode": "AUTO",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Assault Rifles",
+    "id": "tacz:sks_tactical",
+    "name": "Sks Tactical Rifle",
+    "ammo": "tacz:762x39",
+    "capacity": 10,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Shotguns",
+    "id": "tacz:aa12",
+    "name": "AA12 Shotgun",
+    "ammo": "tacz:12g",
+    "capacity": 8,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Shotguns",
+    "id": "tacz:m870",
+    "name": "M870",
+    "ammo": "tacz:12g",
+    "capacity": 5,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Shotguns",
+    "id": "tacz:db_short",
+    "name": "DB-2 Durin",
+    "ammo": "tacz:12g",
+    "capacity": 2,
+    "mode": "BURST",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Shotguns",
+    "id": "tacz:db_long",
+    "name": "DB-4 Ursus",
+    "ammo": "tacz:12g",
+    "capacity": 2,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Snipers",
+    "id": "tacz:m95",
+    "name": "M95 .50 Cal Antimaterial",
+    "ammo": "tacz:50bmg",
+    "capacity": 5,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Snipers",
+    "id": "tacz:m107",
+    "name": "M107 Sniper Rifle",
+    "ammo": "tacz:50bmg",
+    "capacity": 10,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Snipers",
+    "id": "tacz:m700",
+    "name": "M700 Sniper Rifle",
+    "ammo": "tacz:30_06",
+    "capacity": 5,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Snipers",
+    "id": "tacz:ai_awp",
+    "name": "Accuracy International AWM",
+    "ammo": "tacz:338",
+    "capacity": 5,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Heavy Guns",
+    "id": "tacz:m320",
+    "name": "M320 Grenade Launcher",
+    "ammo": "tacz:40mm",
+    "capacity": 1,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Heavy Guns",
+    "id": "tacz:rpg7",
+    "name": "RPG-7",
+    "ammo": "tacz:rpg_rocket",
+    "capacity": 1,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Machine Guns",
+    "id": "tacz:m249",
+    "name": "M249 Machine Gun",
+    "ammo": "tacz:556x45",
+    "capacity": 75,
+    "mode": "AUTO",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T2",
+    "category": "T2 Machine Guns",
+    "id": "tacz:rpk",
+    "name": "RPK",
+    "ammo": "tacz:762x39",
+    "capacity": 40,
+    "mode": "AUTO",
+    "ammoIndexFound": true
+  },
+  {
+    "tier": "T1",
+    "category": "T1 Heavy Weapons",
+    "id": "bf1:mhgl",
+    "name": "Martini-Henry Grenade Launcher",
+    "ammo": "tacz:40mm",
+    "capacity": 1,
+    "mode": "SEMI",
+    "ammoIndexFound": true
+  }
+]
